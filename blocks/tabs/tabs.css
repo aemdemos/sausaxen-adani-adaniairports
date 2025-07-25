@@ -66,7 +66,6 @@
   width: 100%;
 }
 
-/* Navigation Bar Styles */
 .tabs.tabs15 > .tabs-list {
   display: flex;
   flex-direction: row;
@@ -85,7 +84,6 @@
   box-shadow: 0 1px 4px -1.5px rgb(0 0 0 / 6%);
 }
 
-/* Slim gap for nav row and scrollbar hiding for nav row */
 .tabs.tabs15 .tabs-list {
   gap: 0;
   height: 34px;
@@ -98,7 +96,6 @@
   display: none;
 }
 
-/* Tab Button Styles */
 .tabs.tabs15 .tabs-list button {
   background: none;
   border: none;
@@ -133,14 +130,12 @@
   background: none;
 }
 
-/* Remove vertical offset from tab text */
 .tabs.tabs15 .tabs-list button p {
   margin: 0;
   display: flex;
   align-items: center;
 }
 
-/* Panel Styles: Reduce padding for alignment */
 .tabs.tabs15 > .tabs-panel {
   margin-top: 0;
   padding-top: 26px;
@@ -194,7 +189,111 @@
   }
 }
 
-/* Hide all tabs-panel except active */
 .tabs.tabs15 .tabs-panel[aria-hidden="true"] {
   display: none;
+}
+
+
+.tabs.tabs16 .tabs-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 28px;
+  border-bottom: 1px solid #f4f5f6;
+  padding: 0;
+  background: #fff;
+  margin: 0;
+  box-shadow: none;
+  max-width: 100%;
+  height: auto;
+  min-height: unset;
+}
+
+/* Remove default button styles and padding, set font */
+.tabs.tabs16 .tabs-list .tabs-tab {
+  background: none;
+  border: none;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  color: #18181a;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  cursor: pointer;
+  transition: none;
+  outline: none;
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+/* Remove button focus/hover styles */
+.tabs.tabs16 .tabs-list .tabs-tab:focus,
+.tabs.tabs16 .tabs-list .tabs-tab:hover {
+  background: none;
+  box-shadow: none;
+  outline: none;
+  color: #18181a;
+}
+
+/* Tab label (p) - remove margin and padding for tightness */
+.tabs.tabs16 .tabs-list .tabs-tab p {
+  margin: 0;
+  padding: 0;
+  color: #18181a;
+  font-size: 15px;
+  font-family: inherit;
+  font-weight: 400;
+  line-height: 1.05;
+  box-shadow: none;
+  background: none;
+  border-bottom: 0 solid transparent;
+  position: relative;
+  display: inline-block;
+  min-width: 0;
+}
+
+/* Selected tab: bold font and purple underline using border-bottom, as close to text as possible, restore a hint of gap to the bottom border */
+.tabs.tabs16 .tabs-list .tabs-tab[aria-selected="true"] p {
+  font-weight: 700;
+  border-bottom: 3px solid #c39edb;
+  border-radius: 2px 2px 0 0;
+  padding-bottom: 0;
+  margin-bottom: 3px; /* This creates a small gap between underline and tab bar border */
+}
+
+/* Hide underline for unselected tabs */
+.tabs.tabs16 .tabs-list .tabs-tab:not([aria-selected="true"]) p {
+  border-bottom: 3px solid transparent;
+  padding-bottom: 0;
+  margin-bottom: 3px;
+}
+
+/* Responsive font size */
+@media (width >= 600px) {
+  .tabs.tabs16 .tabs-list .tabs-tab,
+  .tabs.tabs16 .tabs-list .tabs-tab p {
+    font-size: 16px;
+  }
+}
+
+@media (width >= 900px) {
+  .tabs.tabs16 .tabs-list .tabs-tab,
+  .tabs.tabs16 .tabs-list .tabs-tab p {
+    font-size: 18px;
+  }
+}
+
+/* Panel: remove border and reduce padding; only space below tabs */
+.tabs.tabs16 .tabs-panel {
+  border: none;
+  margin: 0;
+  padding: 24px 0 0;
+  background: #fff;
+  box-shadow: none;
 }
