@@ -2498,6 +2498,30 @@
           "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[2]"
         }
       ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 48,
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/",
+          "urlHash": "c32ee197b196b329fdbf4090b9e26bc52bbd53da",
+          "uuid": "c32ee197-07-4c6b3a2424474ac60f741c360a19499992a8424c",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[5]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 49,
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/partnerships/airline-partnership",
+          "urlHash": "e3e6217b9294bf5f82d498c97b59cf35ce53b22d",
+          "uuid": "e3e6217b-04-da7ab075bc4efe66bfe637428d28634bb6546dd2",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[4]"
+        }
+      ]
     }
   ],
   "outliers": [
@@ -3152,12 +3176,6 @@
     {
       "url": "https://www.adaniairports.com/",
       "urlHash": "c32ee197b196b329fdbf4090b9e26bc52bbd53da",
-      "uuid": "c32ee197-07-4c6b3a2424474ac60f741c360a19499992a8424c",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[5]"
-    },
-    {
-      "url": "https://www.adaniairports.com/",
-      "urlHash": "c32ee197b196b329fdbf4090b9e26bc52bbd53da",
       "uuid": "c32ee197-08-383a9408f34b142f112a46a37d373ed84d0b826e",
       "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[6]/div[1]/div[1]/div[1]",
       "section": "section-2"
@@ -3356,12 +3374,6 @@
       "urlHash": "e3e6217b9294bf5f82d498c97b59cf35ce53b22d",
       "uuid": "e3e6217b-03-5c26d04261d30debc035efc344e9dec668fd87e8",
       "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]"
-    },
-    {
-      "url": "https://www.adaniairports.com/partnerships/airline-partnership",
-      "urlHash": "e3e6217b9294bf5f82d498c97b59cf35ce53b22d",
-      "uuid": "e3e6217b-04-da7ab075bc4efe66bfe637428d28634bb6546dd2",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[4]"
     },
     {
       "url": "https://www.adaniairports.com/partnerships/airline-partnership",
