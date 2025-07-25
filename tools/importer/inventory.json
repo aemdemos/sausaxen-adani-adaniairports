@@ -2510,6 +2510,18 @@
           "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[5]"
         }
       ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 49,
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/partnerships/airline-partnership",
+          "urlHash": "e3e6217b9294bf5f82d498c97b59cf35ce53b22d",
+          "uuid": "e3e6217b-04-da7ab075bc4efe66bfe637428d28634bb6546dd2",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[4]"
+        }
+      ]
     }
   ],
   "outliers": [
@@ -3362,12 +3374,6 @@
       "urlHash": "e3e6217b9294bf5f82d498c97b59cf35ce53b22d",
       "uuid": "e3e6217b-03-5c26d04261d30debc035efc344e9dec668fd87e8",
       "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]"
-    },
-    {
-      "url": "https://www.adaniairports.com/partnerships/airline-partnership",
-      "urlHash": "e3e6217b9294bf5f82d498c97b59cf35ce53b22d",
-      "uuid": "e3e6217b-04-da7ab075bc4efe66bfe637428d28634bb6546dd2",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[4]"
     },
     {
       "url": "https://www.adaniairports.com/partnerships/airline-partnership",
