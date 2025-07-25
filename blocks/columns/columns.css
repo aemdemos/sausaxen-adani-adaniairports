@@ -31,3 +31,60 @@
     order: unset;
   }
 }
+
+.columns.columns4 {
+  background: #fff;
+  padding: 0;
+  margin: 0;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Responsive flex row for columns */
+.columns.columns4 > div {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+@media (width >= 900px) {
+  .columns.columns4 > div {
+    flex-direction: row;
+    gap: 12px; /* Narrower gap for a tighter, more immersive look */
+    justify-content: stretch;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+/* Make each column take up equal, maximal width */
+.columns.columns4 .columns-img-col {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
+}
+
+/* Ensure images fully fill columns with no extra margins */
+.columns.columns4 .columns-img-col picture,
+.columns.columns4 .columns-img-col img {
+  width: 100%;
+  height: auto;
+  min-width: 0;
+  display: block;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  background: none;
+}
