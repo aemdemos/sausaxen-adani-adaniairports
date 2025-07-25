@@ -25,7 +25,6 @@
     flex-direction: unset;
     gap: 24px;
   }
-
   .columns > div > div {
     flex: 1;
     order: unset;
@@ -109,7 +108,14 @@
   display: block;
 }
 
-/* Stats panel (right column) */
+.columns.columns14 > div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+
 .columns.columns10 > div > div:not(.columns-img-col) {
   background: #f5f5f7;
   display: flex;
@@ -121,9 +127,9 @@
   box-sizing: border-box;
 }
 
-/* Stat cards fill right side of panel */
-.columns.columns10 > div > div:not(.columns-img-col) h5,
-.columns.columns10 > div > div:not(.columns-img-col) h5 + p {
+.columns.columns10 > div > div:not(.columns-img-col) h5 + p,
+.columns.columns10 > div > div:not(.columns-img-col) h5#percent + p,
+.columns.columns10 > div > div:not(.columns-img-col) h5#mt + p {
   background: #fff;
   margin: 0;
   display: block;
@@ -160,29 +166,24 @@
   margin-top: 18px;
 }
 
-/* Remove divider bar (no background or border on p) */
 .columns.columns10 > div > div:not(.columns-img-col) h5 + p {
   border: none;
   background: #fff;
 }
 
-/* Responsive: stack columns on narrow screens, center cards for mobile */
 @media (width <= 900px) {
   .columns.columns10 > div {
     grid-template-columns: 1fr;
   }
-
   .columns.columns10 .columns-img-col,
   .columns.columns10 > div > div:not(.columns-img-col) {
     max-width: 100%;
     width: 100%;
   }
-
   .columns.columns10 > div > div:not(.columns-img-col) {
     padding: 24px 0 0;
     align-items: center;
   }
-
   .columns.columns10 > div > div:not(.columns-img-col) h5,
   .columns.columns10 > div > div:not(.columns-img-col) h5 + p {
     width: 96vw;
@@ -191,8 +192,68 @@
     padding-left: 14px;
     padding-right: 14px;
   }
-
   .columns.columns10 > div > div:not(.columns-img-col) h5#mt {
     margin-top: 14px;
+  }
+}
+
+.columns.columns14 {
+  background: #fff;
+  padding: 0 24px;
+  margin: 0;
+}
+
+/* Remove extra vertical space from parent or child containers */
+.columns.columns14,
+.columns.columns14 > div {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+@media (width >= 900px) {
+  .columns.columns14 > div {
+    flex-direction: row;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
+
+/* Each image column should fill available width and not collapse */
+.columns.columns14 .columns-img-col {
+  flex: 1 1 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Picture and img must fill their container */
+.columns.columns14 .columns-img-col picture {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.columns.columns14 .columns-img-col img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border: none;
+  box-shadow: none;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove any max-width on columns for two evenly sized images */
+@media (width >= 900px) {
+  .columns.columns14 .columns-img-col {
+    max-width: none;
   }
 }
