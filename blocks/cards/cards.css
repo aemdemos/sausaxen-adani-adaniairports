@@ -1020,7 +1020,6 @@
   }
 }
 
-/* Card block: more top and left padding, wider, shadow, top-aligned content */
 .cards.cards26 > ul > li {
   background: #fff;
   border: none;
@@ -1039,17 +1038,14 @@
   margin: 0;
 }
 
-/* Remove any after pseudo background lines */
 .cards.cards26 > ul > li::after {
   display: none;
 }
 
-/* Hide unused card body */
 .cards.cards26 .cards-card-body:empty {
   display: none;
 }
 
-/* Ensure icon and text are side by side, not stacked */
 .cards.cards26 > ul > li > .cards-card-body {
   display: flex;
   flex-direction: row;
@@ -1060,7 +1056,6 @@
   gap: 0;
 }
 
-/* Icon: slightly larger, more space from text, top-aligned */
 .cards.cards26 .cards-card-body:first-child {
   width: 32px;
   height: 32px;
@@ -1075,7 +1070,6 @@
   margin-bottom: 0;
 }
 
-/* Text block: stack lines vertically, left aligned, subtle gap */
 .cards.cards26 .cards-card-body:not(:first-child) {
   flex: 1 1 0;
   display: flex;
@@ -1093,7 +1087,6 @@
   width: 100%;
 }
 
-/* Button styles: visually stacked lines, first line bold, second lighter and smaller if possible */
 .cards.cards26 .button-container .button {
   background: none;
   box-shadow: none;
@@ -1112,7 +1105,140 @@
   font-family: var(--body-font-family);
 }
 
-/* Try to visually distinguish the second line (year): lighter and smaller if possible via selector */
 .cards.cards26 .button-container .button {
-  /* Best effort for stacked, lighter year using line-height and font-size */
+}
+
+
+.cards.cards28 {
+  background: transparent;
+  font-family: Inter, Inter-Regular, "Helvetica Neue", Arial, sans-serif;
+}
+
+.cards.cards28 > ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+@media (width <= 1024px) {
+  .cards.cards28 > ul {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+}
+
+@media (width <= 600px) {
+  .cards.cards28 > ul {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+}
+
+.cards.cards28 > ul > li {
+  background: #F7EDF8;
+  border-radius: 16px;
+  padding: 28px;
+  min-height: 220px;
+  border: none;
+  box-shadow: none;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.cards.cards28 > ul > li::after {
+  display: none;
+}
+
+.cards.cards28 .cards-card-image {
+  position: absolute;
+  right: 20px;
+  bottom: 16px;
+  width: 110px;
+  max-width: 46%;
+  height: auto;
+  background: none;
+  z-index: 1;
+  display: block;
+  line-height: 0;
+}
+
+.cards.cards28 .cards-card-image img {
+  width: 100%;
+  height: auto;
+  max-width: 110px;
+  max-height: 90px;
+  object-fit: contain;
+  display: block;
+}
+
+.cards.cards28 .cards-card-body {
+  position: relative;
+  z-index: 2;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  display: block;
+  width: 100%;
+}
+
+.cards.cards28 .cards-card-body h3 {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  color: #231F20;
+  font-weight: 700;
+  font-size: 28px;
+  margin: 0 0 10px;
+}
+
+.cards.cards28 .cards-card-body h3 + p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  color: #231F20;
+}
+
+.cards.cards28 .cards-card-body p {
+  color: #231F20;
+  font-size: 16px;
+  margin: 0;
+  font-weight: 400;
+}
+
+.cards.cards28 .cards-card-body h3:only-child {
+  font-size: 28px;
+}
+
+@media (width <= 600px) {
+  .cards.cards28 > ul > li {
+    padding: 16px;
+    min-height: 160px;
+  }
+
+  .cards.cards28 .cards-card-image {
+    width: 80px;
+    max-width: 50%;
+    right: 10px;
+    bottom: 8px;
+  }
+
+  .cards.cards28 .cards-card-image img {
+    max-width: 80px;
+    max-height: 60px;
+  }
+
+  .cards.cards28 .cards-card-body h3 {
+    font-size: 20px;
+  }
+
+  .cards.cards28 .cards-card-body p,
+  .cards.cards28 .cards-card-body h3 + p {
+    font-size: 14px;
+  }
 }
