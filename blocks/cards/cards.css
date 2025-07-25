@@ -2734,3 +2734,153 @@
     max-width: 100%;
   }
 }
+
+
+.cards > ul {
+  display: block;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* Only display the first card for hero layout */
+.cards > ul > li {
+  display: none;
+}
+
+.cards > ul > li:first-child {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  width: 100%;
+  max-width: 1200px;
+  min-height: 360px;
+  margin: 0 auto 40px;
+  background: #fff;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  overflow: visible;
+  position: relative;
+}
+
+/* Hero block: two side-by-side columns */
+.cards > ul > li:first-child > .cards-card-body {
+  min-height: 360px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* IMAGE COLUMN for hero */
+.cards > ul > li:first-child > .cards-card-body:first-child {
+  flex: 0 0 46%;
+  max-width: 46%;
+  min-width: 320px;
+  background: #f5f5f5;
+  align-items: flex-end;
+  justify-content: flex-end;
+  border: none;
+  min-height: 360px;
+  box-sizing: border-box;
+
+  /* Debug: 
+  border-right: 1px solid #e5e5e5;
+  */
+}
+
+/* Hide any placeholder icon/image in hero image column */
+.cards > ul > li:first-child > .cards-card-body:first-child svg,
+.cards > ul > li:first-child > .cards-card-body:first-child img {
+  display: none;
+}
+
+/* TEXT COLUMN for hero */
+.cards > ul > li:first-child > .cards-card-body:last-child {
+  flex: 1 1 54%;
+  max-width: 54%;
+  min-width: 350px;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 48px 40px 48px 48px;
+  align-items: flex-start;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+/* Show all text, never truncate in hero block */
+.cards > ul > li:first-child > .cards-card-body:last-child p {
+  color: #222;
+  font-family: var(--body-font-family);
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: 400;
+  margin: 0 0 22px;
+  letter-spacing: 0;
+  text-align: left;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+  max-width: 700px;
+  display: block;
+}
+
+/* Make sure the button container and button are visible and left-aligned */
+.cards > ul > li:first-child > .cards-card-body:last-child .button-container {
+  margin-top: 24px;
+  padding: 0;
+  text-align: left;
+  width: auto;
+}
+
+.cards > ul > li:first-child > .cards-card-body:last-child .button {
+  background: none;
+  color: #111;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  line-height: 1.6;
+  text-align: left;
+  box-shadow: none;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.cards > ul > li:first-child > .cards-card-body:last-child .button:hover {
+  color: #3b63fb;
+  text-decoration: underline;
+}
+
+/* Responsive: Stack hero block columns on small screens */
+@media (width <= 900px) {
+  .cards > ul > li:first-child {
+    flex-direction: column;
+    min-height: 0;
+    max-width: 100%;
+  }
+
+  .cards > ul > li:first-child > .cards-card-body {
+    max-width: 100%;
+    flex-basis: 100%;
+    min-width: 0;
+    min-height: 100px;
+    padding: 24px 18px;
+  }
+
+  .cards > ul > li:first-child > .cards-card-body:last-child {
+    padding: 32px 18px;
+  }
+}
