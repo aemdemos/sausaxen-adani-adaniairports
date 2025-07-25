@@ -7,12 +7,12 @@
   width: 100%;
 }
 
-.columns > div > div {
-  order: 1;
-}
-
 .columns > div > .columns-img-col {
   order: 0;
+}
+
+.columns > div > div {
+  order: 1;
 }
 
 .columns > div > .columns-img-col img {
@@ -25,7 +25,6 @@
     flex-direction: unset;
     gap: 24px;
   }
-
   .columns > div > div {
     flex: 1;
     order: unset;
@@ -117,9 +116,19 @@
   justify-content: flex-start;
 }
 
+.columns.columns21 p {
+  color: #222;
+  font-family: var(--body-font-family, Arial, sans-serif);
+  font-size: 16px;
+  margin-bottom: 0.8em;
+  margin-top: 0;
+}
+
 .columns.columns10 > div > div:not(.columns-img-col) h5 + p,
 .columns.columns10 > div > div:not(.columns-img-col) h5#percent + p,
-.columns.columns10 > div > div:not(.columns-img-col) h5#mt + p {
+.columns.columns10 > div > div:not(.columns-img-col) h5#mt + p,
+.columns.columns10 > div > div:not(.columns-img-col) h5#percent,
+.columns.columns10 > div > div:not(.columns-img-col) h5#mt {
   background: #fff;
   margin: 0;
   display: block;
@@ -253,7 +262,6 @@
   padding: 1.5rem 0;
 }
 
-/* FLEX: side-by-side on desktop, stack on mobile, minimal edge margin, tight gap */
 .columns.columns18 > div {
   display: flex;
   flex-direction: column;
@@ -271,7 +279,6 @@
     margin-left: 1vw;
     margin-right: 1vw;
   }
-
   .columns.columns18 > div > div {
     flex: 0 1 350px;
     min-width: 180px;
@@ -279,17 +286,15 @@
   }
 }
 
-/* Remove list bullets, tight spacing, no indent */
 .columns.columns18 ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* List items: font, spacing, color, alignment */
 .columns.columns18 ul li {
   font-size: 12px;
-  font-family: Arial, "Helvetica Neue", sans-serif;
+  font-family: Arial, Helvetica Neue, sans-serif;
   color: #333;
   font-weight: normal;
   margin: 0;
@@ -298,31 +303,136 @@
   text-align: left;
 }
 
-/* Name: first line, bold, darker */
 .columns.columns18 ul li:first-child {
   font-weight: bold;
   color: #222;
   margin-bottom: 2px;
 }
 
-/* Role/Department: second line, normal */
 .columns.columns18 ul li:nth-child(2) {
   font-weight: normal;
   color: #333;
   margin-bottom: 2px;
 }
 
-/* Email row: third line, normal, no extra margin */
 .columns.columns18 ul li:nth-child(3) {
   font-weight: normal;
   color: #333;
   margin-bottom: 0;
 }
 
-/* Email link: dark blue, always underlined */
 .columns.columns18 ul li a {
   color: #2a2f45;
   text-decoration: underline;
   font-size: 12px;
   font-family: inherit;
+}
+
+.columns.columns21 {
+  background: #fff;
+  padding: 24px 6px;
+}
+
+.columns.columns21 a {
+  color: var(--link-color, #3b63fb);
+  text-decoration: none;
+}
+
+.columns.columns21 a:hover {
+  color: var(--link-hover-color, #1d3ecf);
+  text-decoration: underline;
+}
+
+.columns.columns21 strong {
+  font-weight: 600;
+}
+
+.columns.columns21 picture,
+.columns.columns21 img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  border: none;
+  box-shadow: none;
+}
+
+.columns.columns21 > div > .columns-img-col img,
+.columns.columns21 > div > .columns-img-col picture img,
+.columns.columns21 > div > div:first-child picture img {
+  max-width: 100%;
+  margin-bottom: 0;
+  object-fit: cover;
+}
+
+.columns.columns21 > div > .columns-img-col picture img {
+  aspect-ratio: 16/7;
+  max-height: 430px;
+}
+
+.columns.columns21 > div > div:first-child picture img {
+  max-height: 360px;
+}
+
+.columns.columns21 > div > .columns-img-col,
+.columns.columns21 > div > .columns-img-col picture,
+.columns.columns21 > div > .columns-img-col img {
+  margin-top: 0;
+  padding-top: 0;
+  align-self: flex-start;
+  display: block;
+  width: 100%;
+  height: auto;
+  box-shadow: none;
+  border: none;
+  object-fit: cover;
+}
+
+.columns.columns21 > div > div {
+  min-width: 0;
+}
+
+.columns.columns21 > div > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (width >= 900px) {
+  .columns.columns21 > div {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 22px; /* Tighter column gap for accurate visual balance */
+  }
+  /* Make left column noticeably narrower and right column dominate */
+  .columns.columns21 > div > div:first-child {
+    flex: 0 1 25%;
+    max-width: 260px;
+    min-width: 180px;
+  }
+  .columns.columns21 > div > .columns-img-col {
+    flex: 1 1 0;
+    min-width: 0;
+    max-width: 1000px;
+  }
+}
+
+/* Responsive: Stack columns on smaller screens */
+@media (width <= 899px) {
+  .columns.columns21 > div {
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .columns.columns21 > div > div,
+  .columns.columns21 > div > .columns-img-col {
+    max-width: 100%;
+    flex: 1 1 100%;
+  }
+}
+
+@media (width >= 900px) {
+  .columns.columns21 {
+    padding: 30px 0;
+  }
 }
