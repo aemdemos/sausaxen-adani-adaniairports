@@ -1,0 +1,3458 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/about-us/our-leadership",
+          "urlHash": "05ff66a11eba49935a12829f5eb6c187d8b5f021",
+          "uuid": "05ff66a1-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/performance-highlight",
+          "urlHash": "07c2bfabd34b5e2a6804efeb01c7b3076ecd489b",
+          "uuid": "07c2bfab-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/sebi-regulations",
+          "urlHash": "11195054a2eb5f047a283199477dc3f2f3d7a132",
+          "uuid": "11195054-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/advertising-and-sponsorships",
+          "urlHash": "13fad88e33545045f243dea99d6f75c2277a0db3",
+          "uuid": "13fad88e-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors",
+          "urlHash": "18f1e7bcef8722e8b3a8da0585b79ef7998cce8d",
+          "uuid": "18f1e7bc-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/contact-us",
+          "urlHash": "1e0f0494e1c3a2b0c57d0e8e4e9f72c6c432278f",
+          "uuid": "1e0f0494-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/terms-and-conditions",
+          "urlHash": "21e84ac672a7acd5a6d7321155a075e12d91aba7",
+          "uuid": "21e84ac6-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/corporate-announcement",
+          "urlHash": "2a0cb59a8092e6321fca611f601a54c30ebfe024",
+          "uuid": "2a0cb59a-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/media-centre",
+          "urlHash": "2bf6181e567c66bce99b221f05a5cbdb1059cbae",
+          "uuid": "2bf6181e-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/sustainability/stories",
+          "urlHash": "36e9be105d41cbac267c24f4f952b0d59bf14aed",
+          "uuid": "36e9be10-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/ground-transportation",
+          "urlHash": "392187a92a074ef500c14112900ce7fa7cb4a6f8",
+          "uuid": "392187a9-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/route-development",
+          "urlHash": "3bdac85069254255632e234cfd2e1ea1070f72f4",
+          "uuid": "3bdac850-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/careers",
+          "urlHash": "3d72e8f9e30db82d4ef5a8a31ee7d7e435b8e37f",
+          "uuid": "3d72e8f9-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/fuel-farm",
+          "urlHash": "4396336f03b1917e1796a6bdd10b12be39e63e10",
+          "uuid": "4396336f-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships",
+          "urlHash": "46c4d42c8b966cc1857e7b8b80e787c602354f60",
+          "uuid": "46c4d42c-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/awards-and-accolades",
+          "urlHash": "4b55b216b8de7d883eb59873e85cef9aa1939d87",
+          "uuid": "4b55b216-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/our-strategy",
+          "urlHash": "4c6fd33950e639366a9c19e62e361e9a736091c1",
+          "uuid": "4c6fd339-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/passenger-services-and-facilities",
+          "urlHash": "59e201d6b967034a08886dfc243f0e8f3c2f35b5",
+          "uuid": "59e201d6-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/digital-transformation",
+          "urlHash": "74f51fa5ceb10dc3432cbb5e4155ec19c930e986",
+          "uuid": "74f51fa5-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/privacy-policy",
+          "urlHash": "782e0540fd7f83ba7cfe5eae2f0ec72f67f20382",
+          "uuid": "782e0540-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/certifications",
+          "urlHash": "7844601de0eeceae8483a36af22b545ee6a9e061",
+          "uuid": "7844601d-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/cargo",
+          "urlHash": "7b47f7919dd2fde4600b1f866d85a05500d7285e",
+          "uuid": "7b47f791-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/general-aviation",
+          "urlHash": "8d76cb5d060c16b1e614fe855ccf430b84508331",
+          "uuid": "8d76cb5d-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/retail-development",
+          "urlHash": "8d7f046a5d66954f8ca1effe17ddaa51e36682bd",
+          "uuid": "8d7f046a-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/aviio",
+          "urlHash": "8db024e47106b5b6775baff81910ff848e9bf6f9",
+          "uuid": "8db024e4-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/empowered-workforce",
+          "urlHash": "8e280f84c0c7d9db5f71ae195aa79de310a8411e",
+          "uuid": "8e280f84-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/passenger-services-and-facilities?page=services",
+          "urlHash": "8ff69ebff5a444b4a6458d0a1d13ab2074a43834",
+          "uuid": "8ff69ebf-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/airport-concessions",
+          "urlHash": "9aedef961911bc7af0216631de2e30ed6a008743",
+          "uuid": "9aedef96-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise",
+          "urlHash": "9af0e7ac8fdd58b5d5eb17a2b2c16bee41c9511b",
+          "uuid": "9af0e7ac-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/sustainability",
+          "urlHash": "9d68b78a558c3a328f7af7bfef5616af172ec7e4",
+          "uuid": "9d68b78a-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/corporate-governance",
+          "urlHash": "a4cf1e8646e4e68dd5a084179cccac1b90bc81c6",
+          "uuid": "a4cf1e86-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/aahl",
+          "urlHash": "a4d0d6588fcabc585690be2b80ab44001c4734a8",
+          "uuid": "a4d0d658-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/sustainability/report",
+          "urlHash": "badc14ecaa21bf072d4d8ee1a1fdeae1685f2050",
+          "uuid": "badc14ec-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/",
+          "urlHash": "c32ee197b196b329fdbf4090b9e26bc52bbd53da",
+          "uuid": "c32ee197-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us",
+          "urlHash": "c3e115160cfb6f80c817801806373492d171c635",
+          "uuid": "c3e11516-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/our-story",
+          "urlHash": "cb1d29dd6cb60d6eb3d04b2ea5eda28d20024354",
+          "uuid": "cb1d29dd-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-airports",
+          "urlHash": "ce5845baadff887a6bf73f00f96755ac036acbba",
+          "uuid": "ce5845ba-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/our-belief",
+          "urlHash": "d145c798025d31d4786daf4210db040d9a30546e",
+          "uuid": "d145c798-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/competitive-advantage",
+          "urlHash": "d6d93c234ba1e8e05e9bdfcef0acd1679c1ba3b8",
+          "uuid": "d6d93c23-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/board-and-committee-charters",
+          "urlHash": "d8d75971a1e6f631e91ef549204a9a7b25df46a6",
+          "uuid": "d8d75971-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/airline-partnership",
+          "urlHash": "e3e6217b9294bf5f82d498c97b59cf35ce53b22d",
+          "uuid": "e3e6217b-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/investor-downloads",
+          "urlHash": "f96142ac4bba91b412cb5be99c06b5f5823d361a",
+          "uuid": "f96142ac-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/careers/learning-and-development",
+          "urlHash": "fa3672e9df5f0f2bbabde74ecba84d7e1f294bf0",
+          "uuid": "fa3672e9-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/elevated-service-quality",
+          "urlHash": "fee3affe51d0d39e9e24e6481ed710f852e7e9d0",
+          "uuid": "fee3affe-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]"
+        }
+      ],
+      "styles": {
+        "height": 40,
+        "background": "rgb(34, 34, 34) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "totalBoxes": 2,
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/about-us/our-leadership",
+          "urlHash": "05ff66a11eba49935a12829f5eb6c187d8b5f021",
+          "uuid": "05ff66a1-06-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/our-leadership",
+          "urlHash": "05ff66a11eba49935a12829f5eb6c187d8b5f021",
+          "uuid": "05ff66a1-05-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/performance-highlight",
+          "urlHash": "07c2bfabd34b5e2a6804efeb01c7b3076ecd489b",
+          "uuid": "07c2bfab-05-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/performance-highlight",
+          "urlHash": "07c2bfabd34b5e2a6804efeb01c7b3076ecd489b",
+          "uuid": "07c2bfab-04-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/sebi-regulations",
+          "urlHash": "11195054a2eb5f047a283199477dc3f2f3d7a132",
+          "uuid": "11195054-04-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/sebi-regulations",
+          "urlHash": "11195054a2eb5f047a283199477dc3f2f3d7a132",
+          "uuid": "11195054-03-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/advertising-and-sponsorships",
+          "urlHash": "13fad88e33545045f243dea99d6f75c2277a0db3",
+          "uuid": "13fad88e-07-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/advertising-and-sponsorships",
+          "urlHash": "13fad88e33545045f243dea99d6f75c2277a0db3",
+          "uuid": "13fad88e-06-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors",
+          "urlHash": "18f1e7bcef8722e8b3a8da0585b79ef7998cce8d",
+          "uuid": "18f1e7bc-08-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors",
+          "urlHash": "18f1e7bcef8722e8b3a8da0585b79ef7998cce8d",
+          "uuid": "18f1e7bc-07-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/contact-us",
+          "urlHash": "1e0f0494e1c3a2b0c57d0e8e4e9f72c6c432278f",
+          "uuid": "1e0f0494-05-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/contact-us",
+          "urlHash": "1e0f0494e1c3a2b0c57d0e8e4e9f72c6c432278f",
+          "uuid": "1e0f0494-04-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/terms-and-conditions",
+          "urlHash": "21e84ac672a7acd5a6d7321155a075e12d91aba7",
+          "uuid": "21e84ac6-04-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/terms-and-conditions",
+          "urlHash": "21e84ac672a7acd5a6d7321155a075e12d91aba7",
+          "uuid": "21e84ac6-03-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/corporate-announcement",
+          "urlHash": "2a0cb59a8092e6321fca611f601a54c30ebfe024",
+          "uuid": "2a0cb59a-04-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/corporate-announcement",
+          "urlHash": "2a0cb59a8092e6321fca611f601a54c30ebfe024",
+          "uuid": "2a0cb59a-03-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/media-centre",
+          "urlHash": "2bf6181e567c66bce99b221f05a5cbdb1059cbae",
+          "uuid": "2bf6181e-06-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/media-centre",
+          "urlHash": "2bf6181e567c66bce99b221f05a5cbdb1059cbae",
+          "uuid": "2bf6181e-05-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/sustainability/stories",
+          "urlHash": "36e9be105d41cbac267c24f4f952b0d59bf14aed",
+          "uuid": "36e9be10-05-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/sustainability/stories",
+          "urlHash": "36e9be105d41cbac267c24f4f952b0d59bf14aed",
+          "uuid": "36e9be10-04-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/ground-transportation",
+          "urlHash": "392187a92a074ef500c14112900ce7fa7cb4a6f8",
+          "uuid": "392187a9-06-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/ground-transportation",
+          "urlHash": "392187a92a074ef500c14112900ce7fa7cb4a6f8",
+          "uuid": "392187a9-05-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/route-development",
+          "urlHash": "3bdac85069254255632e234cfd2e1ea1070f72f4",
+          "uuid": "3bdac850-06-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/route-development",
+          "urlHash": "3bdac85069254255632e234cfd2e1ea1070f72f4",
+          "uuid": "3bdac850-05-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/careers",
+          "urlHash": "3d72e8f9e30db82d4ef5a8a31ee7d7e435b8e37f",
+          "uuid": "3d72e8f9-10-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/careers",
+          "urlHash": "3d72e8f9e30db82d4ef5a8a31ee7d7e435b8e37f",
+          "uuid": "3d72e8f9-09-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/fuel-farm",
+          "urlHash": "4396336f03b1917e1796a6bdd10b12be39e63e10",
+          "uuid": "4396336f-05-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/fuel-farm",
+          "urlHash": "4396336f03b1917e1796a6bdd10b12be39e63e10",
+          "uuid": "4396336f-04-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships",
+          "urlHash": "46c4d42c8b966cc1857e7b8b80e787c602354f60",
+          "uuid": "46c4d42c-05-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships",
+          "urlHash": "46c4d42c8b966cc1857e7b8b80e787c602354f60",
+          "uuid": "46c4d42c-04-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/awards-and-accolades",
+          "urlHash": "4b55b216b8de7d883eb59873e85cef9aa1939d87",
+          "uuid": "4b55b216-05-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/awards-and-accolades",
+          "urlHash": "4b55b216b8de7d883eb59873e85cef9aa1939d87",
+          "uuid": "4b55b216-04-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/our-strategy",
+          "urlHash": "4c6fd33950e639366a9c19e62e361e9a736091c1",
+          "uuid": "4c6fd339-10-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/our-strategy",
+          "urlHash": "4c6fd33950e639366a9c19e62e361e9a736091c1",
+          "uuid": "4c6fd339-09-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/passenger-services-and-facilities",
+          "urlHash": "59e201d6b967034a08886dfc243f0e8f3c2f35b5",
+          "uuid": "59e201d6-06-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/passenger-services-and-facilities",
+          "urlHash": "59e201d6b967034a08886dfc243f0e8f3c2f35b5",
+          "uuid": "59e201d6-05-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/digital-transformation",
+          "urlHash": "74f51fa5ceb10dc3432cbb5e4155ec19c930e986",
+          "uuid": "74f51fa5-06-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/digital-transformation",
+          "urlHash": "74f51fa5ceb10dc3432cbb5e4155ec19c930e986",
+          "uuid": "74f51fa5-05-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/privacy-policy",
+          "urlHash": "782e0540fd7f83ba7cfe5eae2f0ec72f67f20382",
+          "uuid": "782e0540-04-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/privacy-policy",
+          "urlHash": "782e0540fd7f83ba7cfe5eae2f0ec72f67f20382",
+          "uuid": "782e0540-03-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/certifications",
+          "urlHash": "7844601de0eeceae8483a36af22b545ee6a9e061",
+          "uuid": "7844601d-06-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/certifications",
+          "urlHash": "7844601de0eeceae8483a36af22b545ee6a9e061",
+          "uuid": "7844601d-05-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/cargo",
+          "urlHash": "7b47f7919dd2fde4600b1f866d85a05500d7285e",
+          "uuid": "7b47f791-11-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/cargo",
+          "urlHash": "7b47f7919dd2fde4600b1f866d85a05500d7285e",
+          "uuid": "7b47f791-10-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/general-aviation",
+          "urlHash": "8d76cb5d060c16b1e614fe855ccf430b84508331",
+          "uuid": "8d76cb5d-11-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/general-aviation",
+          "urlHash": "8d76cb5d060c16b1e614fe855ccf430b84508331",
+          "uuid": "8d76cb5d-10-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/retail-development",
+          "urlHash": "8d7f046a5d66954f8ca1effe17ddaa51e36682bd",
+          "uuid": "8d7f046a-04-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/retail-development",
+          "urlHash": "8d7f046a5d66954f8ca1effe17ddaa51e36682bd",
+          "uuid": "8d7f046a-03-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/aviio",
+          "urlHash": "8db024e47106b5b6775baff81910ff848e9bf6f9",
+          "uuid": "8db024e4-07-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/aviio",
+          "urlHash": "8db024e47106b5b6775baff81910ff848e9bf6f9",
+          "uuid": "8db024e4-06-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/empowered-workforce",
+          "urlHash": "8e280f84c0c7d9db5f71ae195aa79de310a8411e",
+          "uuid": "8e280f84-04-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/empowered-workforce",
+          "urlHash": "8e280f84c0c7d9db5f71ae195aa79de310a8411e",
+          "uuid": "8e280f84-03-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/passenger-services-and-facilities?page=services",
+          "urlHash": "8ff69ebff5a444b4a6458d0a1d13ab2074a43834",
+          "uuid": "8ff69ebf-06-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/passenger-services-and-facilities?page=services",
+          "urlHash": "8ff69ebff5a444b4a6458d0a1d13ab2074a43834",
+          "uuid": "8ff69ebf-05-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/airport-concessions",
+          "urlHash": "9aedef961911bc7af0216631de2e30ed6a008743",
+          "uuid": "9aedef96-08-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/airport-concessions",
+          "urlHash": "9aedef961911bc7af0216631de2e30ed6a008743",
+          "uuid": "9aedef96-07-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise",
+          "urlHash": "9af0e7ac8fdd58b5d5eb17a2b2c16bee41c9511b",
+          "uuid": "9af0e7ac-05-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise",
+          "urlHash": "9af0e7ac8fdd58b5d5eb17a2b2c16bee41c9511b",
+          "uuid": "9af0e7ac-04-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/sustainability",
+          "urlHash": "9d68b78a558c3a328f7af7bfef5616af172ec7e4",
+          "uuid": "9d68b78a-08-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/sustainability",
+          "urlHash": "9d68b78a558c3a328f7af7bfef5616af172ec7e4",
+          "uuid": "9d68b78a-07-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/corporate-governance",
+          "urlHash": "a4cf1e8646e4e68dd5a084179cccac1b90bc81c6",
+          "uuid": "a4cf1e86-04-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/corporate-governance",
+          "urlHash": "a4cf1e8646e4e68dd5a084179cccac1b90bc81c6",
+          "uuid": "a4cf1e86-03-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/aahl",
+          "urlHash": "a4d0d6588fcabc585690be2b80ab44001c4734a8",
+          "uuid": "a4d0d658-08-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/aahl",
+          "urlHash": "a4d0d6588fcabc585690be2b80ab44001c4734a8",
+          "uuid": "a4d0d658-07-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/sustainability/report",
+          "urlHash": "badc14ecaa21bf072d4d8ee1a1fdeae1685f2050",
+          "uuid": "badc14ec-04-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/sustainability/report",
+          "urlHash": "badc14ecaa21bf072d4d8ee1a1fdeae1685f2050",
+          "uuid": "badc14ec-03-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/",
+          "urlHash": "c32ee197b196b329fdbf4090b9e26bc52bbd53da",
+          "uuid": "c32ee197-15-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/",
+          "urlHash": "c32ee197b196b329fdbf4090b9e26bc52bbd53da",
+          "uuid": "c32ee197-14-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us",
+          "urlHash": "c3e115160cfb6f80c817801806373492d171c635",
+          "uuid": "c3e11516-08-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us",
+          "urlHash": "c3e115160cfb6f80c817801806373492d171c635",
+          "uuid": "c3e11516-07-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/our-story",
+          "urlHash": "cb1d29dd6cb60d6eb3d04b2ea5eda28d20024354",
+          "uuid": "cb1d29dd-12-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/our-story",
+          "urlHash": "cb1d29dd6cb60d6eb3d04b2ea5eda28d20024354",
+          "uuid": "cb1d29dd-11-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-airports",
+          "urlHash": "ce5845baadff887a6bf73f00f96755ac036acbba",
+          "uuid": "ce5845ba-08-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-airports",
+          "urlHash": "ce5845baadff887a6bf73f00f96755ac036acbba",
+          "uuid": "ce5845ba-07-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/our-belief",
+          "urlHash": "d145c798025d31d4786daf4210db040d9a30546e",
+          "uuid": "d145c798-11-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/our-belief",
+          "urlHash": "d145c798025d31d4786daf4210db040d9a30546e",
+          "uuid": "d145c798-10-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/competitive-advantage",
+          "urlHash": "d6d93c234ba1e8e05e9bdfcef0acd1679c1ba3b8",
+          "uuid": "d6d93c23-08-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/competitive-advantage",
+          "urlHash": "d6d93c234ba1e8e05e9bdfcef0acd1679c1ba3b8",
+          "uuid": "d6d93c23-07-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/board-and-committee-charters",
+          "urlHash": "d8d75971a1e6f631e91ef549204a9a7b25df46a6",
+          "uuid": "d8d75971-04-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/board-and-committee-charters",
+          "urlHash": "d8d75971a1e6f631e91ef549204a9a7b25df46a6",
+          "uuid": "d8d75971-03-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/airline-partnership",
+          "urlHash": "e3e6217b9294bf5f82d498c97b59cf35ce53b22d",
+          "uuid": "e3e6217b-08-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/airline-partnership",
+          "urlHash": "e3e6217b9294bf5f82d498c97b59cf35ce53b22d",
+          "uuid": "e3e6217b-07-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/investor-downloads",
+          "urlHash": "f96142ac4bba91b412cb5be99c06b5f5823d361a",
+          "uuid": "f96142ac-06-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/investor-downloads",
+          "urlHash": "f96142ac4bba91b412cb5be99c06b5f5823d361a",
+          "uuid": "f96142ac-05-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/careers/learning-and-development",
+          "urlHash": "fa3672e9df5f0f2bbabde74ecba84d7e1f294bf0",
+          "uuid": "fa3672e9-10-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/careers/learning-and-development",
+          "urlHash": "fa3672e9df5f0f2bbabde74ecba84d7e1f294bf0",
+          "uuid": "fa3672e9-09-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/elevated-service-quality",
+          "urlHash": "fee3affe51d0d39e9e24e6481ed710f852e7e9d0",
+          "uuid": "fee3affe-04-0a459baa9944b819c965bd5defd939b8a390d17d",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/elevated-service-quality",
+          "urlHash": "fee3affe51d0d39e9e24e6481ed710f852e7e9d0",
+          "uuid": "fee3affe-03-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]"
+        }
+      ],
+      "styles": {
+        "background": "rgb(249, 249, 249) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Cards",
+      "cluster": 1,
+      "source": "Cards",
+      "target": "Cards (cards1)",
+      "key": "cards1",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/partnerships",
+          "urlHash": "46c4d42c8b966cc1857e7b8b80e787c602354f60",
+          "uuid": "46c4d42c-03-a604e81f543a7b0c7b0d84a4634b31a8a5a20fb2",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[2]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise",
+          "urlHash": "9af0e7ac8fdd58b5d5eb17a2b2c16bee41c9511b",
+          "uuid": "9af0e7ac-03-a604e81f543a7b0c7b0d84a4634b31a8a5a20fb2",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[2]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us",
+          "urlHash": "c3e115160cfb6f80c817801806373492d171c635",
+          "uuid": "c3e11516-06-27b633f0d009879262250cfc6213b6c270f726f8",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[5]"
+        },
+        {
+          "url": "https://www.adaniairports.com/careers/learning-and-development",
+          "urlHash": "fa3672e9df5f0f2bbabde74ecba84d7e1f294bf0",
+          "uuid": "fa3672e9-05-46fe4b7832b631e392e32156f6132d652c7b6657",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[1]/div[2]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 2,
+      "source": "Cards",
+      "target": "Cards (cards2)",
+      "key": "cards2",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/partnerships/advertising-and-sponsorships",
+          "urlHash": "13fad88e33545045f243dea99d6f75c2277a0db3",
+          "uuid": "13fad88e-04-15c0f4350769f8bbceddec1376bf368119bf70f6",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/our-story",
+          "urlHash": "cb1d29dd6cb60d6eb3d04b2ea5eda28d20024354",
+          "uuid": "cb1d29dd-10-c6cc306e29dda94bbab1a177fc0dd5628f6e781a",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[6]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/competitive-advantage",
+          "urlHash": "d6d93c234ba1e8e05e9bdfcef0acd1679c1ba3b8",
+          "uuid": "d6d93c23-05-87a1ec88293de4fb5f73ff3967ac65c47580699f",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[4]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 3,
+      "source": "Cards",
+      "target": "Cards (cards3)",
+      "key": "cards3",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/about-us/our-leadership",
+          "urlHash": "05ff66a11eba49935a12829f5eb6c187d8b5f021",
+          "uuid": "05ff66a1-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/performance-highlight",
+          "urlHash": "07c2bfabd34b5e2a6804efeb01c7b3076ecd489b",
+          "uuid": "07c2bfab-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/sebi-regulations",
+          "urlHash": "11195054a2eb5f047a283199477dc3f2f3d7a132",
+          "uuid": "11195054-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/advertising-and-sponsorships",
+          "urlHash": "13fad88e33545045f243dea99d6f75c2277a0db3",
+          "uuid": "13fad88e-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors",
+          "urlHash": "18f1e7bcef8722e8b3a8da0585b79ef7998cce8d",
+          "uuid": "18f1e7bc-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/contact-us",
+          "urlHash": "1e0f0494e1c3a2b0c57d0e8e4e9f72c6c432278f",
+          "uuid": "1e0f0494-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/terms-and-conditions",
+          "urlHash": "21e84ac672a7acd5a6d7321155a075e12d91aba7",
+          "uuid": "21e84ac6-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/corporate-announcement",
+          "urlHash": "2a0cb59a8092e6321fca611f601a54c30ebfe024",
+          "uuid": "2a0cb59a-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/media-centre",
+          "urlHash": "2bf6181e567c66bce99b221f05a5cbdb1059cbae",
+          "uuid": "2bf6181e-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/sustainability/stories",
+          "urlHash": "36e9be105d41cbac267c24f4f952b0d59bf14aed",
+          "uuid": "36e9be10-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/ground-transportation",
+          "urlHash": "392187a92a074ef500c14112900ce7fa7cb4a6f8",
+          "uuid": "392187a9-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/route-development",
+          "urlHash": "3bdac85069254255632e234cfd2e1ea1070f72f4",
+          "uuid": "3bdac850-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/careers",
+          "urlHash": "3d72e8f9e30db82d4ef5a8a31ee7d7e435b8e37f",
+          "uuid": "3d72e8f9-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/fuel-farm",
+          "urlHash": "4396336f03b1917e1796a6bdd10b12be39e63e10",
+          "uuid": "4396336f-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships",
+          "urlHash": "46c4d42c8b966cc1857e7b8b80e787c602354f60",
+          "uuid": "46c4d42c-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/awards-and-accolades",
+          "urlHash": "4b55b216b8de7d883eb59873e85cef9aa1939d87",
+          "uuid": "4b55b216-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/our-strategy",
+          "urlHash": "4c6fd33950e639366a9c19e62e361e9a736091c1",
+          "uuid": "4c6fd339-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/passenger-services-and-facilities",
+          "urlHash": "59e201d6b967034a08886dfc243f0e8f3c2f35b5",
+          "uuid": "59e201d6-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/digital-transformation",
+          "urlHash": "74f51fa5ceb10dc3432cbb5e4155ec19c930e986",
+          "uuid": "74f51fa5-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/certifications",
+          "urlHash": "7844601de0eeceae8483a36af22b545ee6a9e061",
+          "uuid": "7844601d-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/cargo",
+          "urlHash": "7b47f7919dd2fde4600b1f866d85a05500d7285e",
+          "uuid": "7b47f791-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/general-aviation",
+          "urlHash": "8d76cb5d060c16b1e614fe855ccf430b84508331",
+          "uuid": "8d76cb5d-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/retail-development",
+          "urlHash": "8d7f046a5d66954f8ca1effe17ddaa51e36682bd",
+          "uuid": "8d7f046a-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/empowered-workforce",
+          "urlHash": "8e280f84c0c7d9db5f71ae195aa79de310a8411e",
+          "uuid": "8e280f84-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/passenger-services-and-facilities?page=services",
+          "urlHash": "8ff69ebff5a444b4a6458d0a1d13ab2074a43834",
+          "uuid": "8ff69ebf-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/airport-concessions",
+          "urlHash": "9aedef961911bc7af0216631de2e30ed6a008743",
+          "uuid": "9aedef96-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise",
+          "urlHash": "9af0e7ac8fdd58b5d5eb17a2b2c16bee41c9511b",
+          "uuid": "9af0e7ac-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/sustainability",
+          "urlHash": "9d68b78a558c3a328f7af7bfef5616af172ec7e4",
+          "uuid": "9d68b78a-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/corporate-governance",
+          "urlHash": "a4cf1e8646e4e68dd5a084179cccac1b90bc81c6",
+          "uuid": "a4cf1e86-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/aahl",
+          "urlHash": "a4d0d6588fcabc585690be2b80ab44001c4734a8",
+          "uuid": "a4d0d658-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/sustainability/report",
+          "urlHash": "badc14ecaa21bf072d4d8ee1a1fdeae1685f2050",
+          "uuid": "badc14ec-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us",
+          "urlHash": "c3e115160cfb6f80c817801806373492d171c635",
+          "uuid": "c3e11516-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/our-story",
+          "urlHash": "cb1d29dd6cb60d6eb3d04b2ea5eda28d20024354",
+          "uuid": "cb1d29dd-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-airports",
+          "urlHash": "ce5845baadff887a6bf73f00f96755ac036acbba",
+          "uuid": "ce5845ba-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/our-belief",
+          "urlHash": "d145c798025d31d4786daf4210db040d9a30546e",
+          "uuid": "d145c798-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/competitive-advantage",
+          "urlHash": "d6d93c234ba1e8e05e9bdfcef0acd1679c1ba3b8",
+          "uuid": "d6d93c23-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/board-and-committee-charters",
+          "urlHash": "d8d75971a1e6f631e91ef549204a9a7b25df46a6",
+          "uuid": "d8d75971-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/airline-partnership",
+          "urlHash": "e3e6217b9294bf5f82d498c97b59cf35ce53b22d",
+          "uuid": "e3e6217b-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/investor-downloads",
+          "urlHash": "f96142ac4bba91b412cb5be99c06b5f5823d361a",
+          "uuid": "f96142ac-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/careers/learning-and-development",
+          "urlHash": "fa3672e9df5f0f2bbabde74ecba84d7e1f294bf0",
+          "uuid": "fa3672e9-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/elevated-service-quality",
+          "urlHash": "fee3affe51d0d39e9e24e6481ed710f852e7e9d0",
+          "uuid": "fee3affe-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 4,
+      "source": "Columns",
+      "target": "Columns (columns4)",
+      "key": "columns4",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/partnerships/general-aviation",
+          "urlHash": "8d76cb5d060c16b1e614fe855ccf430b84508331",
+          "uuid": "8d76cb5d-05-87a1ec88293de4fb5f73ff3967ac65c47580699f",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[4]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/general-aviation",
+          "urlHash": "8d76cb5d060c16b1e614fe855ccf430b84508331",
+          "uuid": "8d76cb5d-08-c6cc306e29dda94bbab1a177fc0dd5628f6e781a",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[6]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/our-belief",
+          "urlHash": "d145c798025d31d4786daf4210db040d9a30546e",
+          "uuid": "d145c798-09-c6cc306e29dda94bbab1a177fc0dd5628f6e781a",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[6]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 5,
+      "source": "Cards",
+      "target": "Cards (cards5)",
+      "key": "cards5",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/sustainability/stories",
+          "urlHash": "36e9be105d41cbac267c24f4f952b0d59bf14aed",
+          "uuid": "36e9be10-03-50663b2a9f74f64060a4bfee3a812fc6fdf90067",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 6,
+      "source": "Header",
+      "target": "Header",
+      "key": "header6",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/about-us/our-leadership",
+          "urlHash": "05ff66a11eba49935a12829f5eb6c187d8b5f021",
+          "uuid": "05ff66a1-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/performance-highlight",
+          "urlHash": "07c2bfabd34b5e2a6804efeb01c7b3076ecd489b",
+          "uuid": "07c2bfab-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/sebi-regulations",
+          "urlHash": "11195054a2eb5f047a283199477dc3f2f3d7a132",
+          "uuid": "11195054-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/advertising-and-sponsorships",
+          "urlHash": "13fad88e33545045f243dea99d6f75c2277a0db3",
+          "uuid": "13fad88e-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors",
+          "urlHash": "18f1e7bcef8722e8b3a8da0585b79ef7998cce8d",
+          "uuid": "18f1e7bc-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/contact-us",
+          "urlHash": "1e0f0494e1c3a2b0c57d0e8e4e9f72c6c432278f",
+          "uuid": "1e0f0494-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/terms-and-conditions",
+          "urlHash": "21e84ac672a7acd5a6d7321155a075e12d91aba7",
+          "uuid": "21e84ac6-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/corporate-announcement",
+          "urlHash": "2a0cb59a8092e6321fca611f601a54c30ebfe024",
+          "uuid": "2a0cb59a-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/media-centre",
+          "urlHash": "2bf6181e567c66bce99b221f05a5cbdb1059cbae",
+          "uuid": "2bf6181e-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/sustainability/stories",
+          "urlHash": "36e9be105d41cbac267c24f4f952b0d59bf14aed",
+          "uuid": "36e9be10-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/ground-transportation",
+          "urlHash": "392187a92a074ef500c14112900ce7fa7cb4a6f8",
+          "uuid": "392187a9-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/route-development",
+          "urlHash": "3bdac85069254255632e234cfd2e1ea1070f72f4",
+          "uuid": "3bdac850-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/careers",
+          "urlHash": "3d72e8f9e30db82d4ef5a8a31ee7d7e435b8e37f",
+          "uuid": "3d72e8f9-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/fuel-farm",
+          "urlHash": "4396336f03b1917e1796a6bdd10b12be39e63e10",
+          "uuid": "4396336f-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships",
+          "urlHash": "46c4d42c8b966cc1857e7b8b80e787c602354f60",
+          "uuid": "46c4d42c-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/awards-and-accolades",
+          "urlHash": "4b55b216b8de7d883eb59873e85cef9aa1939d87",
+          "uuid": "4b55b216-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/our-strategy",
+          "urlHash": "4c6fd33950e639366a9c19e62e361e9a736091c1",
+          "uuid": "4c6fd339-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/passenger-services-and-facilities",
+          "urlHash": "59e201d6b967034a08886dfc243f0e8f3c2f35b5",
+          "uuid": "59e201d6-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/digital-transformation",
+          "urlHash": "74f51fa5ceb10dc3432cbb5e4155ec19c930e986",
+          "uuid": "74f51fa5-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/privacy-policy",
+          "urlHash": "782e0540fd7f83ba7cfe5eae2f0ec72f67f20382",
+          "uuid": "782e0540-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/certifications",
+          "urlHash": "7844601de0eeceae8483a36af22b545ee6a9e061",
+          "uuid": "7844601d-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/cargo",
+          "urlHash": "7b47f7919dd2fde4600b1f866d85a05500d7285e",
+          "uuid": "7b47f791-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/general-aviation",
+          "urlHash": "8d76cb5d060c16b1e614fe855ccf430b84508331",
+          "uuid": "8d76cb5d-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/retail-development",
+          "urlHash": "8d7f046a5d66954f8ca1effe17ddaa51e36682bd",
+          "uuid": "8d7f046a-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/aviio",
+          "urlHash": "8db024e47106b5b6775baff81910ff848e9bf6f9",
+          "uuid": "8db024e4-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/empowered-workforce",
+          "urlHash": "8e280f84c0c7d9db5f71ae195aa79de310a8411e",
+          "uuid": "8e280f84-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/passenger-services-and-facilities?page=services",
+          "urlHash": "8ff69ebff5a444b4a6458d0a1d13ab2074a43834",
+          "uuid": "8ff69ebf-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/airport-concessions",
+          "urlHash": "9aedef961911bc7af0216631de2e30ed6a008743",
+          "uuid": "9aedef96-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise",
+          "urlHash": "9af0e7ac8fdd58b5d5eb17a2b2c16bee41c9511b",
+          "uuid": "9af0e7ac-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/sustainability",
+          "urlHash": "9d68b78a558c3a328f7af7bfef5616af172ec7e4",
+          "uuid": "9d68b78a-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/corporate-governance",
+          "urlHash": "a4cf1e8646e4e68dd5a084179cccac1b90bc81c6",
+          "uuid": "a4cf1e86-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/aahl",
+          "urlHash": "a4d0d6588fcabc585690be2b80ab44001c4734a8",
+          "uuid": "a4d0d658-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/sustainability/report",
+          "urlHash": "badc14ecaa21bf072d4d8ee1a1fdeae1685f2050",
+          "uuid": "badc14ec-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/",
+          "urlHash": "c32ee197b196b329fdbf4090b9e26bc52bbd53da",
+          "uuid": "c32ee197-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us",
+          "urlHash": "c3e115160cfb6f80c817801806373492d171c635",
+          "uuid": "c3e11516-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/our-story",
+          "urlHash": "cb1d29dd6cb60d6eb3d04b2ea5eda28d20024354",
+          "uuid": "cb1d29dd-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-airports",
+          "urlHash": "ce5845baadff887a6bf73f00f96755ac036acbba",
+          "uuid": "ce5845ba-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/our-belief",
+          "urlHash": "d145c798025d31d4786daf4210db040d9a30546e",
+          "uuid": "d145c798-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/competitive-advantage",
+          "urlHash": "d6d93c234ba1e8e05e9bdfcef0acd1679c1ba3b8",
+          "uuid": "d6d93c23-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/board-and-committee-charters",
+          "urlHash": "d8d75971a1e6f631e91ef549204a9a7b25df46a6",
+          "uuid": "d8d75971-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/airline-partnership",
+          "urlHash": "e3e6217b9294bf5f82d498c97b59cf35ce53b22d",
+          "uuid": "e3e6217b-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/investor-downloads",
+          "urlHash": "f96142ac4bba91b412cb5be99c06b5f5823d361a",
+          "uuid": "f96142ac-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/careers/learning-and-development",
+          "urlHash": "fa3672e9df5f0f2bbabde74ecba84d7e1f294bf0",
+          "uuid": "fa3672e9-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/elevated-service-quality",
+          "urlHash": "fee3affe51d0d39e9e24e6481ed710f852e7e9d0",
+          "uuid": "fee3affe-00-6e70765a003047818ea5700b557b8d01b43078df",
+          "xpath": "/html[1]/body[1]/div[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 7,
+      "source": "Columns",
+      "target": "Columns (columns7)",
+      "key": "columns7",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/about-us/our-leadership",
+          "urlHash": "05ff66a11eba49935a12829f5eb6c187d8b5f021",
+          "uuid": "05ff66a1-05-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/performance-highlight",
+          "urlHash": "07c2bfabd34b5e2a6804efeb01c7b3076ecd489b",
+          "uuid": "07c2bfab-04-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/sebi-regulations",
+          "urlHash": "11195054a2eb5f047a283199477dc3f2f3d7a132",
+          "uuid": "11195054-03-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/advertising-and-sponsorships",
+          "urlHash": "13fad88e33545045f243dea99d6f75c2277a0db3",
+          "uuid": "13fad88e-06-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors",
+          "urlHash": "18f1e7bcef8722e8b3a8da0585b79ef7998cce8d",
+          "uuid": "18f1e7bc-07-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/contact-us",
+          "urlHash": "1e0f0494e1c3a2b0c57d0e8e4e9f72c6c432278f",
+          "uuid": "1e0f0494-04-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/terms-and-conditions",
+          "urlHash": "21e84ac672a7acd5a6d7321155a075e12d91aba7",
+          "uuid": "21e84ac6-03-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/corporate-announcement",
+          "urlHash": "2a0cb59a8092e6321fca611f601a54c30ebfe024",
+          "uuid": "2a0cb59a-03-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/media-centre",
+          "urlHash": "2bf6181e567c66bce99b221f05a5cbdb1059cbae",
+          "uuid": "2bf6181e-05-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/sustainability/stories",
+          "urlHash": "36e9be105d41cbac267c24f4f952b0d59bf14aed",
+          "uuid": "36e9be10-04-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/ground-transportation",
+          "urlHash": "392187a92a074ef500c14112900ce7fa7cb4a6f8",
+          "uuid": "392187a9-05-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/route-development",
+          "urlHash": "3bdac85069254255632e234cfd2e1ea1070f72f4",
+          "uuid": "3bdac850-05-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/careers",
+          "urlHash": "3d72e8f9e30db82d4ef5a8a31ee7d7e435b8e37f",
+          "uuid": "3d72e8f9-09-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/fuel-farm",
+          "urlHash": "4396336f03b1917e1796a6bdd10b12be39e63e10",
+          "uuid": "4396336f-04-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships",
+          "urlHash": "46c4d42c8b966cc1857e7b8b80e787c602354f60",
+          "uuid": "46c4d42c-04-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/awards-and-accolades",
+          "urlHash": "4b55b216b8de7d883eb59873e85cef9aa1939d87",
+          "uuid": "4b55b216-04-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/our-strategy",
+          "urlHash": "4c6fd33950e639366a9c19e62e361e9a736091c1",
+          "uuid": "4c6fd339-09-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/passenger-services-and-facilities",
+          "urlHash": "59e201d6b967034a08886dfc243f0e8f3c2f35b5",
+          "uuid": "59e201d6-05-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/digital-transformation",
+          "urlHash": "74f51fa5ceb10dc3432cbb5e4155ec19c930e986",
+          "uuid": "74f51fa5-05-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/privacy-policy",
+          "urlHash": "782e0540fd7f83ba7cfe5eae2f0ec72f67f20382",
+          "uuid": "782e0540-03-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/certifications",
+          "urlHash": "7844601de0eeceae8483a36af22b545ee6a9e061",
+          "uuid": "7844601d-05-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/cargo",
+          "urlHash": "7b47f7919dd2fde4600b1f866d85a05500d7285e",
+          "uuid": "7b47f791-10-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/general-aviation",
+          "urlHash": "8d76cb5d060c16b1e614fe855ccf430b84508331",
+          "uuid": "8d76cb5d-10-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/retail-development",
+          "urlHash": "8d7f046a5d66954f8ca1effe17ddaa51e36682bd",
+          "uuid": "8d7f046a-03-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/aviio",
+          "urlHash": "8db024e47106b5b6775baff81910ff848e9bf6f9",
+          "uuid": "8db024e4-06-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/empowered-workforce",
+          "urlHash": "8e280f84c0c7d9db5f71ae195aa79de310a8411e",
+          "uuid": "8e280f84-03-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/passenger-services-and-facilities?page=services",
+          "urlHash": "8ff69ebff5a444b4a6458d0a1d13ab2074a43834",
+          "uuid": "8ff69ebf-05-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/airport-concessions",
+          "urlHash": "9aedef961911bc7af0216631de2e30ed6a008743",
+          "uuid": "9aedef96-07-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise",
+          "urlHash": "9af0e7ac8fdd58b5d5eb17a2b2c16bee41c9511b",
+          "uuid": "9af0e7ac-04-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/sustainability",
+          "urlHash": "9d68b78a558c3a328f7af7bfef5616af172ec7e4",
+          "uuid": "9d68b78a-07-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/corporate-governance",
+          "urlHash": "a4cf1e8646e4e68dd5a084179cccac1b90bc81c6",
+          "uuid": "a4cf1e86-03-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/aahl",
+          "urlHash": "a4d0d6588fcabc585690be2b80ab44001c4734a8",
+          "uuid": "a4d0d658-07-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/sustainability/report",
+          "urlHash": "badc14ecaa21bf072d4d8ee1a1fdeae1685f2050",
+          "uuid": "badc14ec-03-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/",
+          "urlHash": "c32ee197b196b329fdbf4090b9e26bc52bbd53da",
+          "uuid": "c32ee197-14-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us",
+          "urlHash": "c3e115160cfb6f80c817801806373492d171c635",
+          "uuid": "c3e11516-07-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/our-story",
+          "urlHash": "cb1d29dd6cb60d6eb3d04b2ea5eda28d20024354",
+          "uuid": "cb1d29dd-11-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-airports",
+          "urlHash": "ce5845baadff887a6bf73f00f96755ac036acbba",
+          "uuid": "ce5845ba-07-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/our-belief",
+          "urlHash": "d145c798025d31d4786daf4210db040d9a30546e",
+          "uuid": "d145c798-10-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/competitive-advantage",
+          "urlHash": "d6d93c234ba1e8e05e9bdfcef0acd1679c1ba3b8",
+          "uuid": "d6d93c23-07-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/board-and-committee-charters",
+          "urlHash": "d8d75971a1e6f631e91ef549204a9a7b25df46a6",
+          "uuid": "d8d75971-03-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/airline-partnership",
+          "urlHash": "e3e6217b9294bf5f82d498c97b59cf35ce53b22d",
+          "uuid": "e3e6217b-07-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/investor-downloads",
+          "urlHash": "f96142ac4bba91b412cb5be99c06b5f5823d361a",
+          "uuid": "f96142ac-05-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/careers/learning-and-development",
+          "urlHash": "fa3672e9df5f0f2bbabde74ecba84d7e1f294bf0",
+          "uuid": "fa3672e9-09-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/elevated-service-quality",
+          "urlHash": "fee3affe51d0d39e9e24e6481ed710f852e7e9d0",
+          "uuid": "fee3affe-03-70e79c82e2d665ec2d0b22ff516fe50541d86685",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/ul[1]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 8,
+      "source": "Cards",
+      "target": "Cards (cards8)",
+      "key": "cards8",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/passenger-services-and-facilities",
+          "urlHash": "59e201d6b967034a08886dfc243f0e8f3c2f35b5",
+          "uuid": "59e201d6-04-f2ed2f8a2aaea5b96223a7827575a83c9c20881a",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/digital-transformation",
+          "urlHash": "74f51fa5ceb10dc3432cbb5e4155ec19c930e986",
+          "uuid": "74f51fa5-04-f2ed2f8a2aaea5b96223a7827575a83c9c20881a",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.adaniairports.com/passenger-services-and-facilities?page=services",
+          "urlHash": "8ff69ebff5a444b4a6458d0a1d13ab2074a43834",
+          "uuid": "8ff69ebf-04-40461bbf62ee7b57996a60c6be9f04cb60e82903",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[2]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 9,
+      "source": "Hero",
+      "target": "Hero (hero9)",
+      "key": "hero9",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/careers",
+          "urlHash": "3d72e8f9e30db82d4ef5a8a31ee7d7e435b8e37f",
+          "uuid": "3d72e8f9-08-6abb9aa97cc97471df09aedc4483de3e8d674abf",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[6]"
+        },
+        {
+          "url": "https://www.adaniairports.com/careers/learning-and-development",
+          "urlHash": "fa3672e9df5f0f2bbabde74ecba84d7e1f294bf0",
+          "uuid": "fa3672e9-08-d9c22d403d0441fa37b143eb122d4d8631e9223a",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[1]/div[4]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 10,
+      "source": "Columns",
+      "target": "Columns (columns10)",
+      "key": "columns10",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/partnerships/cargo",
+          "urlHash": "7b47f7919dd2fde4600b1f866d85a05500d7285e",
+          "uuid": "7b47f791-04-391ae5b8a47c3bd150a47febaa844b1bad510e22",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[2]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 11,
+      "source": "Cards",
+      "target": "Cards (cards11)",
+      "key": "cards11",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/about-us/our-story",
+          "urlHash": "cb1d29dd6cb60d6eb3d04b2ea5eda28d20024354",
+          "uuid": "cb1d29dd-07-bce2625bc587978f835b7a240b556e1ef9dd67b1",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[4]/div[1]/div[1]/div[2]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 12,
+      "source": "Hero",
+      "target": "Hero (hero12)",
+      "key": "hero12",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/our-expertise/aviio",
+          "urlHash": "8db024e47106b5b6775baff81910ff848e9bf6f9",
+          "uuid": "8db024e4-02-1aeb9c68fd3b676b5158a228b7ca95efc0d3a88c",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[1]",
+          "section": "section-4"
+        }
+      ]
+    },
+    {
+      "name": "Carousel",
+      "cluster": 13,
+      "source": "Carousel",
+      "target": "Carousel (carousel13)",
+      "key": "carousel13",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/partnerships/cargo",
+          "urlHash": "7b47f7919dd2fde4600b1f866d85a05500d7285e",
+          "uuid": "7b47f791-08-cf44c52c84a68a504ce6645b347c651ca31f852d",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[5]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 14,
+      "source": "Columns",
+      "target": "Columns (columns14)",
+      "key": "columns14",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/careers",
+          "urlHash": "3d72e8f9e30db82d4ef5a8a31ee7d7e435b8e37f",
+          "uuid": "3d72e8f9-07-5b112859c7079452981a367840542bac2b6076ca",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[5]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.adaniairports.com/careers/learning-and-development",
+          "urlHash": "fa3672e9df5f0f2bbabde74ecba84d7e1f294bf0",
+          "uuid": "fa3672e9-07-9d83057dc81d082caf36c40db824b8b1d1c39579",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[1]/div[3]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Tabs",
+      "cluster": 15,
+      "source": "Tabs",
+      "target": "Tabs (tabs15)",
+      "key": "tabs15",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/our-expertise/aviio",
+          "urlHash": "8db024e47106b5b6775baff81910ff848e9bf6f9",
+          "uuid": "8db024e4-01-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/",
+          "urlHash": "c32ee197b196b329fdbf4090b9e26bc52bbd53da",
+          "uuid": "c32ee197-01-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        }
+      ]
+    },
+    {
+      "name": "Tabs",
+      "cluster": 16,
+      "source": "Tabs",
+      "target": "Tabs (tabs16)",
+      "key": "tabs16",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/partnerships/advertising-and-sponsorships",
+          "urlHash": "13fad88e33545045f243dea99d6f75c2277a0db3",
+          "uuid": "13fad88e-02-a0ca6e43d283bf66b6847e771c744c301dcae160",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[1]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-expertise/digital-transformation",
+          "urlHash": "74f51fa5ceb10dc3432cbb5e4155ec19c930e986",
+          "uuid": "74f51fa5-02-2e9bd226c2e4876312d6ae3f3d4651c2d1c6cffb",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/certifications",
+          "urlHash": "7844601de0eeceae8483a36af22b545ee6a9e061",
+          "uuid": "7844601d-03-ba353919ee6ac862c7ff1b0da555f490e0429331",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/partnerships/cargo",
+          "urlHash": "7b47f7919dd2fde4600b1f866d85a05500d7285e",
+          "uuid": "7b47f791-07-2334396a4ad15652433815381956a2779c78f417",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[5]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/sustainability",
+          "urlHash": "9d68b78a558c3a328f7af7bfef5616af172ec7e4",
+          "uuid": "9d68b78a-03-ba353919ee6ac862c7ff1b0da555f490e0429331",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/aahl",
+          "urlHash": "a4d0d6588fcabc585690be2b80ab44001c4734a8",
+          "uuid": "a4d0d658-04-ba353919ee6ac862c7ff1b0da555f490e0429331",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]/div[1]/ul[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/about-us/our-story",
+          "urlHash": "cb1d29dd6cb60d6eb3d04b2ea5eda28d20024354",
+          "uuid": "cb1d29dd-06-ba9a4499465749133868c90562a2ae701d0eaf3a",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[4]/div[1]/div[1]/ul[1]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 17,
+      "source": "Cards",
+      "target": "Cards (cards17)",
+      "key": "cards17",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/about-us/our-leadership",
+          "urlHash": "05ff66a11eba49935a12829f5eb6c187d8b5f021",
+          "uuid": "05ff66a1-04-73da27cdaa238ced4ef1f16cd29856cca20f106b",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]/div[1]/div[1]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors",
+          "urlHash": "18f1e7bcef8722e8b3a8da0585b79ef7998cce8d",
+          "uuid": "18f1e7bc-05-6c2cd9b62e20cef95a7a6e2067d3c03da81d19ca",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[4]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 18,
+      "source": "Columns",
+      "target": "Columns (columns18)",
+      "key": "columns18",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/partnerships/airport-concessions",
+          "urlHash": "9aedef961911bc7af0216631de2e30ed6a008743",
+          "uuid": "9aedef96-06-12030ebb18687b09d8d3276b71bab0fb054b6694",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[4]/div[1]/div[1]/div[1]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 19,
+      "source": "Hero",
+      "target": "Hero (hero19)",
+      "key": "hero19",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/careers",
+          "urlHash": "3d72e8f9e30db82d4ef5a8a31ee7d7e435b8e37f",
+          "uuid": "3d72e8f9-05-da7ab075bc4efe66bfe637428d28634bb6546dd2",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[4]"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 20,
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/our-airports",
+          "urlHash": "ce5845baadff887a6bf73f00f96755ac036acbba",
+          "uuid": "ce5845ba-03-5c26d04261d30debc035efc344e9dec668fd87e8",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]",
+          "section": "section-5"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 21,
+      "source": "Columns",
+      "target": "Columns (columns21)",
+      "key": "columns21",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/contact-us",
+          "urlHash": "1e0f0494e1c3a2b0c57d0e8e4e9f72c6c432278f",
+          "uuid": "1e0f0494-03-50663b2a9f74f64060a4bfee3a812fc6fdf90067",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Cards (no images)",
+      "cluster": 22,
+      "source": "Cards",
+      "target": "Cards (cardsNoImages22)",
+      "key": "cardsNoImages22",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/about-us/our-belief",
+          "urlHash": "d145c798025d31d4786daf4210db040d9a30546e",
+          "uuid": "d145c798-07-5b112859c7079452981a367840542bac2b6076ca",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[5]/div[1]/div[2]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Carousel",
+      "cluster": 23,
+      "source": "Carousel",
+      "target": "Carousel (carousel23)",
+      "key": "carousel23",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/about-us",
+          "urlHash": "c3e115160cfb6f80c817801806373492d171c635",
+          "uuid": "c3e11516-05-dbf87159e8fcac33bd1e187a0b81ca5752cb4405",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[4]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 24,
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/",
+          "urlHash": "c32ee197b196b329fdbf4090b9e26bc52bbd53da",
+          "uuid": "c32ee197-02-1aeb9c68fd3b676b5158a228b7ca95efc0d3a88c",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 25,
+      "source": "Cards",
+      "target": "Cards (cards25)",
+      "key": "cards25",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/about-us/certifications",
+          "urlHash": "7844601de0eeceae8483a36af22b545ee6a9e061",
+          "uuid": "7844601d-04-73da27cdaa238ced4ef1f16cd29856cca20f106b",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 26,
+      "source": "Cards",
+      "target": "Cards (cards26)",
+      "key": "cards26",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/investors/investor-downloads",
+          "urlHash": "f96142ac4bba91b412cb5be99c06b5f5823d361a",
+          "uuid": "f96142ac-02-73ed7f8a42e2f4b07f9490fb55c294def4ac4e83",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/investor-downloads",
+          "urlHash": "f96142ac4bba91b412cb5be99c06b5f5823d361a",
+          "uuid": "f96142ac-03-5c26d04261d30debc035efc344e9dec668fd87e8",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]"
+        },
+        {
+          "url": "https://www.adaniairports.com/investors/investor-downloads",
+          "urlHash": "f96142ac4bba91b412cb5be99c06b5f5823d361a",
+          "uuid": "f96142ac-04-da7ab075bc4efe66bfe637428d28634bb6546dd2",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[4]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 27,
+      "source": "Columns",
+      "target": "Columns (columns27)",
+      "key": "columns27",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/media-centre",
+          "urlHash": "2bf6181e567c66bce99b221f05a5cbdb1059cbae",
+          "uuid": "2bf6181e-02-180ebdcb90d96c14a940e37af386f2a5ac9f292e",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 28,
+      "source": "Cards",
+      "target": "Cards (cards28)",
+      "key": "cards28",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/investors/performance-highlight",
+          "urlHash": "07c2bfabd34b5e2a6804efeb01c7b3076ecd489b",
+          "uuid": "07c2bfab-03-5c26d04261d30debc035efc344e9dec668fd87e8",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Tabs",
+      "cluster": 29,
+      "source": "Tabs",
+      "target": "Tabs (tabs29)",
+      "key": "tabs29",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/about-us/our-story",
+          "urlHash": "cb1d29dd6cb60d6eb3d04b2ea5eda28d20024354",
+          "uuid": "cb1d29dd-04-ccbc78ba03986c9e50b2748d6a13b567cac8a331",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 30,
+      "source": "Cards",
+      "target": "Cards (cards30)",
+      "key": "cards30",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/investors",
+          "urlHash": "18f1e7bcef8722e8b3a8da0585b79ef7998cce8d",
+          "uuid": "18f1e7bc-03-5c26d04261d30debc035efc344e9dec668fd87e8",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 31,
+      "source": "Cards",
+      "target": "Cards (cards31)",
+      "key": "cards31",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/",
+          "urlHash": "c32ee197b196b329fdbf4090b9e26bc52bbd53da",
+          "uuid": "c32ee197-11-901fd9f239e2512fe8eefddb1561c503938a4f41",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[7]/div[1]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 32,
+      "source": "Hero",
+      "target": "Hero (hero32)",
+      "key": "hero32",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/",
+          "urlHash": "c32ee197b196b329fdbf4090b9e26bc52bbd53da",
+          "uuid": "c32ee197-03-73ed7f8a42e2f4b07f9490fb55c294def4ac4e83",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 33,
+      "source": "Columns",
+      "target": "Columns (columns33)",
+      "key": "columns33",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/",
+          "urlHash": "c32ee197b196b329fdbf4090b9e26bc52bbd53da",
+          "uuid": "c32ee197-04-5c26d04261d30debc035efc344e9dec668fd87e8",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Tabs",
+      "cluster": 34,
+      "source": "Tabs",
+      "target": "Tabs (tabs34)",
+      "key": "tabs34",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/about-us/aahl",
+          "urlHash": "a4d0d6588fcabc585690be2b80ab44001c4734a8",
+          "uuid": "a4d0d658-06-e219e381b20cba0c6d8fbb911aeb5979bc1e25a6",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]/div[1]/div[2]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Cards (no images)",
+      "cluster": 35,
+      "source": "Cards",
+      "target": "Cards (cardsNoImages35)",
+      "key": "cardsNoImages35",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/our-expertise/aviio",
+          "urlHash": "8db024e47106b5b6775baff81910ff848e9bf6f9",
+          "uuid": "8db024e4-04-50663b2a9f74f64060a4bfee3a812fc6fdf90067",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 36,
+      "source": "Cards",
+      "target": "Cards (cards36)",
+      "key": "cards36",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/our-expertise/route-development",
+          "urlHash": "3bdac85069254255632e234cfd2e1ea1070f72f4",
+          "uuid": "3bdac850-03-50663b2a9f74f64060a4bfee3a812fc6fdf90067",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 37,
+      "source": "Cards",
+      "target": "Cards (cards37)",
+      "key": "cards37",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/",
+          "urlHash": "c32ee197b196b329fdbf4090b9e26bc52bbd53da",
+          "uuid": "c32ee197-09-44b46a826b3dd7af813746c751b202c4819a71de",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[6]/div[1]/div[1]/div[2]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Accordion",
+      "cluster": 38,
+      "source": "Accordion",
+      "target": "Accordion",
+      "key": "accordion38",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/about-us/our-belief",
+          "urlHash": "d145c798025d31d4786daf4210db040d9a30546e",
+          "uuid": "d145c798-05-87a1ec88293de4fb5f73ff3967ac65c47580699f",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[4]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 39,
+      "source": "Cards",
+      "target": "Cards (cards39)",
+      "key": "cards39",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/",
+          "urlHash": "c32ee197b196b329fdbf4090b9e26bc52bbd53da",
+          "uuid": "c32ee197-06-bce2625bc587978f835b7a240b556e1ef9dd67b1",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[4]/div[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 40,
+      "source": "Cards",
+      "target": "Cards (cards40)",
+      "key": "cards40",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/careers/learning-and-development",
+          "urlHash": "fa3672e9df5f0f2bbabde74ecba84d7e1f294bf0",
+          "uuid": "fa3672e9-03-fa315e4ea107ab6f4681dbf8c38d99f87d501858",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[1]/div[2]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 41,
+      "source": "Cards",
+      "target": "Cards (cards41)",
+      "key": "cards41",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/about-us",
+          "urlHash": "c3e115160cfb6f80c817801806373492d171c635",
+          "uuid": "c3e11516-04-4c8eade0d8d901247a74bec70f201b30c86eb69d",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 42,
+      "source": "Cards",
+      "target": "Cards (cards42)",
+      "key": "cards42",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/careers",
+          "urlHash": "3d72e8f9e30db82d4ef5a8a31ee7d7e435b8e37f",
+          "uuid": "3d72e8f9-04-0cc707260dd8f139e2f5ae1b3bf4c0c2f22bcde1",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.adaniairports.com/our-airports",
+          "urlHash": "ce5845baadff887a6bf73f00f96755ac036acbba",
+          "uuid": "ce5845ba-05-87a1ec88293de4fb5f73ff3967ac65c47580699f",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[4]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Carousel",
+      "cluster": 43,
+      "source": "Carousel",
+      "target": "Carousel (carousel43)",
+      "key": "carousel43",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/",
+          "urlHash": "c32ee197b196b329fdbf4090b9e26bc52bbd53da",
+          "uuid": "c32ee197-12-40d8cc9490cbfd073ca9cd5b36e75033da3c7b25",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[8]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 44,
+      "source": "Hero",
+      "target": "Hero (hero44)",
+      "key": "hero44",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/our-expertise/empowered-workforce",
+          "urlHash": "8e280f84c0c7d9db5f71ae195aa79de310a8411e",
+          "uuid": "8e280f84-02-4334937223c8c9a26a7a37c9df28ee2432e8dba5",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 45,
+      "source": "Cards",
+      "target": "Cards (cards45)",
+      "key": "cards45",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/partnerships/ground-transportation",
+          "urlHash": "392187a92a074ef500c14112900ce7fa7cb4a6f8",
+          "uuid": "392187a9-03-5c26d04261d30debc035efc344e9dec668fd87e8",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 46,
+      "source": "Hero",
+      "target": "Hero (hero46)",
+      "key": "hero46",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/privacy-policy",
+          "urlHash": "782e0540fd7f83ba7cfe5eae2f0ec72f67f20382",
+          "uuid": "782e0540-01-add54bcb8f055de42915ab5371264bb19835b0f0",
+          "xpath": "/html[1]/body[1]"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 47,
+      "source": "Cards",
+      "target": "Cards (cards47)",
+      "key": "cards47",
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/sustainability",
+          "urlHash": "9d68b78a558c3a328f7af7bfef5616af172ec7e4",
+          "uuid": "9d68b78a-06-e0e03b74e444042a39cb4b7d541be4ff75b1b2ba",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[2]"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://www.adaniairports.com/about-us/our-leadership",
+      "urlHash": "05ff66a11eba49935a12829f5eb6c187d8b5f021",
+      "uuid": "05ff66a1-02-73ed7f8a42e2f4b07f9490fb55c294def4ac4e83",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/our-leadership",
+      "urlHash": "05ff66a11eba49935a12829f5eb6c187d8b5f021",
+      "uuid": "05ff66a1-03-208020808cdacf02670311f98b531d99df92045f",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]/div[1]/h3[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/our-leadership",
+      "urlHash": "05ff66a11eba49935a12829f5eb6c187d8b5f021",
+      "uuid": "05ff66a1-06-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/investors/performance-highlight",
+      "urlHash": "07c2bfabd34b5e2a6804efeb01c7b3076ecd489b",
+      "uuid": "07c2bfab-02-73ed7f8a42e2f4b07f9490fb55c294def4ac4e83",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.adaniairports.com/investors/performance-highlight",
+      "urlHash": "07c2bfabd34b5e2a6804efeb01c7b3076ecd489b",
+      "uuid": "07c2bfab-05-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/investors/sebi-regulations",
+      "urlHash": "11195054a2eb5f047a283199477dc3f2f3d7a132",
+      "uuid": "11195054-02-73ed7f8a42e2f4b07f9490fb55c294def4ac4e83",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.adaniairports.com/investors/sebi-regulations",
+      "urlHash": "11195054a2eb5f047a283199477dc3f2f3d7a132",
+      "uuid": "11195054-04-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/advertising-and-sponsorships",
+      "urlHash": "13fad88e33545045f243dea99d6f75c2277a0db3",
+      "uuid": "13fad88e-03-525c18d1606dbedc413bfd4866c076f3e16745c1",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/advertising-and-sponsorships",
+      "urlHash": "13fad88e33545045f243dea99d6f75c2277a0db3",
+      "uuid": "13fad88e-05-5c26d04261d30debc035efc344e9dec668fd87e8",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/advertising-and-sponsorships",
+      "urlHash": "13fad88e33545045f243dea99d6f75c2277a0db3",
+      "uuid": "13fad88e-07-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/investors",
+      "urlHash": "18f1e7bcef8722e8b3a8da0585b79ef7998cce8d",
+      "uuid": "18f1e7bc-02-73ed7f8a42e2f4b07f9490fb55c294def4ac4e83",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.adaniairports.com/investors",
+      "urlHash": "18f1e7bcef8722e8b3a8da0585b79ef7998cce8d",
+      "uuid": "18f1e7bc-04-9e29facc1b4b0fa60255431098a0083e86e8cd1a",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[4]/h3[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/investors",
+      "urlHash": "18f1e7bcef8722e8b3a8da0585b79ef7998cce8d",
+      "uuid": "18f1e7bc-06-4c6b3a2424474ac60f741c360a19499992a8424c",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[5]"
+    },
+    {
+      "url": "https://www.adaniairports.com/investors",
+      "urlHash": "18f1e7bcef8722e8b3a8da0585b79ef7998cce8d",
+      "uuid": "18f1e7bc-08-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/contact-us",
+      "urlHash": "1e0f0494e1c3a2b0c57d0e8e4e9f72c6c432278f",
+      "uuid": "1e0f0494-02-c084744b6c42b66845ef3455246f639152618d9d",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/contact-us",
+      "urlHash": "1e0f0494e1c3a2b0c57d0e8e4e9f72c6c432278f",
+      "uuid": "1e0f0494-05-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/terms-and-conditions",
+      "urlHash": "21e84ac672a7acd5a6d7321155a075e12d91aba7",
+      "uuid": "21e84ac6-02-73ed7f8a42e2f4b07f9490fb55c294def4ac4e83",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.adaniairports.com/terms-and-conditions",
+      "urlHash": "21e84ac672a7acd5a6d7321155a075e12d91aba7",
+      "uuid": "21e84ac6-04-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/investors/corporate-announcement",
+      "urlHash": "2a0cb59a8092e6321fca611f601a54c30ebfe024",
+      "uuid": "2a0cb59a-02-73ed7f8a42e2f4b07f9490fb55c294def4ac4e83",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.adaniairports.com/investors/corporate-announcement",
+      "urlHash": "2a0cb59a8092e6321fca611f601a54c30ebfe024",
+      "uuid": "2a0cb59a-04-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/media-centre",
+      "urlHash": "2bf6181e567c66bce99b221f05a5cbdb1059cbae",
+      "uuid": "2bf6181e-03-a604e81f543a7b0c7b0d84a4634b31a8a5a20fb2",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[2]"
+    },
+    {
+      "url": "https://www.adaniairports.com/media-centre",
+      "urlHash": "2bf6181e567c66bce99b221f05a5cbdb1059cbae",
+      "uuid": "2bf6181e-04-5c26d04261d30debc035efc344e9dec668fd87e8",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]"
+    },
+    {
+      "url": "https://www.adaniairports.com/media-centre",
+      "urlHash": "2bf6181e567c66bce99b221f05a5cbdb1059cbae",
+      "uuid": "2bf6181e-06-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/sustainability/stories",
+      "urlHash": "36e9be105d41cbac267c24f4f952b0d59bf14aed",
+      "uuid": "36e9be10-02-c084744b6c42b66845ef3455246f639152618d9d",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/sustainability/stories",
+      "urlHash": "36e9be105d41cbac267c24f4f952b0d59bf14aed",
+      "uuid": "36e9be10-05-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/ground-transportation",
+      "urlHash": "392187a92a074ef500c14112900ce7fa7cb4a6f8",
+      "uuid": "392187a9-02-73ed7f8a42e2f4b07f9490fb55c294def4ac4e83",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/ground-transportation",
+      "urlHash": "392187a92a074ef500c14112900ce7fa7cb4a6f8",
+      "uuid": "392187a9-04-da7ab075bc4efe66bfe637428d28634bb6546dd2",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[4]"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/ground-transportation",
+      "urlHash": "392187a92a074ef500c14112900ce7fa7cb4a6f8",
+      "uuid": "392187a9-06-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/our-expertise/route-development",
+      "urlHash": "3bdac85069254255632e234cfd2e1ea1070f72f4",
+      "uuid": "3bdac850-02-c084744b6c42b66845ef3455246f639152618d9d",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/our-expertise/route-development",
+      "urlHash": "3bdac85069254255632e234cfd2e1ea1070f72f4",
+      "uuid": "3bdac850-04-5c26d04261d30debc035efc344e9dec668fd87e8",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]"
+    },
+    {
+      "url": "https://www.adaniairports.com/our-expertise/route-development",
+      "urlHash": "3bdac85069254255632e234cfd2e1ea1070f72f4",
+      "uuid": "3bdac850-06-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/careers",
+      "urlHash": "3d72e8f9e30db82d4ef5a8a31ee7d7e435b8e37f",
+      "uuid": "3d72e8f9-02-73ed7f8a42e2f4b07f9490fb55c294def4ac4e83",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.adaniairports.com/careers",
+      "urlHash": "3d72e8f9e30db82d4ef5a8a31ee7d7e435b8e37f",
+      "uuid": "3d72e8f9-03-73da27cdaa238ced4ef1f16cd29856cca20f106b",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/careers",
+      "urlHash": "3d72e8f9e30db82d4ef5a8a31ee7d7e435b8e37f",
+      "uuid": "3d72e8f9-06-e93f253ac509c7329a22611b68f86c9714545997",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[5]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/careers",
+      "urlHash": "3d72e8f9e30db82d4ef5a8a31ee7d7e435b8e37f",
+      "uuid": "3d72e8f9-10-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/fuel-farm",
+      "urlHash": "4396336f03b1917e1796a6bdd10b12be39e63e10",
+      "uuid": "4396336f-02-73ed7f8a42e2f4b07f9490fb55c294def4ac4e83",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/fuel-farm",
+      "urlHash": "4396336f03b1917e1796a6bdd10b12be39e63e10",
+      "uuid": "4396336f-03-5c26d04261d30debc035efc344e9dec668fd87e8",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/fuel-farm",
+      "urlHash": "4396336f03b1917e1796a6bdd10b12be39e63e10",
+      "uuid": "4396336f-05-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships",
+      "urlHash": "46c4d42c8b966cc1857e7b8b80e787c602354f60",
+      "uuid": "46c4d42c-02-180ebdcb90d96c14a940e37af386f2a5ac9f292e",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships",
+      "urlHash": "46c4d42c8b966cc1857e7b8b80e787c602354f60",
+      "uuid": "46c4d42c-05-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/awards-and-accolades",
+      "urlHash": "4b55b216b8de7d883eb59873e85cef9aa1939d87",
+      "uuid": "4b55b216-02-73ed7f8a42e2f4b07f9490fb55c294def4ac4e83",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/awards-and-accolades",
+      "urlHash": "4b55b216b8de7d883eb59873e85cef9aa1939d87",
+      "uuid": "4b55b216-03-5c26d04261d30debc035efc344e9dec668fd87e8",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/awards-and-accolades",
+      "urlHash": "4b55b216b8de7d883eb59873e85cef9aa1939d87",
+      "uuid": "4b55b216-05-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/our-strategy",
+      "urlHash": "4c6fd33950e639366a9c19e62e361e9a736091c1",
+      "uuid": "4c6fd339-02-73ed7f8a42e2f4b07f9490fb55c294def4ac4e83",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/our-strategy",
+      "urlHash": "4c6fd33950e639366a9c19e62e361e9a736091c1",
+      "uuid": "4c6fd339-03-5c26d04261d30debc035efc344e9dec668fd87e8",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/our-strategy",
+      "urlHash": "4c6fd33950e639366a9c19e62e361e9a736091c1",
+      "uuid": "4c6fd339-04-da7ab075bc4efe66bfe637428d28634bb6546dd2",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[4]"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/our-strategy",
+      "urlHash": "4c6fd33950e639366a9c19e62e361e9a736091c1",
+      "uuid": "4c6fd339-05-4c6b3a2424474ac60f741c360a19499992a8424c",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[5]"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/our-strategy",
+      "urlHash": "4c6fd33950e639366a9c19e62e361e9a736091c1",
+      "uuid": "4c6fd339-06-6abb9aa97cc97471df09aedc4483de3e8d674abf",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[6]"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/our-strategy",
+      "urlHash": "4c6fd33950e639366a9c19e62e361e9a736091c1",
+      "uuid": "4c6fd339-07-b4455b7b1d4f6ad29bf87bf109d80f278454c6e8",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[7]"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/our-strategy",
+      "urlHash": "4c6fd33950e639366a9c19e62e361e9a736091c1",
+      "uuid": "4c6fd339-08-40d8cc9490cbfd073ca9cd5b36e75033da3c7b25",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[8]"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/our-strategy",
+      "urlHash": "4c6fd33950e639366a9c19e62e361e9a736091c1",
+      "uuid": "4c6fd339-10-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/passenger-services-and-facilities",
+      "urlHash": "59e201d6b967034a08886dfc243f0e8f3c2f35b5",
+      "uuid": "59e201d6-02-2e9bd226c2e4876312d6ae3f3d4651c2d1c6cffb",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[1]/ul[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/passenger-services-and-facilities",
+      "urlHash": "59e201d6b967034a08886dfc243f0e8f3c2f35b5",
+      "uuid": "59e201d6-03-c01f341026d3fd9e77c12ec11509ead2375a7b23",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/passenger-services-and-facilities",
+      "urlHash": "59e201d6b967034a08886dfc243f0e8f3c2f35b5",
+      "uuid": "59e201d6-06-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/our-expertise/digital-transformation",
+      "urlHash": "74f51fa5ceb10dc3432cbb5e4155ec19c930e986",
+      "uuid": "74f51fa5-03-c01f341026d3fd9e77c12ec11509ead2375a7b23",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/our-expertise/digital-transformation",
+      "urlHash": "74f51fa5ceb10dc3432cbb5e4155ec19c930e986",
+      "uuid": "74f51fa5-06-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/privacy-policy",
+      "urlHash": "782e0540fd7f83ba7cfe5eae2f0ec72f67f20382",
+      "uuid": "782e0540-02-73ed7f8a42e2f4b07f9490fb55c294def4ac4e83",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.adaniairports.com/privacy-policy",
+      "urlHash": "782e0540fd7f83ba7cfe5eae2f0ec72f67f20382",
+      "uuid": "782e0540-04-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/certifications",
+      "urlHash": "7844601de0eeceae8483a36af22b545ee6a9e061",
+      "uuid": "7844601d-02-73ed7f8a42e2f4b07f9490fb55c294def4ac4e83",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/certifications",
+      "urlHash": "7844601de0eeceae8483a36af22b545ee6a9e061",
+      "uuid": "7844601d-06-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/cargo",
+      "urlHash": "7b47f7919dd2fde4600b1f866d85a05500d7285e",
+      "uuid": "7b47f791-02-180ebdcb90d96c14a940e37af386f2a5ac9f292e",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/cargo",
+      "urlHash": "7b47f7919dd2fde4600b1f866d85a05500d7285e",
+      "uuid": "7b47f791-03-d03c136162ddd5dcfef6f42b421cecb0ad895ffc",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[2]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/cargo",
+      "urlHash": "7b47f7919dd2fde4600b1f866d85a05500d7285e",
+      "uuid": "7b47f791-05-4c8eade0d8d901247a74bec70f201b30c86eb69d",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[3]"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/cargo",
+      "urlHash": "7b47f7919dd2fde4600b1f866d85a05500d7285e",
+      "uuid": "7b47f791-06-dbf87159e8fcac33bd1e187a0b81ca5752cb4405",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[4]"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/cargo",
+      "urlHash": "7b47f7919dd2fde4600b1f866d85a05500d7285e",
+      "uuid": "7b47f791-09-b374f5099611c54f194203e1e7d3280c371958e1",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[6]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/cargo",
+      "urlHash": "7b47f7919dd2fde4600b1f866d85a05500d7285e",
+      "uuid": "7b47f791-11-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/general-aviation",
+      "urlHash": "8d76cb5d060c16b1e614fe855ccf430b84508331",
+      "uuid": "8d76cb5d-02-73ed7f8a42e2f4b07f9490fb55c294def4ac4e83",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/general-aviation",
+      "urlHash": "8d76cb5d060c16b1e614fe855ccf430b84508331",
+      "uuid": "8d76cb5d-03-5c26d04261d30debc035efc344e9dec668fd87e8",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/general-aviation",
+      "urlHash": "8d76cb5d060c16b1e614fe855ccf430b84508331",
+      "uuid": "8d76cb5d-04-4baa2fc07de53475ea09504961bfa9d80efa946b",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[4]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/general-aviation",
+      "urlHash": "8d76cb5d060c16b1e614fe855ccf430b84508331",
+      "uuid": "8d76cb5d-06-4c6b3a2424474ac60f741c360a19499992a8424c",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[5]"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/general-aviation",
+      "urlHash": "8d76cb5d060c16b1e614fe855ccf430b84508331",
+      "uuid": "8d76cb5d-07-be978636fa1616ac4f79ce7570b95fb146ae49d5",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[6]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/general-aviation",
+      "urlHash": "8d76cb5d060c16b1e614fe855ccf430b84508331",
+      "uuid": "8d76cb5d-09-b4455b7b1d4f6ad29bf87bf109d80f278454c6e8",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[7]"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/general-aviation",
+      "urlHash": "8d76cb5d060c16b1e614fe855ccf430b84508331",
+      "uuid": "8d76cb5d-11-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/our-expertise/retail-development",
+      "urlHash": "8d7f046a5d66954f8ca1effe17ddaa51e36682bd",
+      "uuid": "8d7f046a-02-73ed7f8a42e2f4b07f9490fb55c294def4ac4e83",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.adaniairports.com/our-expertise/retail-development",
+      "urlHash": "8d7f046a5d66954f8ca1effe17ddaa51e36682bd",
+      "uuid": "8d7f046a-04-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/our-expertise/aviio",
+      "urlHash": "8db024e47106b5b6775baff81910ff848e9bf6f9",
+      "uuid": "8db024e4-03-c084744b6c42b66845ef3455246f639152618d9d",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/our-expertise/aviio",
+      "urlHash": "8db024e47106b5b6775baff81910ff848e9bf6f9",
+      "uuid": "8db024e4-05-5c26d04261d30debc035efc344e9dec668fd87e8",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]"
+    },
+    {
+      "url": "https://www.adaniairports.com/our-expertise/aviio",
+      "urlHash": "8db024e47106b5b6775baff81910ff848e9bf6f9",
+      "uuid": "8db024e4-07-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/our-expertise/empowered-workforce",
+      "urlHash": "8e280f84c0c7d9db5f71ae195aa79de310a8411e",
+      "uuid": "8e280f84-04-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/passenger-services-and-facilities?page=services",
+      "urlHash": "8ff69ebff5a444b4a6458d0a1d13ab2074a43834",
+      "uuid": "8ff69ebf-02-2e9bd226c2e4876312d6ae3f3d4651c2d1c6cffb",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[1]/ul[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/passenger-services-and-facilities?page=services",
+      "urlHash": "8ff69ebff5a444b4a6458d0a1d13ab2074a43834",
+      "uuid": "8ff69ebf-03-b85775720225593ba01e5aa202e98e05d5e8fc6a",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[2]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/passenger-services-and-facilities?page=services",
+      "urlHash": "8ff69ebff5a444b4a6458d0a1d13ab2074a43834",
+      "uuid": "8ff69ebf-06-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/airport-concessions",
+      "urlHash": "9aedef961911bc7af0216631de2e30ed6a008743",
+      "uuid": "9aedef96-02-73ed7f8a42e2f4b07f9490fb55c294def4ac4e83",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/airport-concessions",
+      "urlHash": "9aedef961911bc7af0216631de2e30ed6a008743",
+      "uuid": "9aedef96-03-5c26d04261d30debc035efc344e9dec668fd87e8",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/airport-concessions",
+      "urlHash": "9aedef961911bc7af0216631de2e30ed6a008743",
+      "uuid": "9aedef96-04-0d4a6d963a285ce1a74ba10dc79c6f39e07afcee",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[4]/div[1]/div[1]/h3[1]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/airport-concessions",
+      "urlHash": "9aedef961911bc7af0216631de2e30ed6a008743",
+      "uuid": "9aedef96-05-0d1d079dac143d3d0f610111f0db2aa8cc8eff18",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[4]/div[1]/div[1]/p[1]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/airport-concessions",
+      "urlHash": "9aedef961911bc7af0216631de2e30ed6a008743",
+      "uuid": "9aedef96-08-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/our-expertise",
+      "urlHash": "9af0e7ac8fdd58b5d5eb17a2b2c16bee41c9511b",
+      "uuid": "9af0e7ac-02-180ebdcb90d96c14a940e37af386f2a5ac9f292e",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/our-expertise",
+      "urlHash": "9af0e7ac8fdd58b5d5eb17a2b2c16bee41c9511b",
+      "uuid": "9af0e7ac-05-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/sustainability",
+      "urlHash": "9d68b78a558c3a328f7af7bfef5616af172ec7e4",
+      "uuid": "9d68b78a-02-73ed7f8a42e2f4b07f9490fb55c294def4ac4e83",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.adaniairports.com/sustainability",
+      "urlHash": "9d68b78a558c3a328f7af7bfef5616af172ec7e4",
+      "uuid": "9d68b78a-04-3a6812149e1085c60aa7e712e5826972c43429d2",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/sustainability",
+      "urlHash": "9d68b78a558c3a328f7af7bfef5616af172ec7e4",
+      "uuid": "9d68b78a-05-0ce30a4ecbc2015f7a18e09792b51551241906a1",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/sustainability",
+      "urlHash": "9d68b78a558c3a328f7af7bfef5616af172ec7e4",
+      "uuid": "9d68b78a-08-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/investors/corporate-governance",
+      "urlHash": "a4cf1e8646e4e68dd5a084179cccac1b90bc81c6",
+      "uuid": "a4cf1e86-02-73ed7f8a42e2f4b07f9490fb55c294def4ac4e83",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.adaniairports.com/investors/corporate-governance",
+      "urlHash": "a4cf1e8646e4e68dd5a084179cccac1b90bc81c6",
+      "uuid": "a4cf1e86-04-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/aahl",
+      "urlHash": "a4d0d6588fcabc585690be2b80ab44001c4734a8",
+      "uuid": "a4d0d658-02-73ed7f8a42e2f4b07f9490fb55c294def4ac4e83",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/aahl",
+      "urlHash": "a4d0d6588fcabc585690be2b80ab44001c4734a8",
+      "uuid": "a4d0d658-03-73da27cdaa238ced4ef1f16cd29856cca20f106b",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/aahl",
+      "urlHash": "a4d0d6588fcabc585690be2b80ab44001c4734a8",
+      "uuid": "a4d0d658-05-027bb3d4ee16c65653419f3583c2c594dc404efb",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]/div[1]/div[2]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/aahl",
+      "urlHash": "a4d0d6588fcabc585690be2b80ab44001c4734a8",
+      "uuid": "a4d0d658-08-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/sustainability/report",
+      "urlHash": "badc14ecaa21bf072d4d8ee1a1fdeae1685f2050",
+      "uuid": "badc14ec-02-73ed7f8a42e2f4b07f9490fb55c294def4ac4e83",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.adaniairports.com/sustainability/report",
+      "urlHash": "badc14ecaa21bf072d4d8ee1a1fdeae1685f2050",
+      "uuid": "badc14ec-04-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/",
+      "urlHash": "c32ee197b196b329fdbf4090b9e26bc52bbd53da",
+      "uuid": "c32ee197-05-12030ebb18687b09d8d3276b71bab0fb054b6694",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[4]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/",
+      "urlHash": "c32ee197b196b329fdbf4090b9e26bc52bbd53da",
+      "uuid": "c32ee197-07-4c6b3a2424474ac60f741c360a19499992a8424c",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[5]"
+    },
+    {
+      "url": "https://www.adaniairports.com/",
+      "urlHash": "c32ee197b196b329fdbf4090b9e26bc52bbd53da",
+      "uuid": "c32ee197-08-383a9408f34b142f112a46a37d373ed84d0b826e",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[6]/div[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/",
+      "urlHash": "c32ee197b196b329fdbf4090b9e26bc52bbd53da",
+      "uuid": "c32ee197-10-25dde4741a173bd38346f847926435a20b66a295",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[7]/div[1]/div[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/",
+      "urlHash": "c32ee197b196b329fdbf4090b9e26bc52bbd53da",
+      "uuid": "c32ee197-13-f4e4728e7b9088cf4372a7f53dbb6429ea680505",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[9]"
+    },
+    {
+      "url": "https://www.adaniairports.com/",
+      "urlHash": "c32ee197b196b329fdbf4090b9e26bc52bbd53da",
+      "uuid": "c32ee197-15-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us",
+      "urlHash": "c3e115160cfb6f80c817801806373492d171c635",
+      "uuid": "c3e11516-02-180ebdcb90d96c14a940e37af386f2a5ac9f292e",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us",
+      "urlHash": "c3e115160cfb6f80c817801806373492d171c635",
+      "uuid": "c3e11516-03-a604e81f543a7b0c7b0d84a4634b31a8a5a20fb2",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]/div[2]"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us",
+      "urlHash": "c3e115160cfb6f80c817801806373492d171c635",
+      "uuid": "c3e11516-08-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/our-story",
+      "urlHash": "cb1d29dd6cb60d6eb3d04b2ea5eda28d20024354",
+      "uuid": "cb1d29dd-02-73ed7f8a42e2f4b07f9490fb55c294def4ac4e83",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/our-story",
+      "urlHash": "cb1d29dd6cb60d6eb3d04b2ea5eda28d20024354",
+      "uuid": "cb1d29dd-03-bf20af1960259621499a0372d33e80e31f42cf06",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/our-story",
+      "urlHash": "cb1d29dd6cb60d6eb3d04b2ea5eda28d20024354",
+      "uuid": "cb1d29dd-05-12030ebb18687b09d8d3276b71bab0fb054b6694",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[4]/div[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/our-story",
+      "urlHash": "cb1d29dd6cb60d6eb3d04b2ea5eda28d20024354",
+      "uuid": "cb1d29dd-08-4c6b3a2424474ac60f741c360a19499992a8424c",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[5]"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/our-story",
+      "urlHash": "cb1d29dd6cb60d6eb3d04b2ea5eda28d20024354",
+      "uuid": "cb1d29dd-09-be978636fa1616ac4f79ce7570b95fb146ae49d5",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[6]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/our-story",
+      "urlHash": "cb1d29dd6cb60d6eb3d04b2ea5eda28d20024354",
+      "uuid": "cb1d29dd-12-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/our-airports",
+      "urlHash": "ce5845baadff887a6bf73f00f96755ac036acbba",
+      "uuid": "ce5845ba-02-73ed7f8a42e2f4b07f9490fb55c294def4ac4e83",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.adaniairports.com/our-airports",
+      "urlHash": "ce5845baadff887a6bf73f00f96755ac036acbba",
+      "uuid": "ce5845ba-04-4baa2fc07de53475ea09504961bfa9d80efa946b",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[4]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/our-airports",
+      "urlHash": "ce5845baadff887a6bf73f00f96755ac036acbba",
+      "uuid": "ce5845ba-06-4c6b3a2424474ac60f741c360a19499992a8424c",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[5]"
+    },
+    {
+      "url": "https://www.adaniairports.com/our-airports",
+      "urlHash": "ce5845baadff887a6bf73f00f96755ac036acbba",
+      "uuid": "ce5845ba-08-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/our-belief",
+      "urlHash": "d145c798025d31d4786daf4210db040d9a30546e",
+      "uuid": "d145c798-02-73ed7f8a42e2f4b07f9490fb55c294def4ac4e83",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/our-belief",
+      "urlHash": "d145c798025d31d4786daf4210db040d9a30546e",
+      "uuid": "d145c798-03-5c26d04261d30debc035efc344e9dec668fd87e8",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/our-belief",
+      "urlHash": "d145c798025d31d4786daf4210db040d9a30546e",
+      "uuid": "d145c798-04-4baa2fc07de53475ea09504961bfa9d80efa946b",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[4]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/our-belief",
+      "urlHash": "d145c798025d31d4786daf4210db040d9a30546e",
+      "uuid": "d145c798-06-e93f253ac509c7329a22611b68f86c9714545997",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[5]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/our-belief",
+      "urlHash": "d145c798025d31d4786daf4210db040d9a30546e",
+      "uuid": "d145c798-08-be978636fa1616ac4f79ce7570b95fb146ae49d5",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[6]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/our-belief",
+      "urlHash": "d145c798025d31d4786daf4210db040d9a30546e",
+      "uuid": "d145c798-11-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/competitive-advantage",
+      "urlHash": "d6d93c234ba1e8e05e9bdfcef0acd1679c1ba3b8",
+      "uuid": "d6d93c23-02-73ed7f8a42e2f4b07f9490fb55c294def4ac4e83",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/competitive-advantage",
+      "urlHash": "d6d93c234ba1e8e05e9bdfcef0acd1679c1ba3b8",
+      "uuid": "d6d93c23-03-5c26d04261d30debc035efc344e9dec668fd87e8",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/competitive-advantage",
+      "urlHash": "d6d93c234ba1e8e05e9bdfcef0acd1679c1ba3b8",
+      "uuid": "d6d93c23-04-4baa2fc07de53475ea09504961bfa9d80efa946b",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[4]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/competitive-advantage",
+      "urlHash": "d6d93c234ba1e8e05e9bdfcef0acd1679c1ba3b8",
+      "uuid": "d6d93c23-06-4c6b3a2424474ac60f741c360a19499992a8424c",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[5]"
+    },
+    {
+      "url": "https://www.adaniairports.com/about-us/competitive-advantage",
+      "urlHash": "d6d93c234ba1e8e05e9bdfcef0acd1679c1ba3b8",
+      "uuid": "d6d93c23-08-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/investors/board-and-committee-charters",
+      "urlHash": "d8d75971a1e6f631e91ef549204a9a7b25df46a6",
+      "uuid": "d8d75971-02-73ed7f8a42e2f4b07f9490fb55c294def4ac4e83",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.adaniairports.com/investors/board-and-committee-charters",
+      "urlHash": "d8d75971a1e6f631e91ef549204a9a7b25df46a6",
+      "uuid": "d8d75971-04-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/airline-partnership",
+      "urlHash": "e3e6217b9294bf5f82d498c97b59cf35ce53b22d",
+      "uuid": "e3e6217b-02-73ed7f8a42e2f4b07f9490fb55c294def4ac4e83",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[2]"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/airline-partnership",
+      "urlHash": "e3e6217b9294bf5f82d498c97b59cf35ce53b22d",
+      "uuid": "e3e6217b-03-5c26d04261d30debc035efc344e9dec668fd87e8",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/airline-partnership",
+      "urlHash": "e3e6217b9294bf5f82d498c97b59cf35ce53b22d",
+      "uuid": "e3e6217b-04-da7ab075bc4efe66bfe637428d28634bb6546dd2",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[4]"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/airline-partnership",
+      "urlHash": "e3e6217b9294bf5f82d498c97b59cf35ce53b22d",
+      "uuid": "e3e6217b-05-4c6b3a2424474ac60f741c360a19499992a8424c",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[5]"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/airline-partnership",
+      "urlHash": "e3e6217b9294bf5f82d498c97b59cf35ce53b22d",
+      "uuid": "e3e6217b-06-6abb9aa97cc97471df09aedc4483de3e8d674abf",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[6]"
+    },
+    {
+      "url": "https://www.adaniairports.com/partnerships/airline-partnership",
+      "urlHash": "e3e6217b9294bf5f82d498c97b59cf35ce53b22d",
+      "uuid": "e3e6217b-08-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/investors/investor-downloads",
+      "urlHash": "f96142ac4bba91b412cb5be99c06b5f5823d361a",
+      "uuid": "f96142ac-06-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/careers/learning-and-development",
+      "urlHash": "fa3672e9df5f0f2bbabde74ecba84d7e1f294bf0",
+      "uuid": "fa3672e9-02-079bcc73534cfae52fcac340ddd1811894f41a09",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[1]/div[2]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/careers/learning-and-development",
+      "urlHash": "fa3672e9df5f0f2bbabde74ecba84d7e1f294bf0",
+      "uuid": "fa3672e9-04-214743683c1a17a418126ad37aa411eabe350a13",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[1]/div[2]/div[2]"
+    },
+    {
+      "url": "https://www.adaniairports.com/careers/learning-and-development",
+      "urlHash": "fa3672e9df5f0f2bbabde74ecba84d7e1f294bf0",
+      "uuid": "fa3672e9-06-16b882b5e28066d6997c63ac5ac7f6197c99638f",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[1]/div[3]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.adaniairports.com/careers/learning-and-development",
+      "urlHash": "fa3672e9df5f0f2bbabde74ecba84d7e1f294bf0",
+      "uuid": "fa3672e9-10-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.adaniairports.com/our-expertise/elevated-service-quality",
+      "urlHash": "fee3affe51d0d39e9e24e6481ed710f852e7e9d0",
+      "uuid": "fee3affe-02-4334937223c8c9a26a7a37c9df28ee2432e8dba5",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[1]/div[2]"
+    },
+    {
+      "url": "https://www.adaniairports.com/our-expertise/elevated-service-quality",
+      "urlHash": "fee3affe51d0d39e9e24e6481ed710f852e7e9d0",
+      "uuid": "fee3affe-04-0a459baa9944b819c965bd5defd939b8a390d17d",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]",
+      "section": "section-2"
+    }
+  ],
+  "sections": [
+    {
+      "name": "section-1",
+      "background": "rgb(34, 34, 34) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 44
+    },
+    {
+      "name": "section-2",
+      "background": "rgb(249, 249, 249) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 97
+    },
+    {
+      "name": "section-3",
+      "background": "rgba(142, 39, 143, 0.05) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 4
+    },
+    {
+      "name": "section-4",
+      "background": "rgba(0, 0, 0, 0) url(\"https://www.adaniairports.com/-/media/Project/AAHL/Home/Route-Development--Banner-min-1.jpg\") repeat scroll 50% 50% / cover padding-box border-box",
+      "count": 1
+    },
+    {
+      "name": "section-5",
+      "background": "rgba(0, 0, 0, 0) linear-gradient(rgb(254, 254, 254), rgb(244, 241, 245)) repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 1
+    }
+  ]
+}
