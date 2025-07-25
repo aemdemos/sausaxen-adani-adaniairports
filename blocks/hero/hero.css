@@ -59,8 +59,6 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: stretch;
-
-  /* Fine-tuned aspect ratio for even more accurate match */
   aspect-ratio: 16 / 6.2;
   min-height: 200px;
   max-height: 27vw;
@@ -75,7 +73,6 @@
   padding: 0;
 }
 
-/* Remove padding from nested block */
 .hero.hero12.block {
   padding: 0;
 }
@@ -94,8 +91,6 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-
-  /* Fine-tuned to reveal just enough sky and runway for pixel match */
   object-position: center 48%;
   display: block;
 }
@@ -103,6 +98,42 @@
 .hero-container > .hero-wrapper {
   max-width: unset;
   padding: 0;
+}
+
+/* --- Moved hero.hero19 h3 and p blocks above .hero.hero9 selectors for specificity order --- */
+.hero.hero19 > div {
+  width: 100%;
+}
+
+.hero.hero19 h1,
+.hero.hero19 h2,
+.hero.hero19 h3,
+.hero.hero19 h4,
+.hero.hero19 h5,
+.hero.hero19 h6 {
+  color: #232323;
+  font-family: var(--heading-font-family);
+  font-weight: 600;
+  margin-bottom: 8px;
+  margin-top: 0;
+  text-align: left;
+  line-height: 1.2;
+}
+
+.hero.hero19 h1 { font-size: var(--heading-font-size-xxl);}
+.hero.hero19 h2 { font-size: var(--heading-font-size-xl);}
+.hero.hero19 h3 { font-size: var(--heading-font-size-l);}
+.hero.hero19 h4 { font-size: var(--heading-font-size-m);}
+.hero.hero19 h5 { font-size: var(--heading-font-size-s);}
+.hero.hero19 h6 { font-size: var(--heading-font-size-xs);}
+
+.hero.hero19 p {
+  color: #555;
+  font-size: 1rem;
+  margin: 0;
+  text-align: left;
+  line-height: 1.5;
+  font-family: var(--body-font-family);
 }
 
 .hero.hero9 {
@@ -293,5 +324,41 @@
     position: absolute;
     width: 100%;
     height: 100%;
+  }
+}
+
+.hero.hero19 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  background: var(--background-color);
+}
+
+/* Image section */
+.hero.hero19 > div:first-child picture,
+.hero.hero19 > div:first-child img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+/* Text section */
+.hero.hero19 > div:last-child > div {
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (width <= 900px) {
+  .hero.hero19 {
+    padding: 0 8px;
+    gap: 16px;
   }
 }
