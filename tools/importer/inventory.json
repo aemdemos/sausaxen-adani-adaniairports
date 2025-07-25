@@ -2498,6 +2498,18 @@
           "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[2]"
         }
       ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 48,
+      "instances": [
+        {
+          "url": "https://www.adaniairports.com/",
+          "urlHash": "c32ee197b196b329fdbf4090b9e26bc52bbd53da",
+          "uuid": "c32ee197-07-4c6b3a2424474ac60f741c360a19499992a8424c",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[5]"
+        }
+      ]
     }
   ],
   "outliers": [
@@ -3148,12 +3160,6 @@
       "urlHash": "c32ee197b196b329fdbf4090b9e26bc52bbd53da",
       "uuid": "c32ee197-05-12030ebb18687b09d8d3276b71bab0fb054b6694",
       "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[4]/div[1]/div[1]/div[1]"
-    },
-    {
-      "url": "https://www.adaniairports.com/",
-      "urlHash": "c32ee197b196b329fdbf4090b9e26bc52bbd53da",
-      "uuid": "c32ee197-07-4c6b3a2424474ac60f741c360a19499992a8424c",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/main[1]/div[5]"
     },
     {
       "url": "https://www.adaniairports.com/",
