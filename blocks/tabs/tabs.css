@@ -39,7 +39,6 @@
   margin: 0;
 }
 
-
 .tabs .tabs-list button[aria-selected='true'] {
   border-bottom: 1px solid var(--background-color);
   background-color: var(--background-color);
@@ -54,5 +53,148 @@
 }
 
 .tabs .tabs-panel[aria-hidden='true'] {
+  display: none;
+}
+
+.tabs.tabs15 {
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  min-height: unset;
+  display: block;
+  position: static;
+  width: 100%;
+}
+
+/* Navigation Bar Styles */
+.tabs.tabs15 > .tabs-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background: linear-gradient(to bottom, #4a4a4a 0%, #929292 100%);
+  min-height: 28px;
+  height: 34px;
+  padding: 0 10px;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+  border-radius: 0;
+  width: 100%;
+  border-bottom: none;
+  box-shadow: 0 1px 4px -1.5px rgb(0 0 0 / 6%);
+}
+
+/* Slim gap for nav row and scrollbar hiding for nav row */
+.tabs.tabs15 .tabs-list {
+  gap: 0;
+  height: 34px;
+  min-width: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.tabs.tabs15 .tabs-list::-webkit-scrollbar {
+  display: none;
+}
+
+/* Tab Button Styles */
+.tabs.tabs15 .tabs-list button {
+  background: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 0 7px;
+  margin: 0;
+  border-bottom: 1px solid transparent;
+  border-radius: 0;
+  transition: color 0.2s, border-bottom 0.2s;
+  box-shadow: none;
+  cursor: pointer;
+  line-height: 1;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  min-width: 0;
+}
+
+.tabs.tabs15 .tabs-list button[aria-selected="true"] {
+  color: #fff;
+  font-weight: 500;
+  border-bottom: 1px solid #fff;
+  background: none;
+}
+
+.tabs.tabs15 .tabs-list button[aria-selected="false"] {
+  color: #bbb;
+  background: none;
+}
+
+/* Remove vertical offset from tab text */
+.tabs.tabs15 .tabs-list button p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+/* Panel Styles: Reduce padding for alignment */
+.tabs.tabs15 > .tabs-panel {
+  margin-top: 0;
+  padding-top: 26px;
+  background: var(--background-color);
+  border: none;
+  color: var(--text-color);
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: none;
+}
+
+@media (width >= 900px) {
+  .tabs.tabs15 > .tabs-list {
+    padding-left: 14px;
+    padding-right: 14px;
+    min-height: 30px;
+    height: 38px;
+  }
+
+  .tabs.tabs15 .tabs-list button {
+    font-size: 13.5px;
+    height: 38px;
+    padding: 0 9px;
+  }
+
+  .tabs.tabs15 > .tabs-panel {
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 28px;
+  }
+}
+
+@media (width <= 600px) {
+  .tabs.tabs15 > .tabs-list {
+    padding-left: 2px;
+    padding-right: 2px;
+    min-height: 26px;
+    height: 32px;
+  }
+
+  .tabs.tabs15 .tabs-list button {
+    font-size: 12px;
+    padding: 0 4px;
+    height: 32px;
+  }
+
+  .tabs.tabs15 > .tabs-panel {
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 18px;
+  }
+}
+
+/* Hide all tabs-panel except active */
+.tabs.tabs15 .tabs-panel[aria-hidden="true"] {
   display: none;
 }
