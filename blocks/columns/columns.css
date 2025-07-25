@@ -25,6 +25,7 @@
     flex-direction: unset;
     gap: 24px;
   }
+
   .columns > div > div {
     flex: 1;
     order: unset;
@@ -116,17 +117,6 @@
   justify-content: flex-start;
 }
 
-.columns.columns10 > div > div:not(.columns-img-col) {
-  background: #f5f5f7;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-end;
-  min-height: 100%;
-  padding: 18px 8px 0 32px;
-  box-sizing: border-box;
-}
-
 .columns.columns10 > div > div:not(.columns-img-col) h5 + p,
 .columns.columns10 > div > div:not(.columns-img-col) h5#percent + p,
 .columns.columns10 > div > div:not(.columns-img-col) h5#mt + p {
@@ -175,15 +165,18 @@
   .columns.columns10 > div {
     grid-template-columns: 1fr;
   }
+
   .columns.columns10 .columns-img-col,
   .columns.columns10 > div > div:not(.columns-img-col) {
     max-width: 100%;
     width: 100%;
   }
+
   .columns.columns10 > div > div:not(.columns-img-col) {
     padding: 24px 0 0;
     align-items: center;
   }
+
   .columns.columns10 > div > div:not(.columns-img-col) h5,
   .columns.columns10 > div > div:not(.columns-img-col) h5 + p {
     width: 96vw;
@@ -192,6 +185,7 @@
     padding-left: 14px;
     padding-right: 14px;
   }
+
   .columns.columns10 > div > div:not(.columns-img-col) h5#mt {
     margin-top: 14px;
   }
@@ -203,7 +197,6 @@
   margin: 0;
 }
 
-/* Remove extra vertical space from parent or child containers */
 .columns.columns14,
 .columns.columns14 > div {
   margin-top: 0;
@@ -219,7 +212,6 @@
   }
 }
 
-/* Each image column should fill available width and not collapse */
 .columns.columns14 .columns-img-col {
   flex: 1 1 0;
   display: flex;
@@ -230,7 +222,6 @@
   padding: 0;
 }
 
-/* Picture and img must fill their container */
 .columns.columns14 .columns-img-col picture {
   display: block;
   width: 100%;
@@ -251,9 +242,87 @@
   padding: 0;
 }
 
-/* Remove any max-width on columns for two evenly sized images */
 @media (width >= 900px) {
   .columns.columns14 .columns-img-col {
     max-width: none;
   }
+}
+
+.columns.columns18 {
+  background: #faf6fa;
+  padding: 1.5rem 0;
+}
+
+/* FLEX: side-by-side on desktop, stack on mobile, minimal edge margin, tight gap */
+.columns.columns18 > div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+}
+
+@media (width >= 900px) {
+  .columns.columns18 > div {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1.25rem;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+
+  .columns.columns18 > div > div {
+    flex: 0 1 350px;
+    min-width: 180px;
+    max-width: 480px;
+  }
+}
+
+/* Remove list bullets, tight spacing, no indent */
+.columns.columns18 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* List items: font, spacing, color, alignment */
+.columns.columns18 ul li {
+  font-size: 12px;
+  font-family: Arial, "Helvetica Neue", sans-serif;
+  color: #333;
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 2px;
+  line-height: 1.4;
+  text-align: left;
+}
+
+/* Name: first line, bold, darker */
+.columns.columns18 ul li:first-child {
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 2px;
+}
+
+/* Role/Department: second line, normal */
+.columns.columns18 ul li:nth-child(2) {
+  font-weight: normal;
+  color: #333;
+  margin-bottom: 2px;
+}
+
+/* Email row: third line, normal, no extra margin */
+.columns.columns18 ul li:nth-child(3) {
+  font-weight: normal;
+  color: #333;
+  margin-bottom: 0;
+}
+
+/* Email link: dark blue, always underlined */
+.columns.columns18 ul li a {
+  color: #2a2f45;
+  text-decoration: underline;
+  font-size: 12px;
+  font-family: inherit;
 }
