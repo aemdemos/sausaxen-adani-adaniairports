@@ -2,7 +2,6 @@
   border: 1px solid #dadada;
 }
 
-/* stylelint-disable-next-line no-descending-specificity */
 .accordion details + details {
   margin-top: 24px;
 }
@@ -59,3 +58,151 @@
   border-top: 1px solid #dadada;
   background-color: var(--background-color);
 }
+
+
+/* 
+  This version makes the flex layout work regardless of extra wrappers, 
+  by finding the .accordion.block anywhere inside .accordion,
+  and styling its immediate div children as columns.
+  This is resilient to .accordion-wrapper and various nesting.
+*/
+
+/* Find the main columns container: any .accordion.block under .accordion */
+.accordion .accordion.block {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 48px;
+  max-width: 1200px;
+  margin: 0 auto 56px;
+  box-sizing: border-box;
+  padding: 0 0 32px;
+  width: 100%;
+  background: var(--background-color);
+}
+
+@media (width <= 900px) {
+  .accordion .accordion.block {
+    flex-direction: column;
+    gap: 32px;
+    padding-bottom: 24px;
+    margin-bottom: 36px;
+  }
+}
+
+/* Left column (heading, intro, image) */
+.accordion .accordion.block > div:first-child {
+  flex: 1 1 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 24px;
+  min-width: 260px;
+  max-width: 410px;
+  box-sizing: border-box;
+}
+
+.accordion .accordion.block > div:first-child h1,
+.accordion .accordion.block > div:first-child h2 {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 2rem;
+  color: #222;
+  margin: 0 0 6px;
+  line-height: 1.1;
+  letter-spacing: -0.5px;
+}
+
+.accordion .accordion.block > div:first-child p {
+  font-size: 1rem;
+  color: #222;
+  margin: 0 0 10px;
+  line-height: 1.5;
+  font-family: var(--body-font-family);
+}
+
+.accordion .accordion.block > div:first-child img {
+  display: block;
+  width: 100%;
+  max-width: 410px;
+  height: auto;
+  border-radius: 0;
+  margin-top: 8px;
+  object-fit: cover;
+  box-shadow: none;
+}
+
+/* Right column (mission items) */
+.accordion .accordion.block > div:last-child {
+  flex: 2 1 67%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0;
+  min-width: 0;
+}
+
+.accordion .accordion.block > div:last-child > div {
+  padding: 0 0 32px;
+  border-bottom: 1px solid #eaeaea;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.accordion .accordion.block > div:last-child > div:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+/* Mission number at start (first child of item) */
+.accordion .accordion.block > div:last-child > div > :first-child {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 8px;
+  font-family: var(--heading-font-family);
+  line-height: 1.1;
+  letter-spacing: -0.5px;
+  display: block;
+}
+
+/* Mission item body text */
+.accordion .accordion.block > div:last-child > div > *:not(:first-child) {
+  font-size: 1rem;
+  color: #222;
+  margin: 0;
+  line-height: 1.5;
+  font-family: var(--body-font-family);
+}
+
+.accordion .accordion.block > div:last-child > div strong,
+.accordion .accordion.block > div:last-child > div b {
+  font-weight: 700;
+  color: #222;
+}
+
+@media (width <= 900px) {
+  .accordion .accordion.block > div:first-child img {
+    max-width: 100%;
+    margin-top: 16px;
+  }
+
+  .accordion .accordion.block > div:last-child > div {
+    padding-bottom: 18px;
+  }
+
+  .accordion .accordion.block > div:first-child,
+  .accordion .accordion.block > div:last-child {
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .accordion .accordion.block {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* Optional: help reveal block during dev */
+
+/* .accordion .accordion.block > div { outline: 1px solid #aaa; } */
