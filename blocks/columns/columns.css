@@ -42,7 +42,6 @@
   padding-bottom: 0;
 }
 
-/* Responsive flex row for columns */
 .columns.columns4 > div {
   display: flex;
   flex-direction: column;
@@ -54,7 +53,7 @@
 @media (width >= 900px) {
   .columns.columns4 > div {
     flex-direction: row;
-    gap: 12px; /* Narrower gap for a tighter, more immersive look */
+    gap: 12px;
     justify-content: stretch;
     align-items: flex-start;
     padding: 0;
@@ -62,7 +61,6 @@
   }
 }
 
-/* Make each column take up equal, maximal width */
 .columns.columns4 .columns-img-col {
   flex: 1 1 0;
   min-width: 0;
@@ -74,7 +72,6 @@
   margin: 0;
 }
 
-/* Ensure images fully fill columns with no extra margins */
 .columns.columns4 .columns-img-col picture,
 .columns.columns4 .columns-img-col img {
   width: 100%;
@@ -87,4 +84,115 @@
   border: none;
   box-shadow: none;
   background: none;
+}
+
+.columns.columns10 > div {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 0;
+  align-items: stretch;
+  min-height: 400px;
+}
+
+.columns.columns10 .columns-img-col {
+  height: 100%;
+  background: #fff;
+  display: flex;
+  align-items: stretch;
+}
+
+.columns.columns10 .columns-img-col picture,
+.columns.columns10 .columns-img-col img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Stats panel (right column) */
+.columns.columns10 > div > div:not(.columns-img-col) {
+  background: #f5f5f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  min-height: 100%;
+  padding: 18px 8px 0 32px;
+  box-sizing: border-box;
+}
+
+/* Stat cards fill right side of panel */
+.columns.columns10 > div > div:not(.columns-img-col) h5,
+.columns.columns10 > div > div:not(.columns-img-col) h5 + p {
+  background: #fff;
+  margin: 0;
+  display: block;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.columns.columns10 > div > div:not(.columns-img-col) h5#percent,
+.columns.columns10 > div > div:not(.columns-img-col) h5#mt {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 24px 28px 8px;
+  border-radius: 16px 16px 0 0;
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: #111;
+  box-shadow: 0 2px 16px rgb(60 60 60 / 7%);
+}
+
+.columns.columns10 > div > div:not(.columns-img-col) h5#percent + p,
+.columns.columns10 > div > div:not(.columns-img-col) h5#mt + p {
+  padding: 0 28px 18px;
+  border-radius: 0 0 16px 16px;
+  color: #757575;
+  font-size: 1.09rem;
+  background: #fff;
+  box-shadow: 0 2px 16px rgb(60 60 60 / 7%);
+  margin-bottom: 0;
+}
+
+.columns.columns10 > div > div:not(.columns-img-col) h5#mt {
+  margin-top: 18px;
+}
+
+/* Remove divider bar (no background or border on p) */
+.columns.columns10 > div > div:not(.columns-img-col) h5 + p {
+  border: none;
+  background: #fff;
+}
+
+/* Responsive: stack columns on narrow screens, center cards for mobile */
+@media (width <= 900px) {
+  .columns.columns10 > div {
+    grid-template-columns: 1fr;
+  }
+
+  .columns.columns10 .columns-img-col,
+  .columns.columns10 > div > div:not(.columns-img-col) {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .columns.columns10 > div > div:not(.columns-img-col) {
+    padding: 24px 0 0;
+    align-items: center;
+  }
+
+  .columns.columns10 > div > div:not(.columns-img-col) h5,
+  .columns.columns10 > div > div:not(.columns-img-col) h5 + p {
+    width: 96vw;
+    min-width: 0;
+    max-width: 98vw;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .columns.columns10 > div > div:not(.columns-img-col) h5#mt {
+    margin-top: 14px;
+  }
 }
