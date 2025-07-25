@@ -1,3 +1,4 @@
+/* --- 1. General tab styles --- */
 .tabs .tabs-list {
   display: flex;
   gap: 0.5ch;
@@ -193,6 +194,12 @@
   display: none;
 }
 
+.tabs.tabs29 .tabs-list button p {
+  margin: 0;
+  position: relative;
+  padding-left: 22px;
+}
+
 .tabs.tabs16 .tabs-list {
   display: flex;
   flex-direction: row;
@@ -291,7 +298,6 @@
 }
 
 .tabs.tabs29 {
-  /* Remove default panel borders and padding */
   border: none;
   padding: 0;
   background: #fff;
@@ -301,7 +307,6 @@
   align-items: flex-start;
 }
 
-/* MAIN TIMELINE SIDEBAR STYLES */
 .tabs.tabs29 .tabs-list {
   display: flex;
   flex-direction: column;
@@ -318,7 +323,6 @@
   max-width: none;
 }
 
-/* Remove horizontal tab appearance from buttons */
 .tabs.tabs29 .tabs-list button {
   display: flex;
   align-items: center;
@@ -339,19 +343,10 @@
   position: relative;
 }
 
-/* Space between timeline items */
 .tabs.tabs29 .tabs-list button:not(:last-child) {
   margin-bottom: 2px;
 }
 
-/* Dot indicator beside each year */
-.tabs.tabs29 .tabs-list button p {
-  margin: 0;
-  position: relative;
-  padding-left: 22px;
-}
-
-/* Circle for all years */
 .tabs.tabs29 .tabs-list button p::before {
   display: inline-block;
   position: absolute;
@@ -367,7 +362,6 @@
   content: "";
 }
 
-/* Selected year dot: filled purple, bold text, black color */
 .tabs.tabs29 .tabs-list button[aria-selected="true"] {
   color: #212121;
   font-weight: 700;
@@ -378,7 +372,6 @@
   border-color: #9c27b0;
 }
 
-/* Tab hover: subtle background */
 .tabs.tabs29 .tabs-list button:hover,
 .tabs.tabs29 .tabs-list button:focus {
   background: rgb(156 39 176 / 6%);
@@ -390,7 +383,6 @@
   background: transparent;
 }
 
-/* Hide default borders/padding from panel */
 .tabs.tabs29 .tabs-panel {
   border: none;
   margin: 0;
@@ -399,14 +391,24 @@
   background: #fff;
 }
 
-/* Show only active panel */
 .tabs.tabs29 .tabs-panel[aria-hidden="true"] {
   display: none;
 }
 
-/* --- MAIN CONTENT AREA --- */
+.tabs.tabs34 > .tabs-panel > div {
+  max-width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  position: relative;
+  padding: 0 0 40px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 36px;
+  gap: 0;
+}
 
-/* Layout: text and image side by side for active panel */
 .tabs.tabs29 .tabs-panel[aria-hidden="false"] > div {
   display: grid;
   grid-template-columns: 1fr minmax(260px, 420px);
@@ -441,7 +443,6 @@
   grid-column: 1;
 }
 
-/* Image always in the right column */
 .tabs.tabs29 .tabs-panel[aria-hidden="false"] > div > p:last-child {
   grid-column: 2;
   align-self: start;
@@ -460,7 +461,6 @@
   box-shadow: none;
 }
 
-/* Responsive: stack content vertically on small screens */
 @media (width <= 800px) {
   .tabs.tabs29 {
     grid-template-columns: 1fr;
@@ -516,7 +516,246 @@
   margin-bottom: 0.8em;
 }
 
-/* Remove last margin on last element */
 .tabs.tabs29 .tabs-panel[aria-hidden="false"] > div > *:last-child {
   margin-bottom: 0;
+}
+
+/* --- Ensure main block layout: sidebar and main content --- */
+.tabs.tabs34 {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  width: 100%;
+}
+
+/* --- SIDEBAR --- */
+.tabs.tabs34 > .tabs-list {
+  flex: 0 0 240px;
+  max-width: 260px;
+  min-width: 160px;
+  background: #fafafa;
+  border-right: 1px solid #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  padding: 36px 0 0;
+}
+
+@media (width <= 900px) {
+  .tabs.tabs34 {
+    flex-direction: column;
+  }
+
+  .tabs.tabs34 > .tabs-list {
+    flex-direction: row;
+    min-width: 0;
+    max-width: 100%;
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #f3f3f3;
+    padding: 0;
+  }
+}
+
+/* --- MAIN PANEL --- */
+.tabs.tabs34 > .tabs-panel {
+  flex: 1 1 0;
+  padding: 0;
+  border: none;
+  min-width: 0;
+}
+
+/* --- IMAGE + OVERLAY TITLE: overlay title inside image only --- */
+.tabs.tabs34 > .tabs-panel > div > p:nth-of-type(2) {
+  margin: 0;
+  position: relative;
+  line-height: 0;
+}
+
+.tabs.tabs34 > .tabs-panel > div > p:first-of-type {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  padding: 24px 40px 18px;
+  background: linear-gradient(0deg, rgb(34 34 34 / 85%) 85%, rgb(34 34 34 / 0%) 100%);
+  color: #fff;
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin: 0;
+  pointer-events: none;
+  text-shadow: 0 2px 8px rgb(0 0 0 / 22%);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.tabs.tabs34 > .tabs-panel > div,
+.tabs.tabs34 > .tabs-panel > div.stats-align,
+.tabs.tabs34 > .tabs-panel > div.stats-row,
+.tabs.tabs34 > .tabs-panel > div.stats-flex-row {
+  max-width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  position: relative;
+  padding: 0 0 40px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 36px;
+  gap: 0;
+}
+
+.tabs.tabs34 > .tabs-panel > div.stats-align,
+.tabs.tabs34 > .tabs-panel > div.stats-row,
+.tabs.tabs34 > .tabs-panel > div.stats-flex-row {
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+  margin: 0;
+  padding: 36px 0 0;
+}
+
+.tabs.tabs34 > .tabs-panel > div.stats-align > .stat-col,
+.tabs.tabs34 > .tabs-panel > div.stats-row > .stat-col,
+.tabs.tabs34 > .tabs-panel > div.stats-flex-row > .stat-col {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 32px;
+  box-sizing: border-box;
+  border-right: 1px solid #ebebeb;
+}
+
+.tabs.tabs34 > .tabs-panel > div.stats-align > .stat-col:last-child,
+.tabs.tabs34 > .tabs-panel > div.stats-row > .stat-col:last-child,
+.tabs.tabs34 > .tabs-panel > div.stats-flex-row > .stat-col:last-child {
+  border-right: none;
+}
+
+.tabs.tabs34 > .tabs-panel > div > ul,
+.tabs.tabs34 > .tabs-panel > div > h6 {
+  flex: 0 0 33.333%;
+  box-sizing: border-box;
+  padding: 0 32px;
+  margin: 0;
+  list-style: none;
+  text-align: left;
+}
+
+.tabs.tabs34 > .tabs-panel > div > ul {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+  list-style: none;
+}
+
+.tabs.tabs34 > .tabs-panel > div > ul > li:first-child {
+  font-size: 0.97rem;
+  text-transform: uppercase;
+  color: #888;
+  letter-spacing: 0.09em;
+  font-weight: 700;
+  margin-bottom: 6px;
+  margin-top: 0;
+  text-align: left;
+}
+
+.tabs.tabs34 > .tabs-panel > div > h6 {
+  font-size: 2.3rem;
+  font-weight: 800;
+  color: #222;
+  margin: 0 0 8px;
+  line-height: 1.08;
+  text-align: left;
+}
+
+.tabs.tabs34 > .tabs-panel > div > ul > li:not(:first-child) {
+  font-size: 1.01rem;
+  color: #666;
+  font-weight: 400;
+  margin: 0;
+  text-align: left;
+}
+
+/* Draw dividers between columns */
+.tabs.tabs34 > .tabs-panel > div > ul:nth-of-type(2),
+.tabs.tabs34 > .tabs-panel > div > h6:nth-of-type(2),
+.tabs.tabs34 > .tabs-panel > div > ul:nth-of-type(3),
+.tabs.tabs34 > .tabs-panel > div > ul:nth-of-type(5),
+.tabs.tabs34 > .tabs-panel > div > h6:nth-of-type(3),
+.tabs.tabs34 > .tabs-panel > div > ul:nth-of-type(6) {
+  border-right: 1px solid #ebebeb;
+}
+
+.tabs.tabs34 > .tabs-panel > div > ul:nth-of-type(6) {
+  border-right: none;
+}
+
+/* Responsive stacking for stats columns */
+@media (width <= 900px) {
+  .tabs.tabs34 > .tabs-panel > div,
+  .tabs.tabs34 > .tabs-panel > div.stats-align,
+  .tabs.tabs34 > .tabs-panel > div.stats-row,
+  .tabs.tabs34 > .tabs-panel > div.stats-flex-row {
+    flex-flow: column nowrap;
+    padding: 0;
+  }
+
+  .tabs.tabs34 > .tabs-panel > div > ul,
+  .tabs.tabs34 > .tabs-panel > div > h6 {
+    flex: 1 1 100%;
+    padding: 0 0 18px;
+    border-right: none;
+    text-align: left;
+  }
+
+  .tabs.tabs34 > .tabs-panel > div > p:first-of-type {
+    position: static;
+    background: none;
+    color: #232323;
+    padding: 20px 12px 0;
+    text-shadow: none;
+    width: auto;
+  }
+
+  .tabs.tabs34 > .tabs-panel > div > p:nth-of-type(2) picture,
+  .tabs.tabs34 > .tabs-panel > div > p:nth-of-type(2) img {
+    height: 160px;
+  }
+}
+
+.tabs.tabs34 > .tabs-panel > div > p:last-of-type,
+.tabs.tabs34 > .tabs-panel > div > p:nth-last-of-type(2) {
+  font-size: 0.95rem;
+  color: #aaa;
+  margin-top: 20px;
+  margin-bottom: 0;
+  line-height: 1.3;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+@media (width <= 900px) {
+  .tabs.tabs34 > .tabs-panel > div > p:last-of-type,
+  .tabs.tabs34 > .tabs-panel > div > p:nth-last-of-type(2) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.tabs.tabs34 > .tabs-panel > div > p:nth-of-type(2) picture,
+.tabs.tabs34 > .tabs-panel > div > p:nth-of-type(2) img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  display: block;
+  border-radius: 0;
+}
+
+.tabs.tabs34 ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
 }
