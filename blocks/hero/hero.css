@@ -40,6 +40,18 @@
   height: 100%;
 }
 
+/* Place .hero.hero32 > div above .hero.hero9 > div:first-child to resolve no-descending-specificity */
+.hero.hero32 > div {
+  flex: 1 1 0;
+  min-width: 0;
+  min-height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  padding: 0;
+}
+
 @media (width >= 900px) {
   .hero {
     padding: 40px 32px;
@@ -100,7 +112,6 @@
   padding: 0;
 }
 
-/* --- Moved hero.hero19 h3 and p blocks above .hero.hero9 selectors for specificity order --- */
 .hero.hero19 > div {
   width: 100%;
 }
@@ -337,7 +348,6 @@
   background: var(--background-color);
 }
 
-/* Image section */
 .hero.hero19 > div:first-child picture,
 .hero.hero19 > div:first-child img {
   display: block;
@@ -349,7 +359,6 @@
   max-width: 100%;
 }
 
-/* Text section */
 .hero.hero19 > div:last-child > div {
   width: 100%;
   padding: 0;
@@ -360,5 +369,122 @@
   .hero.hero19 {
     padding: 0 8px;
     gap: 16px;
+  }
+}
+
+.hero.hero32,
+.hero.hero32.no-image {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  transform: translateX(-50%);
+  min-height: 380px;
+  background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=cover&w=1500&q=80'); /* Replace with your actual hero image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Vertical centering */
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* Each direct child column fills the horizontal space */
+
+/* .hero.hero32 > div moved above .hero.hero9 > div:first-child for specificity */
+
+/* Main headline: right column, vertically centered and right-aligned */
+.hero.hero32 > div:nth-child(2) > div:first-child {
+  color: #fff;
+  font-family: var(--heading-font-family);
+  font-size: 2.7rem;
+  font-weight: 700;
+  line-height: 1.08;
+  text-align: right;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: 0;
+  text-shadow: 0 4px 16px rgb(0 0 0 / 60%), 0 1px 4px rgb(0 0 0 / 40%);
+  align-self: flex-end;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  min-height: 120px;
+  padding-right: 2vw;
+}
+
+/* Bottom left overlay text */
+.hero.hero32 > div:nth-child(1) > div:first-child {
+  position: absolute;
+  left: 2vw;
+  bottom: 1.5rem;
+  color: #fff;
+  font-size: 0.9rem;
+  opacity: 0.94;
+  text-shadow: 0 1px 6px rgb(0 0 0 / 60%);
+  font-family: var(--body-font-family);
+  font-weight: 400;
+  max-width: 85%;
+  white-space: pre-line;
+  pointer-events: none;
+  line-height: 1.2;
+  text-align: left;
+}
+
+/* Bottom right overlay text */
+.hero.hero32 > div:nth-child(2) > div:last-child {
+  position: absolute;
+  right: 2vw;
+  bottom: 1.5rem;
+  color: #fff;
+  font-size: 0.9rem;
+  opacity: 0.94;
+  text-shadow: 0 1px 6px rgb(0 0 0 / 60%);
+  font-family: var(--body-font-family);
+  font-weight: 400;
+  text-align: right;
+  max-width: 85%;
+  white-space: pre-line;
+  pointer-events: none;
+  line-height: 1.2;
+}
+
+/* Responsive stacking and text size for mobile */
+@media (width <= 700px) {
+  .hero.hero32,
+  .hero.hero32.no-image {
+    flex-direction: column;
+    min-height: 220px;
+    height: auto;
+  }
+
+  .hero.hero32 > div {
+    min-height: 110px;
+    width: 100%;
+  }
+
+  .hero.hero32 > div:nth-child(2) > div:first-child {
+    font-size: 1.35rem;
+    max-width: 100%;
+    margin-left: 0;
+    align-self: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    padding-right: 0;
+    padding-left: 2vw;
+  }
+
+  .hero.hero32 > div:nth-child(1) > div:first-child,
+  .hero.hero32 > div:nth-child(2) > div:last-child {
+    font-size: 0.7rem;
+    left: 2vw;
+    right: 2vw;
+    max-width: 97vw;
+    text-align: left;
+    bottom: 1rem;
   }
 }
