@@ -1802,7 +1802,6 @@
   font-family: var(--body-font-family), sans-serif;
 }
 
-/* "See Details" link styles and underline */
 .cards.cards37 > ul > li .cards-card-body .button-container {
   margin-top: auto;
   padding-bottom: 0;
@@ -1840,17 +1839,14 @@
   outline: none;
 }
 
-/* Remove bottom purple line from card */
 .cards.cards37 > ul > li::after {
   display: none;
 }
 
-/* Hide extra cards so only the first two are visible */
 .cards.cards37 > ul > li:nth-child(n+3) {
   display: none;
 }
 
-/* Responsive tweaks */
 @media (width <= 900px) {
   .cards.cards37 > ul {
     gap: 20px;
@@ -1894,5 +1890,163 @@
     left: 2px;
     padding: 4px 4px 2px;
     max-width: 88vw;
+  }
+}
+
+
+.cards.cards39 > ul {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-x: auto;
+  justify-content: flex-start;
+  align-items: stretch;
+  min-width: 0;
+  background: transparent;
+}
+
+.cards.cards39 > ul > li {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background: #f8f5f8;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  min-width: 248px;
+  max-width: 264px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  min-height: 300px;
+  height: auto;
+  box-sizing: border-box;
+  transition: box-shadow 0.18s;
+}
+
+/* Remove any bottom accent line */
+.cards.cards39 > ul > li::after {
+  display: none;
+}
+
+/* Card content stacking */
+.cards.cards39 .cards-card-body {
+  background: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Icon area */
+.cards.cards39 .cards-card-body:first-child {
+  min-height: 28px;
+  margin-top: 26px;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('data:image/svg+xml;utf8,<svg width="24" height="24" fill="none" stroke="%2347434a" stroke-width="1.7" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect x="4" y="5" width="16" height="14" rx="2.2"/><path d="M8 11l2.2 2.2a2 2 0 002.8 0L16 11"/><circle cx="8.5" cy="9.5" r="1"/></svg>') no-repeat center;
+  background-size: 24px 24px;
+}
+
+/* Card text and button area */
+.cards.cards39 .cards-card-body:last-child {
+  padding: 0 20px 28px;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Headline text */
+.cards.cards39 .cards-card-body:last-child > p:not(.button-container) {
+  color: #232124;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 0 18px;
+  line-height: 1.45;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  max-height: 2.9em;
+}
+
+/* Button container spacing and alignment */
+.cards.cards39 .cards-card-body:last-child > p.button-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: flex-start;
+  margin-top: auto;
+}
+
+/* Button style */
+.cards.cards39 .cards-card-body:last-child > p.button-container .button {
+  box-sizing: border-box;
+  display: inline-block;
+  background: transparent;
+  color: #8464e2;
+  border: 1px solid #8464e2;
+  border-radius: 4px;
+  padding: 6px 16px;
+  font-size: 13px;
+  font-family: var(--body-font-family);
+  font-weight: 400;
+  line-height: 1.3;
+  text-align: left;
+  margin: 0;
+  min-width: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  transition: background 0.2s, color 0.2s;
+  text-decoration: none;
+}
+
+.cards.cards39 .cards-card-body:last-child > p.button-container .button:hover,
+.cards.cards39 .cards-card-body:last-child > p.button-container .button:focus {
+  background: #8464e2;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Responsive adjustments */
+@media (width <= 900px) {
+  .cards.cards39 > ul {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .cards.cards39 > ul > li {
+    flex: 1 1 230px;
+    max-width: 100%;
+    min-width: 160px;
+    margin-bottom: 0;
+    min-height: 220px;
+    height: auto;
+  }
+}
+
+@media (width <= 600px) {
+  .cards.cards39 > ul {
+    flex-flow: column nowrap;
+    gap: 12px;
+    overflow-x: unset;
+  }
+
+  .cards.cards39 > ul > li {
+    max-width: 100%;
+    min-width: 0;
+    width: 100%;
+    height: auto;
+    min-height: 140px;
   }
 }
