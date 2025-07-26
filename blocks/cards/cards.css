@@ -220,121 +220,6 @@
   }
 }
 
-.cards.cardsnoimages22.block {
-  max-width: none;
-  margin-left: 0;
-  margin-right: 0;
-  padding: 0;
-}
-
-.cards.cardsnoimages22.block > ul {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 8px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  width: 100vw;
-  min-width: 0;
-  box-sizing: border-box;
-  align-items: stretch;
-  justify-content: center;
-}
-
-@media (width <= 1024px) {
-  .cards.cardsnoimages22.block > ul {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 8px;
-    width: 100vw;
-  }
-}
-
-@media (width <= 700px) {
-  .cards.cardsnoimages22.block > ul {
-    grid-template-columns: 1fr;
-    gap: 8px;
-    width: 100vw;
-  }
-}
-
-.cards.cardsnoimages22.block > ul > li {
-  background: transparent;
-  border: none;
-  border-radius: 18px;
-  box-shadow: none;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: stretch;
-  min-width: 0;
-  min-height: 0;
-  padding: 0;
-  overflow: visible;
-  height: 100%;
-}
-
-.cards.cardsnoimages22.block > ul > li::after {
-  display: none;
-}
-
-.cards.cardsnoimages22.block .cards-card-body {
-  width: 100%;
-  height: 100%;
-  background: #fff;
-  border-radius: 18px;
-  box-sizing: border-box;
-  padding: 20px;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  min-height: 170px;
-  box-shadow: none;
-  flex: 1 1 auto;
-}
-
-.cards.cardsnoimages22.block > ul > li:nth-child(1) .cards-card-body { background: #e6f7ef; }
-.cards.cardsnoimages22.block > ul > li:nth-child(2) .cards-card-body { background: #f8e8ea; }
-.cards.cardsnoimages22.block > ul > li:nth-child(3) .cards-card-body { background: #e9f5fb; }
-.cards.cardsnoimages22.block > ul > li:nth-child(4) .cards-card-body { background: #fff8e5; }
-.cards.cardsnoimages22.block > ul > li:nth-child(5) .cards-card-body { background: #fff; }
-.cards.cardsnoimages22.block > ul > li:nth-child(6) .cards-card-body { background: #f8f4ee; }
-.cards.cardsnoimages22.block > ul > li:nth-child(7) .cards-card-body { background: #f5edf7; }
-
-.cards.cardsnoimages22.block .cards-card-body h3 {
-  margin: 0 0 8px;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.28;
-  text-align: left;
-  padding: 0;
-  background: none;
-}
-
-.cards.cardsnoimages22.block .cards-card-body h3#commitment        { color: #36b37e; }
-.cards.cardsnoimages22.block .cards-card-body h3#courage           { color: #db3763; }
-.cards.cardsnoimages22.block .cards-card-body h3#trust             { color: #2998d7; }
-.cards.cardsnoimages22.block .cards-card-body h3#creativity        { color: #e2a200; }
-.cards.cardsnoimages22.block .cards-card-body h3#collaboration     { color: #212121; }
-.cards.cardsnoimages22.block .cards-card-body h3#safety-and-security { color: #9e7a53; }
-.cards.cardsnoimages22.block .cards-card-body h3#humility          { color: #9b4fb7; }
-
-.cards.cardsnoimages22.block .cards-card-body p {
-  margin: 0;
-  color: #212121;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 1.5;
-  text-align: left;
-  padding: 0;
-  background: none;
-}
-
-.cards.cardsnoimages22.block .cards-card-body h3 + p {
-  margin-top: 0;
-}
-
 .cards.cards25 {
   background: #fff;
   font-family: var(--body-font-family);
@@ -2997,12 +2882,10 @@
   padding: 0;
 }
 
-/* Make sure all cards are visible in the grid */
 .cards.cards11 > ul > li {
   display: flex;
 }
 
-/* Four-column grid, full width, even gaps, responsive */
 .cards.cards11 > ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -3014,7 +2897,6 @@
   box-sizing: border-box;
 }
 
-/* Card: compact, flat, left-aligned, balanced padding */
 .cards.cards11 > ul > li {
   background: #fff;
   border-radius: 0;
@@ -3032,13 +2914,11 @@
   position: relative;
 }
 
-/* Remove any underline or border effect from cards */
 .cards.cards11 > ul > li::after,
 .cards.cards11 > ul > li::before {
   display: none;
 }
 
-/* Stack two .cards-card-body vertically, left-aligned */
 .cards.cards11 .cards-card-body {
   display: flex;
   flex-direction: column;
@@ -3051,7 +2931,6 @@
   box-sizing: border-box;
 }
 
-/* Space between icon container and value, but keep compact */
 .cards.cards11 > ul > li > .cards-card-body:first-child {
   margin-bottom: 12px;
   min-height: 28px;
@@ -3061,7 +2940,6 @@
   justify-content: flex-start;
 }
 
-/* Value styling: large, left, bold, compact */
 .cards.cards11 > ul > li > .cards-card-body:last-child h5 {
   font-size: 2rem;
   font-weight: 700;
@@ -3073,7 +2951,6 @@
   line-height: 1.2;
 }
 
-/* Remove any spacing/borders from inner containers */
 .cards.cards11 > ul > li, 
 .cards.cards11 .cards-card-body {
   min-height: 0;
@@ -3082,7 +2959,6 @@
   border-radius: 0;
 }
 
-/* Responsive: 2 columns on medium, 1 on small */
 @media (width <= 1200px) {
   .cards.cards11 > ul {
     grid-template-columns: repeat(2, 1fr);
@@ -3104,7 +2980,154 @@
   }
 }
 
-/* Remove purple underline if inherited from previous base/other block styles */
 .cards.cards11 > ul > li {
   border-bottom: none;
+}
+
+
+.cards.cardsnoimages22 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  background: none;
+  padding: 40px 0 0;
+  box-sizing: border-box;
+}
+
+/* Pure grid: let grid auto-size items to fit content, no fixed width or height on li */
+.cards.cardsnoimages22 > ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: auto;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
+  width: 1128px;
+  max-width: 100vw;
+  list-style: none;
+  position: static;
+  box-sizing: border-box;
+  place-content: start start;
+}
+
+.cards.cardsnoimages22 > ul > li {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  position: static;
+  float: none;
+  margin: 0;
+  min-width: 0;
+  min-height: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  box-shadow: none;
+  background: none;
+  border-radius: 0;
+  overflow: visible;
+  z-index: auto;
+}
+
+.cards.cardsnoimages22 > ul > li::after,
+.cards.cardsnoimages22 .cards-card-body::after {
+  display: none;
+  border: none;
+  background: none;
+}
+
+.cards.cardsnoimages22 .cards-card-body {
+  box-sizing: border-box;
+  flex: 1 1 auto;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  overflow: visible;
+  background: #fff;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+.cards.cardsnoimages22 .cards-card-body,
+.cards.cardsnoimages22 .cards-card-body * {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  white-space: normal;
+  box-sizing: border-box;
+}
+
+/* Value backgrounds */
+.cards.cardsnoimages22 > ul > li:nth-child(1) .cards-card-body { background: #eaf7ef; }
+.cards.cardsnoimages22 > ul > li:nth-child(2) .cards-card-body { background: #f7eaea; }
+.cards.cardsnoimages22 > ul > li:nth-child(3) .cards-card-body { background: #eaf3f7; }
+.cards.cardsnoimages22 > ul > li:nth-child(4) .cards-card-body { background: #f7f3ea; }
+.cards.cardsnoimages22 > ul > li:nth-child(5) .cards-card-body { background: #fff; }
+.cards.cardsnoimages22 > ul > li:nth-child(6) .cards-card-body { background: #ebe6e0; }
+.cards.cardsnoimages22 > ul > li:nth-child(7) .cards-card-body { background: #f7f0f7; }
+
+.cards.cardsnoimages22 .cards-card-body h3 {
+  font-family: var(--heading-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 12px;
+  line-height: 1.2;
+  text-align: left;
+  padding: 0;
+  background: none;
+}
+
+.cards.cardsnoimages22 .cards-card-body h3#commitment { color: #24b47e; }
+.cards.cardsnoimages22 .cards-card-body h3#courage { color: #ef5350; }
+.cards.cardsnoimages22 .cards-card-body h3#trust { color: #2196f3; }
+.cards.cardsnoimages22 .cards-card-body h3#creativity { color: #f9ab00; }
+.cards.cardsnoimages22 .cards-card-body h3#collaboration { color: #222; }
+.cards.cardsnoimages22 .cards-card-body h3#safety-and-security { color: #8d6e63; }
+.cards.cardsnoimages22 .cards-card-body h3#humility { color: #ab47bc; }
+
+.cards.cardsnoimages22 .cards-card-body p {
+  font-family: var(--body-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  color: #222;
+  margin: 0;
+  line-height: 1.5;
+  text-align: left;
+  background: none;
+  padding: 0;
+}
+
+.cards.cardsnoimages22 .cards-card-body h3 + p {
+  margin-top: 0;
+}
+
+/* Responsive grid adjustments */
+@media (width <= 1200px) {
+  .cards.cardsnoimages22 > ul {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 24px;
+  }
+}
+
+@media (width <= 700px) {
+  .cards.cardsnoimages22 > ul {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    width: 100%;
+    padding: 0 8px;
+  }
+
+  .cards.cardsnoimages22 .cards-card-body {
+    padding: 20px;
+  }
 }
