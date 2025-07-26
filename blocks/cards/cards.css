@@ -2991,46 +2991,73 @@
   align-items: flex-start;
   width: 100%;
   background: none;
-  padding: 40px 0 0;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
-/* Pure grid: let grid auto-size items to fit content, no fixed width or height on li */
 .cards.cardsnoimages22 > ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: auto;
-  gap: 40px;
+  grid-template-rows: repeat(2, auto);
+  gap: 8px 24px;
   padding: 0;
-  margin: 0;
-  width: 1128px;
-  max-width: 100vw;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
   list-style: none;
-  position: static;
+  place-items: stretch center;
   box-sizing: border-box;
-  place-content: start start;
+  background: none;
 }
 
+/* Center the three cards in bottom row for desktop */
+.cards.cardsnoimages22 > ul > li:nth-child(5) { grid-column: 2; }
+.cards.cardsnoimages22 > ul > li:nth-child(6) { grid-column: 3; }
+.cards.cardsnoimages22 > ul > li:nth-child(7) { grid-column: 4; }
+
+@media (width <= 1100px) {
+  .cards.cardsnoimages22 > ul {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 680px;
+    gap: 6px 16px;
+  }
+
+  .cards.cardsnoimages22 > ul > li:nth-child(5),
+  .cards.cardsnoimages22 > ul > li:nth-child(6),
+  .cards.cardsnoimages22 > ul > li:nth-child(7) {
+    grid-column: auto;
+  }
+}
+
+@media (width <= 700px) {
+  .cards.cardsnoimages22 > ul {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    gap: 6px 0;
+    padding: 0 8px;
+  }
+}
+
+/* Card sizing and centering */
 .cards.cardsnoimages22 > ul > li {
   display: flex;
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
-  position: static;
-  float: none;
-  margin: 0;
-  min-width: 0;
-  min-height: 0;
+  min-width: 220px;
+  max-width: 280px;
   width: 100%;
   height: 100%;
+  margin: 0 auto;
   border: none;
   box-shadow: none;
   background: none;
-  border-radius: 0;
+  border-radius: 8px;
   overflow: visible;
-  z-index: auto;
 }
 
+/* Remove any inherited bottom border or underline */
 .cards.cardsnoimages22 > ul > li::after,
 .cards.cardsnoimages22 .cards-card-body::after {
   display: none;
@@ -3038,47 +3065,40 @@
   background: none;
 }
 
+/* Card content block */
 .cards.cardsnoimages22 .cards-card-body {
   box-sizing: border-box;
   flex: 1 1 auto;
   width: 100%;
   height: 100%;
   border: none;
-  border-radius: 0;
+  border-radius: 8px;
   box-shadow: none;
-  padding: 32px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  overflow: visible;
   background: #fff;
   word-break: break-word;
   overflow-wrap: break-word;
   white-space: normal;
 }
 
-.cards.cardsnoimages22 .cards-card-body,
-.cards.cardsnoimages22 .cards-card-body * {
-  overflow-wrap: break-word;
-  word-break: break-word;
-  white-space: normal;
-  box-sizing: border-box;
-}
+/* Pastel backgrounds per card for match */
+.cards.cardsnoimages22 > ul > li:nth-child(1) .cards-card-body { background: #e7f6ef; }
+.cards.cardsnoimages22 > ul > li:nth-child(2) .cards-card-body { background: #fde8e8; }
+.cards.cardsnoimages22 > ul > li:nth-child(3) .cards-card-body { background: #eaf5fb; }
+.cards.cardsnoimages22 > ul > li:nth-child(4) .cards-card-body { background: #fff7e7; }
+.cards.cardsnoimages22 > ul > li:nth-child(5) .cards-card-body { background: #f7f7f7; }
+.cards.cardsnoimages22 > ul > li:nth-child(6) .cards-card-body { background: #f2ede9; }
+.cards.cardsnoimages22 > ul > li:nth-child(7) .cards-card-body { background: #f7eef8; }
 
-/* Value backgrounds */
-.cards.cardsnoimages22 > ul > li:nth-child(1) .cards-card-body { background: #eaf7ef; }
-.cards.cardsnoimages22 > ul > li:nth-child(2) .cards-card-body { background: #f7eaea; }
-.cards.cardsnoimages22 > ul > li:nth-child(3) .cards-card-body { background: #eaf3f7; }
-.cards.cardsnoimages22 > ul > li:nth-child(4) .cards-card-body { background: #f7f3ea; }
-.cards.cardsnoimages22 > ul > li:nth-child(5) .cards-card-body { background: #fff; }
-.cards.cardsnoimages22 > ul > li:nth-child(6) .cards-card-body { background: #ebe6e0; }
-.cards.cardsnoimages22 > ul > li:nth-child(7) .cards-card-body { background: #f7f0f7; }
-
+/* Heading styles per value */
 .cards.cardsnoimages22 .cards-card-body h3 {
   font-family: var(--heading-font-family);
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 600;
   margin: 0 0 12px;
   line-height: 1.2;
   text-align: left;
@@ -3086,48 +3106,44 @@
   background: none;
 }
 
-.cards.cardsnoimages22 .cards-card-body h3#commitment { color: #24b47e; }
-.cards.cardsnoimages22 .cards-card-body h3#courage { color: #ef5350; }
-.cards.cardsnoimages22 .cards-card-body h3#trust { color: #2196f3; }
-.cards.cardsnoimages22 .cards-card-body h3#creativity { color: #f9ab00; }
+.cards.cardsnoimages22 .cards-card-body h3#commitment { color: #096; }
+.cards.cardsnoimages22 .cards-card-body h3#courage { color: #EA3232; }
+.cards.cardsnoimages22 .cards-card-body h3#trust { color: #009DDA; }
+.cards.cardsnoimages22 .cards-card-body h3#creativity { color: #FFB000; }
 .cards.cardsnoimages22 .cards-card-body h3#collaboration { color: #222; }
-.cards.cardsnoimages22 .cards-card-body h3#safety-and-security { color: #8d6e63; }
-.cards.cardsnoimages22 .cards-card-body h3#humility { color: #ab47bc; }
+.cards.cardsnoimages22 .cards-card-body h3#safety-and-security { color: #B38867; }
+.cards.cardsnoimages22 .cards-card-body h3#humility { color: #A267B5; }
 
+/* Value card body text */
 .cards.cardsnoimages22 .cards-card-body p {
   font-family: var(--body-font-family);
   font-size: 15px;
-  font-weight: 400;
-  color: #222;
-  margin: 0;
   line-height: 1.5;
-  text-align: left;
+  color: #494949;
+  margin: 0;
   background: none;
   padding: 0;
+  text-align: left;
+  font-weight: 400;
 }
 
-.cards.cardsnoimages22 .cards-card-body h3 + p {
-  margin-top: 0;
+/* Humility card width fix */
+.cards.cardsnoimages22 > ul > li:nth-child(7) {
+  max-width: 280px;
 }
 
-/* Responsive grid adjustments */
-@media (width <= 1200px) {
-  .cards.cardsnoimages22 > ul {
-    grid-template-columns: repeat(2, 1fr);
-    width: 100%;
-    gap: 24px;
-  }
+.cards.cardsnoimages22 > ul > li:nth-child(7) .cards-card-body p {
+  white-space: normal;
 }
 
-@media (width <= 700px) {
-  .cards.cardsnoimages22 > ul {
-    grid-template-columns: 1fr;
-    gap: 16px;
-    width: 100%;
-    padding: 0 8px;
-  }
-
+/* Responsive card padding */
+@media (width <= 500px) {
   .cards.cardsnoimages22 .cards-card-body {
-    padding: 20px;
+    padding: 12px;
   }
+}
+
+.cards.cardsnoimages22 {
+  padding-top: 0;
+  margin-top: 0;
 }
