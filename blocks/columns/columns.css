@@ -1,5 +1,3 @@
-/* --- CSS order fixed to pass no-descending-specificity and best practices applied --- */
-
 .columns img {
   width: 100%;
 }
@@ -55,176 +53,6 @@
   line-height: 1.15;
   text-align: center;
   font-family: var(--heading-font-family);
-}
-
-.columns.columns33 > div {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  gap: 0;
-  min-height: 64px;
-  box-sizing: border-box;
-}
-
-.columns.columns33 > div > div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 25%;
-  min-width: 0;
-  text-align: center;
-  padding: 0;
-  flex: 0 0 25%;
-}
-
-.columns.columns18 {
-  background: #faf6fa;
-  padding: 1.5rem 0;
-}
-
-.columns.columns18 > div {
-  display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
-  margin-left: 1.5vw;
-  margin-right: 1.5vw;
-}
-
-.columns.columns18 ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.columns.columns18 ul li {
-  font-size: 12px;
-  font-family: Arial, Helvetica Neue, sans-serif;
-  color: #333;
-  font-weight: normal;
-  margin: 0;
-  margin-bottom: 2px;
-  line-height: 1.4;
-  text-align: left;
-}
-
-.columns.columns18 ul li:first-child {
-  font-weight: bold;
-  color: #222;
-  margin-bottom: 2px;
-}
-
-.columns.columns18 ul li:nth-child(2) {
-  font-weight: normal;
-  color: #333;
-  margin-bottom: 2px;
-}
-
-.columns.columns18 ul li:nth-child(3) {
-  font-weight: normal;
-  color: #333;
-  margin-bottom: 0;
-}
-
-.columns.columns18 ul li a {
-  color: #2a2f45;
-  text-decoration: underline;
-  font-size: 12px;
-  font-family: inherit;
-}
-
-.columns.columns21 {
-  background: #fff;
-  padding: 24px 6px;
-}
-
-.columns.columns21 img {
-  display: block;
-  max-width: 100%;
-  width: 100%;
-  height: auto;
-  border: none;
-  box-shadow: none;
-}
-
-.columns.columns21 picture {
-  display: block;
-  max-width: 100%;
-  width: 100%;
-  height: auto;
-  border: none;
-  box-shadow: none;
-}
-
-.columns.columns21 > div > .columns-img-col,
-.columns.columns21 > div > .columns-img-col picture,
-.columns.columns21 > div > .columns-img-col img {
-  margin-top: 0;
-  padding-top: 0;
-  align-self: flex-start;
-  display: block;
-  width: 100%;
-  height: auto;
-  box-shadow: none;
-  border: none;
-  object-fit: cover;
-}
-
-.columns.columns21 > div > .columns-img-col img {
-  max-width: 100%;
-  margin-bottom: 0;
-  object-fit: cover;
-}
-
-.columns.columns21 > div > .columns-img-col picture img {
-  aspect-ratio: 16/7;
-  max-height: 430px;
-  max-width: 100%;
-  margin-bottom: 0;
-  object-fit: cover;
-}
-
-.columns.columns21 > div > div:first-child picture img {
-  max-height: 360px;
-  max-width: 100%;
-  margin-bottom: 0;
-  object-fit: cover;
-}
-
-.columns.columns21 > div > div {
-  min-width: 0;
-}
-
-.columns.columns21 > div > div:first-child {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.columns.columns21 a {
-  color: var(--link-color, #3b63fb);
-  text-decoration: none;
-}
-
-.columns.columns21 a:hover {
-  color: var(--link-hover-color, #1d3ecf);
-  text-decoration: underline;
-}
-
-.columns.columns21 p {
-  color: #222;
-  font-family: var(--body-font-family, Arial, sans-serif);
-  font-size: 16px;
-  margin-bottom: 0.8em;
-  margin-top: 0;
-}
-
-.columns.columns21 strong {
-  font-weight: 600;
 }
 
 .columns.columns27 {
@@ -311,6 +139,29 @@
 
 .columns.columns27 > div > div:last-child > ul {
   display: none;
+}
+
+.columns.columns21 {
+  background: #fff;
+  padding: 24px 6px;
+}
+
+.columns.columns21 img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  border: none;
+  box-shadow: none;
+}
+
+.columns.columns21 picture {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  border: none;
+  box-shadow: none;
 }
 
 .columns.columns10 > div {
@@ -491,6 +342,28 @@
   gap: 16px;
 }
 
+.columns.columns21 a {
+  color: var(--link-color, #3b63fb);
+  text-decoration: none;
+}
+
+.columns.columns21 a:hover {
+  color: var(--link-hover-color, #1d3ecf);
+  text-decoration: underline;
+}
+
+.columns.columns21 p {
+  color: #222;
+  font-family: var(--body-font-family, Arial, sans-serif);
+  font-size: 16px;
+  margin-bottom: 0.8em;
+  margin-top: 0;
+}
+
+.columns.columns21 strong {
+  font-weight: 600;
+}
+
 .columns.columns4 {
   max-width: 100vw;
   margin: 0;
@@ -499,7 +372,6 @@
   box-sizing: border-box;
 }
 
-/* Intro text remains centered and clean */
 .columns.columns4 > p,
 .columns.columns4 > .block-text,
 .columns.columns4 > .section-description {
@@ -516,7 +388,6 @@
   font-family: var(--body-font-family, Arial, Helvetica, sans-serif);
 }
 
-/* Side-by-side image row: fill width, with minimal gap */
 .columns.columns4 > div {
   display: flex;
   flex-direction: row;
@@ -529,7 +400,6 @@
   box-sizing: border-box;
 }
 
-/* Each image column: fill available width, no artificial constraints */
 .columns.columns4 > div > .columns-img-col {
   flex: 1 1 0;
   min-width: 0;
@@ -543,7 +413,6 @@
   background: none;
 }
 
-/* Images: fill columns, crop to maintain aspect, no borders or extra spacing */
 .columns.columns4 .columns-img-col picture,
 .columns.columns4 .columns-img-col img {
   width: 100%;
@@ -559,7 +428,6 @@
   max-width: 100%;
 }
 
-/* Responsive: stack vertically on mobile, maintain realism with moderate gap */
 @media (width <= 900px) {
   .columns.columns4 {
     padding: 0;
@@ -591,6 +459,16 @@
     padding-left: 0;
     padding-right: 0;
   }
+
+  .columns.columns18 > div {
+    flex-direction: column;
+    gap: 36px;
+  }
+
+  .columns.columns18 > div > div {
+    width: 100%;
+    padding: 16px 0;
+  }
 }
 
 @media (width >= 900px) {
@@ -616,21 +494,6 @@
 
   .columns.columns14 .columns-img-col {
     max-width: none;
-  }
-
-  .columns.columns18 > div {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 1.25rem;
-    margin-left: 1vw;
-    margin-right: 1vw;
-  }
-
-  .columns.columns18 > div > div {
-    flex: 0 1 350px;
-    min-width: 180px;
-    max-width: 480px;
   }
 
   .columns.columns21 > div {
@@ -667,14 +530,98 @@
   }
 
   .columns.columns33 > div {
-    flex-wrap: wrap;
+    display: flex;
+    flex-flow: row wrap;
     gap: 32px 0;
     padding: 0 8px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 64px;
+    box-sizing: border-box;
   }
 
   .columns.columns33 > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 48%;
     flex: 0 0 48%;
+    min-width: 0;
+    text-align: center;
+    padding: 0;
     margin-bottom: 18px;
+    box-sizing: border-box;
   }
+}
+
+.columns.columns18 {
+  background: #f8f4f7;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Main row: push cards to edges, maximize central gap */
+.columns.columns18 > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  gap: 0;
+}
+
+/* Each card: fill half width, align to edges, keep text left-aligned */
+.columns.columns18 > div > div {
+  flex: 1 1 0;
+  width: 50%;
+  max-width: none;
+  min-width: 0;
+  min-height: 0;
+  padding: 24px 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+/* No extra list spacing */
+.columns.columns18 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Typography and spacing */
+.columns.columns18 ul li {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+  color: #474747;
+  font-family: var(--body-font-family);
+  text-align: left;
+}
+
+.columns.columns18 ul li:first-child {
+  font-weight: 600;
+  color: #191919;
+  margin-bottom: 12px;
+}
+
+.columns.columns18 ul li:last-child {
+  margin-bottom: 0;
+}
+
+/* Underlined, clickable email */
+.columns.columns18 ul li a {
+  color: #191919;
+  text-decoration: underline;
+  font-size: 16px;
+  cursor: pointer;
 }
