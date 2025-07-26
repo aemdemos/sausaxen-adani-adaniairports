@@ -1,15 +1,9 @@
-/* --- HERO CONTAINER AND WRAPPERS --- */
-.hero-container .hero-wrapper {
-  max-width: unset;
-  padding: 0;
-}
-
+.hero-container .hero-wrapper,
 .hero-container > .hero-wrapper {
   max-width: unset;
   padding: 0;
 }
 
-/* --- HERO BASE --- */
 .hero {
   position: relative;
   padding: 40px 24px;
@@ -47,12 +41,32 @@
   color: var(--text-color);
 }
 
-/* --- HERO 44 --- */
-.hero.hero44 > div {
-  width: 100%;
+.hero.hero12,
+.hero.hero12 picture,
+.hero.hero12 img,
+.hero.hero12 > div:first-child,
+.hero.hero12 > div:last-child,
+.hero.hero12 > div:last-child > div,
+.hero.hero12::before {
+  /* grouped related selectors for specificity and ordering */
 }
 
-/* --- HERO 12: picture/img (specific) --- */
+.hero.hero12 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: stretch;
+  width: 100vw;
+  min-height: 500px;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: none;
+}
+
 .hero.hero12 picture {
   position: absolute;
   z-index: -1;
@@ -72,45 +86,78 @@
   height: auto;
 }
 
-/* --- HERO 44: picture/img (specific) --- */
-.hero.hero44 > div:first-child picture {
-  position: absolute;
-  z-index: -1;
-  inset: 0;
+.hero.hero12 picture,
+.hero.hero12 img {
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
   object-fit: cover;
-  box-sizing: border-box;
-  width: 100%;
   display: block;
+  object-position: left center;
 }
 
-.hero.hero44 > div:first-child img {
-  object-fit: cover;
-  width: 100%;
-  display: block;
-  max-width: 100%;
-  border: none;
-  height: auto;
-}
-
-/* --- HERO 19 --- */
-.hero.hero19 > div {
-  box-sizing: border-box;
-  width: 100%;
-}
-
-.hero.hero19 > div:first-child {
-  order: 2;
-}
-
-.hero.hero19 > div:last-child {
+.hero.hero12 > div:first-child {
+  flex: 1 1 0;
   order: 1;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  align-items: stretch;
+  justify-content: stretch;
+  min-width: 0;
+  min-height: 0;
+  position: relative;
+}
+
+.hero.hero12 > div:last-child {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.hero.hero12 > div:last-child > div {
+  margin-left: 0;
+  color: #822783;
+  font-size: clamp(76px, 11vw, 145px);
+  font-family: Nunito, Arial Rounded MT Arial, Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  line-height: 1.06;
+  background: none;
+  pointer-events: auto;
+  text-shadow: 0 3px 12px rgb(255 255 255 / 76%);
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.hero.hero12::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 110px;
+  background: linear-gradient(to bottom, #4b4b4b 0%, rgb(75 75 75 / 0%) 100%);
+  z-index: 3;
+  pointer-events: none;
+  display: block;
+  opacity: 1;
+}
+
+.hero.hero44 > div,
+.hero.hero44 > div:first-child,
+.hero.hero44 > div:last-child,
+.hero.hero44 > div:first-child picture,
+.hero.hero44 > div:first-child img {
+  width: 100%;
 }
 
 .hero.hero44 > div:first-child {
-  width: 100%;
   margin: 0;
   position: relative;
   flex: 1 1 0;
@@ -151,6 +198,43 @@
   max-width: 900px;
 }
 
+.hero.hero19 > div,
+.hero.hero19 > div:first-child,
+.hero.hero19 > div:last-child,
+.hero.hero19 > div:first-child picture,
+.hero.hero19 > div:first-child img {
+  /* grouped for specificity and order */
+}
+
+.hero.hero19 > div {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.hero.hero19 > div:first-child {
+  order: 2;
+}
+
+.hero.hero19 > div:last-child {
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero.hero19 > div:first-child picture,
+.hero.hero19 > div:first-child img {
+  display: block;
+  width: 100%;
+  height: 387.75px;
+  object-fit: fill;
+  margin-top: 32px;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  position: static;
+}
+
 .hero.hero19 h2 {
   margin-bottom: 24px;
   font-size: var(--heading-font-size-xl);
@@ -171,7 +255,6 @@
   text-align: left;
 }
 
-/* --- HERO 9 --- */
 .hero.hero9 > div:first-child {
   position: absolute;
   inset: 0;
@@ -278,209 +361,57 @@
   background: none;
 }
 
-/* --- HERO 12 --- */
-.hero.hero12 picture,
-.hero.hero12 img {
-  width: 100%;
-  height: 100%;
-  min-width: 0;
-  min-height: 0;
-  object-fit: cover;
-  display: block;
-  object-position: left center;
-}
-
-.hero.hero12 > div:first-child {
-  flex: 1 1 0;
-  order: 1;
-  display: flex;
-  align-items: stretch;
-  justify-content: stretch;
-  min-width: 0;
-  min-height: 0;
-  position: relative;
-}
-
-.hero.hero12 > div:last-child {
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 2;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.hero.hero12 > div:last-child > div {
-  margin-left: 0;
-  color: #822783;
-  font-size: clamp(76px, 11vw, 145px);
-  font-family: Nunito, "Arial Rounded MT Arial", Arial, sans-serif;
-  font-weight: 400;
-  letter-spacing: 0.08em;
-  line-height: 1.06;
-  background: none;
-  pointer-events: auto;
-  text-shadow: 0 3px 12px rgb(255 255 255 / 76%);
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.hero.hero12 {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  justify-content: stretch;
-  width: 100vw;
-  min-height: 500px;
-  height: 500px;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  overflow: hidden;
-  background: none;
-}
-
-.hero.hero12::before {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 110px;
-  background: linear-gradient(to bottom, #4b4b4b 0%, rgb(75 75 75 / 0%) 100%);
-  z-index: 3;
-  pointer-events: none;
-  display: block;
-  opacity: 1;
-}
-
-/* --- HERO 19 --- */
-.hero.hero19 {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  background: #fff;
-  padding: 0 40px;
-  box-sizing: border-box;
-}
-
-.hero.hero19 > div:first-child picture,
-.hero.hero19 > div:first-child img {
-  display: block;
-  width: 100%;
-  height: 387.75px;
-  object-fit: fill;
-  margin-top: 32px;
-  border-radius: 0;
-  background: none;
-  box-shadow: none;
-  position: static;
-}
-
-/* --- HERO 32 --- */
-.hero.hero32 > div {
-  position: relative;
-  flex: 1 1 0;
-  min-width: 0;
-  min-height: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0;
-  z-index: 2;
+.hero-container,
+.hero-container > .hero-wrapper {
+  margin-top: 0;
+  padding-top: 0;
+  max-width: unset;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .hero.hero32 {
-  position: relative;
   width: 100vw;
-  min-width: 320px;
-  height: 532px;
+  max-width: none;
   margin: 0;
-  background-image: linear-gradient(rgb(0 0 0 / 36%), rgb(0 0 0 / 36%)), url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=cover&w=1500&q=80');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: stretch;
-  justify-content: flex-end;
-  padding: 0;
-  box-sizing: border-box;
-  top: 0;
+  justify-content: flex-start;
+  /* Use background-size: cover and top to avoid distortion and guarantee it starts flush at the top */
+  background: url('https://adaniairports.com/-/media/Project/AAHL/Home/Route-Development--Banner-min-1.jpg') top center/cover no-repeat;
+  min-height: 0;
+  height: 486px;
+  aspect-ratio: 1280 / 486;
+  overflow: hidden;
 }
 
-.hero.hero32 > div:first-child {
-  align-items: flex-start;
-  justify-content: flex-end;
+/* Remove any wrapper or section margin above */
+.section,
+main > div,
+.hero.hero32,
+.hero-container > .hero-wrapper {
+  margin-top: 0;
+  padding-top: 0;
 }
 
-.hero.hero32 > div:last-child {
-  align-items: flex-end;
-  justify-content: center;
+/* Hide any overlay/content divs */
+.hero.hero32 > div,
+.hero.hero32 > div > div {
+  display: none;
 }
 
-.hero.hero32 > div:first-child > div {
-  position: absolute;
-  color: #fff;
-  font-family: var(--heading-font-family);
-  font-size: 2.7rem;
-  font-weight: 700;
-  line-height: 1.08;
-  text-align: left;
-  text-shadow: 0 4px 16px rgb(0 0 0 / 70%), 0 1px 4px rgb(0 0 0 / 45%);
-  max-width: 44vw;
-  min-width: 300px;
-  margin: 0;
-  z-index: 3;
-  display: block;
-  right: 6vw;
-  top: 50%;
-  transform: translateY(-50%);
+/* Optional: if parent sections add default margin-bottom, also reset for seamless blocks */
+.hero-container > .hero-wrapper,
+.section,
+main > div {
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
-.hero.hero32 > div:last-child > div:first-child {
-  position: absolute;
-  color: #fff;
-  font-family: var(--heading-font-family);
-  font-size: 2.7rem;
-  font-weight: 700;
-  line-height: 1.08;
-  text-align: left;
-  text-shadow: 0 4px 16px rgb(0 0 0 / 70%), 0 1px 4px rgb(0 0 0 / 45%);
-  max-width: 44vw;
-  min-width: 300px;
-  margin: 0;
-  z-index: 3;
-  display: block;
-  right: 6vw;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.hero.hero32 > div:last-child > div:last-child {
-  position: absolute;
-  right: 2vw;
-  bottom: 1.5rem;
-  color: #fff;
-  font-size: 0.78rem;
-  font-family: var(--body-font-family);
-  font-weight: 400;
-  opacity: 0.95;
-  text-shadow: 0 1px 6px rgb(0 0 0 / 62%);
-  text-align: right;
-  max-width: 30vw;
-  white-space: pre-line;
-  line-height: 1.2;
-  pointer-events: none;
-  z-index: 3;
-}
-
-/* --- MEDIA QUERIES --- */
 @media (width >= 900px) {
   .hero {
     padding: 40px 32px;
@@ -593,14 +524,4 @@
   .hero.hero12::before {
     height: 30px;
   }
-}
-
-/* Remove top spacing from possible parent containers */
-.hero-container,
-.hero-container > .hero-wrapper {
-  margin-top: 0;
-  padding-top: 0;
-  max-width: unset;
-  padding-left: 0;
-  padding-right: 0;
 }
