@@ -99,22 +99,6 @@
   display: block;
 }
 
-.cards.cards11 > ul > li {
-  background: #fff;
-  border-radius: 0;
-  box-shadow: none;
-  border: none;
-  padding: 36px 56px 36px 40px;
-  margin: 0;
-  min-height: 120px;
-  min-width: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  box-sizing: border-box;
-}
-
 .cards.cards17 ul > li {
   display: flex;
   flex-direction: column;
@@ -135,105 +119,12 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 28px;
   }
-
-  .cards.cards11 {
-    padding: 0;
-  }
-
-  .cards.cards11 > ul {
-    padding: 0 8px;
-  }
-
-  .cards.cards11 > ul > li {
-    padding: 28px 20px 28px 16px;
-  }
 }
 
 @media (width <= 600px) {
   .cards > ul {
     grid-template-columns: 1fr;
     gap: 18px;
-  }
-}
-
-.cards.cards11 {
-  background: #f6f6f6;
-  padding: 0;
-  width: 100%;
-}
-
-.cards.cards11 > ul {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 48px;
-  list-style: none;
-  padding: 0 32px;
-  margin: 0 auto;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.cards.cards11 .cards-card-body {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  background: none;
-  display: block;
-  box-sizing: border-box;
-}
-
-.cards.cards11 > ul > li > .cards-card-body:first-child {
-  min-height: 28px;
-  width: 100%;
-  margin-bottom: 6px;
-}
-
-.cards.cards11 .cards-card-body h5 {
-  font-size: 24px;
-  font-weight: 700;
-  color: #1a1a1a;
-  margin: 8px 0 0;
-  line-height: 1.25;
-  font-family: Inter, Arial, sans-serif;
-  text-align: left;
-  letter-spacing: 0;
-  padding: 0;
-}
-
-.cards.cards11 > ul > li,
-.cards.cards11 .cards-card-body,
-.cards.cards11 .cards-card-body h5 {
-  align-items: flex-start;
-  justify-content: flex-start;
-  text-align: left;
-}
-
-.cards.cards11 > ul > li > .cards-card-body + .cards-card-body {
-  margin-top: 12px;
-  font-size: 13px;
-  color: #737373;
-  font-weight: 400;
-  line-height: 1.4;
-  padding: 0;
-}
-
-.cards.cards11 > ul > li::after {
-  display: none;
-}
-
-@media (width <= 1200px) {
-  .cards.cards11 > ul {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 32px;
-    padding: 0 16px;
-  }
-}
-
-@media (width <= 700px) {
-  .cards.cards11 > ul {
-    grid-template-columns: 1fr;
-    gap: 20px;
-    padding: 0 8px;
   }
 }
 
@@ -2917,11 +2808,10 @@
   display: block;
 }
 
-/* Main grid layout */
 .cards.cards8 > ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px 28px; /* tighter vertical gap for visual compactness */
+  gap: 10px 28px;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -2929,7 +2819,6 @@
   background: transparent;
 }
 
-/* Remove purple underline and any bottom border or after pseudo on all cards */
 .cards.cards8 > ul > li,
 .cards.cards8 > ul > li::after {
   border-bottom: none;
@@ -2941,7 +2830,6 @@
   display: none;
 }
 
-/* --- FEATURED CARD (first) --- */
 .cards.cards8 > ul > li:first-child {
   grid-column: 1 / span 2;
   display: flex;
@@ -2958,7 +2846,6 @@
   overflow: hidden;
 }
 
-/* Side-by-side: image left, text right, both fill card height */
 .cards.cards8 > ul > li:first-child .cards-card-image,
 .cards.cards8 > ul > li:first-child .cards-card-body {
   height: 100%;
@@ -2995,7 +2882,6 @@
   background: transparent;
 }
 
-/* --- STANDARD CARDS --- */
 .cards.cards8 > ul > li:not(:first-child) {
   display: flex;
   flex-direction: column;
@@ -3011,7 +2897,6 @@
   overflow: hidden;
 }
 
-/* Card image: larger, more prominent */
 .cards.cards8 > ul > li:not(:first-child) .cards-card-image {
   width: 100%;
   min-height: 160px;
@@ -3033,7 +2918,6 @@
   display: block;
 }
 
-/* Card body: compact vertical padding */
 .cards.cards8 .cards-card-body {
   width: 100%;
   padding: 0;
@@ -3046,7 +2930,6 @@
   box-sizing: border-box;
 }
 
-/* Headings and text */
 .cards.cards8 .cards-card-body h5,
 .cards.cards8 .cards-card-body h3 {
   font-family: var(--heading-font-family);
@@ -3071,7 +2954,6 @@
   padding: 0;
 }
 
-/* Responsive: stack cards vertically and adjust sizing on small screens */
 @media (width <= 700px) {
   .cards.cards8 {
     width: 100%;
@@ -3107,4 +2989,122 @@
   .cards.cards8 > ul > li:first-child .cards-card-image {
     min-height: 120px;
   }
+}
+
+
+.cards.cards11 {
+  background: #fafafa;
+  padding: 0;
+}
+
+/* Make sure all cards are visible in the grid */
+.cards.cards11 > ul > li {
+  display: flex;
+}
+
+/* Four-column grid, full width, even gaps, responsive */
+.cards.cards11 > ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 48px;
+  padding: 0 32px;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Card: compact, flat, left-aligned, balanced padding */
+.cards.cards11 > ul > li {
+  background: #fff;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  height: 140px;
+  min-height: 0;
+  min-width: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px 18px 18px 32px;
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* Remove any underline or border effect from cards */
+.cards.cards11 > ul > li::after,
+.cards.cards11 > ul > li::before {
+  display: none;
+}
+
+/* Stack two .cards-card-body vertically, left-aligned */
+.cards.cards11 .cards-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Space between icon container and value, but keep compact */
+.cards.cards11 > ul > li > .cards-card-body:first-child {
+  margin-bottom: 12px;
+  min-height: 28px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+/* Value styling: large, left, bold, compact */
+.cards.cards11 > ul > li > .cards-card-body:last-child h5 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  letter-spacing: 0;
+  line-height: 1.2;
+}
+
+/* Remove any spacing/borders from inner containers */
+.cards.cards11 > ul > li, 
+.cards.cards11 .cards-card-body {
+  min-height: 0;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+/* Responsive: 2 columns on medium, 1 on small */
+@media (width <= 1200px) {
+  .cards.cards11 > ul {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+    padding: 0 16px;
+  }
+}
+
+@media (width <= 700px) {
+  .cards.cards11 > ul {
+    grid-template-columns: 1fr;
+    gap: 14px;
+    padding: 0 6px;
+  }
+
+  .cards.cards11 > ul > li {
+    height: 110px;
+    padding: 14px 8px 12px 18px;
+  }
+}
+
+/* Remove purple underline if inherited from previous base/other block styles */
+.cards.cards11 > ul > li {
+  border-bottom: none;
 }
