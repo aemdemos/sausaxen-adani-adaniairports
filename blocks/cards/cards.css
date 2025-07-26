@@ -146,19 +146,6 @@
   transition: box-shadow 0.15s;
 }
 
-.cards.cards5 > ul > li {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  background: #fff;
-  border: none;
-  border-radius: 0;
-  box-shadow: 0 2px 8px 0 rgb(0 0 0 / 7%), 0 1.5px 3px 0 rgb(0 0 0 / 2%);
-  overflow: hidden;
-  min-width: 0;
-  min-height: 0;
-}
-
 .cards.cards8 .cards-card-body p {
   color: #333;
   font-size: 1rem;
@@ -168,83 +155,6 @@
   text-align: left;
   margin: 0;
   padding: 0;
-}
-
-.cards.cards5 .cards-card-body p {
-  margin: 0;
-  color: #212121;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.35;
-  text-align: left;
-  letter-spacing: 0;
-  white-space: normal;
-}
-
-.cards.cards5 > ul {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 22px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  align-items: start;
-}
-
-.cards.cards5 > ul > li::after {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 4px;
-  background: #87189d;
-  display: block;
-  z-index: 1;
-}
-
-.cards.cards5 .cards-card-image {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  background: #f6f6f6;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  border-bottom: none;
-  margin: 0;
-  padding: 0;
-  flex-shrink: 0;
-}
-
-.cards.cards5 .cards-card-image img,
-.cards.cards5 .cards-card-image picture {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  margin: 0;
-  padding: 0;
-}
-
-.cards.cards5 .cards-card-body {
-  padding: 18px 18px 38px;
-  background: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin: 0;
-  flex: 1 0 auto;
-}
-
-.cards.cards5 .cards-card-body h5 {
-  margin: 0;
-  font-size: 1rem;
-  font-weight: 400;
-  color: #212121;
-  text-align: left;
-  line-height: 1.35;
-  letter-spacing: 0;
-  white-space: normal;
 }
 
 .cards.cards8 {
@@ -329,11 +239,6 @@
     padding: 0 16px;
   }
 
-  .cards.cards5 > ul {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
-  }
-
   .cards.cards8 > ul {
     grid-template-columns: 1fr;
     gap: 18px;
@@ -356,11 +261,6 @@
   .cards > ul {
     grid-template-columns: 1fr;
     gap: 18px;
-  }
-
-  .cards.cards5 > ul {
-    grid-template-columns: 1fr;
-    gap: 10px;
   }
 }
 
@@ -2966,7 +2866,7 @@
 }
 
 .cards .cards-card-body {
-  padding: 6px 18px 4px; /* Tighter vertical padding */
+  padding: 6px 18px 4px;
   background: #fff;
   display: flex;
   flex-direction: column;
@@ -2997,7 +2897,129 @@
   line-height: 1.4;
 }
 
-/* Ensure card fills grid cell height so bottom border visually aligns */
 .cards > ul > li {
   height: 100%;
+}
+
+
+.cards.cards5 {
+  display: block;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  min-height: 0;
+  height: auto;
+
+  /* Reset any inherited vertical centering or flex/grid parent alignment */
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+/* If the cards are inside a .cards-wrapper, help prevent vertical centering */
+.cards-wrapper {
+  display: block;
+  min-height: 0;
+  height: auto;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+/* The grid: columns as before, but ensure alignment to the top */
+.cards.cards5 ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  place-items: start stretch;
+}
+
+/* Card container: vertical stacking, hug content */
+.cards.cards5 ul li {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 8%);
+  border-radius: 0;
+  border: none;
+  overflow: hidden;
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  height: auto;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin: 0;
+}
+
+/* Remove purple bottom line from any prior version */
+.cards.cards5 ul li::after,
+.cards.cards5 ul li::before {
+  display: none;
+  border: none;
+}
+
+/* Image wrapper: square, no extra margin */
+.cards.cards5 .cards-card-image {
+  width: 100%;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background: #fff;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Card images: fill square, always display */
+.cards.cards5 .cards-card-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Card body: tight padding, DO NOT stretch vertically */
+.cards.cards5 .cards-card-body {
+  padding: 16px;
+  background: #fff;
+  display: block;
+  margin: 0;
+}
+
+/* Heading: left, immediately below image, proper font */
+.cards.cards5 .cards-card-body h5,
+.cards.cards5 .cards-card-body h5.underline {
+  border: none;
+  box-shadow: none;
+  margin: 0;
+  color: #000;
+  font-family: var(--heading-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  line-height: 1.25;
+  white-space: normal;
+  letter-spacing: 0;
+}
+
+/* Responsive: stack or reduce gap at smaller screens */
+@media (width <= 900px) {
+  .cards.cards5 ul {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+}
+
+@media (width <= 600px) {
+  .cards.cards5 ul {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
 }
