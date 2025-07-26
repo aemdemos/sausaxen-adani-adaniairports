@@ -227,121 +227,6 @@
 }
 
 
-.cards.cards26 > ul {
-  display: grid;
-  grid-template-columns: repeat(2, 250px);
-  gap: 36px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  justify-content: start;
-  align-items: start;
-}
-
-@media (width <= 600px) {
-  .cards.cards26 > ul {
-    grid-template-columns: 1fr;
-    gap: 18px;
-    justify-content: center;
-  }
-
-  .cards.cards26 > ul > li {
-    max-width: 340px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-.cards.cards26 > ul > li {
-  background: #fff;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgb(60 60 60 / 9%);
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  min-width: 0;
-  min-height: 88px;
-  padding: 24px 20px 18px 22px;
-  position: static;
-  overflow: visible;
-  transition: box-shadow 0.15s;
-  margin: 0;
-}
-
-.cards.cards26 > ul > li::after {
-  display: none;
-}
-
-.cards.cards26 .cards-card-body:empty {
-  display: none;
-}
-
-.cards.cards26 > ul > li > .cards-card-body {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0;
-  margin: 0;
-  background: none;
-  gap: 0;
-}
-
-.cards.cards26 .cards-card-body:first-child {
-  width: 32px;
-  height: 32px;
-  margin-right: 14px;
-  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="black" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/><rect x="7" y="8" width="10" height="2" rx="1"/><rect x="7" y="12" width="8" height="2" rx="1"/></svg>') center/28px 28px no-repeat;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-shrink: 0;
-  border-radius: 4px;
-  margin-top: 2px;
-  margin-bottom: 0;
-}
-
-.cards.cards26 .cards-card-body:not(:first-child) {
-  flex: 1 1 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 4px;
-  padding: 0;
-  margin: 0;
-}
-
-.cards.cards26 .button-container {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-.cards.cards26 .button-container .button {
-  background: none;
-  box-shadow: none;
-  border: none;
-  color: #121212;
-  font-size: 15px;
-  font-weight: 700;
-  line-height: 1.18;
-  padding: 0;
-  margin: 0;
-  border-radius: 0;
-  text-align: left;
-  display: block;
-  white-space: pre-line;
-  max-width: 100%;
-  font-family: var(--body-font-family);
-}
-
-.cards.cards26 .button-container .button {
-}
-
-
 .cards.cards28 {
   background: transparent;
   font-family: Inter, Inter-Regular, "Helvetica Neue", Arial, sans-serif;
@@ -2997,12 +2882,10 @@
   box-shadow: none;
 }
 
-/* Reduce vertical space above the block if parent allows */
 .cards.cards25 {
   margin-top: 16px;
 }
 
-/* Remove vertical gap between header and cards */
 .cards.cards25 > ul {
   margin: 0;
   padding: 0;
@@ -3012,7 +2895,6 @@
   gap: 0;
 }
 
-/* Header (first card) styling */
 .cards.cards25 > ul > li:first-child {
   background: transparent;
   border-radius: 0;
@@ -3050,12 +2932,10 @@
   line-height: 1.34;
 }
 
-/* Remove any horizontal rule/line below the header */
 .cards.cards25 > ul > li:first-child::after {
   display: none;
 }
 
-/* Card styling */
 .cards.cards25 > ul > li:not(:first-child) {
   background: #f6f6f6;
   border-radius: 8px;
@@ -3072,12 +2952,10 @@
   position: relative;
 }
 
-/* Remove any underline or border that could appear */
 .cards.cards25 > ul > li:not(:first-child)::after {
   display: none;
 }
 
-/* Circular icon slot (left), perfectly circular and centered */
 .cards.cards25 > ul > li:not(:first-child) .cards-card-body:first-child {
   width: 32px;
   height: 32px;
@@ -3092,7 +2970,6 @@
   flex-shrink: 0;
 }
 
-/* Card text group (right), vertically centered with icon */
 .cards.cards25 > ul > li:not(:first-child) .cards-card-body:last-child {
   display: flex;
   flex-direction: column;
@@ -3103,7 +2980,6 @@
   background: none;
 }
 
-/* Card label (first paragraph) */
 .cards.cards25 > ul > li:not(:first-child) .cards-card-body:last-child p:first-child {
   font-size: 15px;
   font-weight: 500;
@@ -3114,7 +2990,6 @@
   line-height: 1.22;
 }
 
-/* Card description (second paragraph) */
 .cards.cards25 > ul > li:not(:first-child) .cards-card-body:last-child p:last-child {
   font-size: 16px;
   font-weight: 400;
@@ -3123,12 +2998,10 @@
   line-height: 1.5;
 }
 
-/* Hide extra cards after the first 6 (adjust n+8 if needed) */
 .cards.cards25 > ul > li:nth-child(n+8) {
   display: none;
 }
 
-/* Responsive: keep proportions and padding on small screens */
 @media (width <= 900px) {
   .cards.cards25 {
     max-width: 98vw;
@@ -3154,5 +3027,182 @@
 
   .cards.cards25 > ul > li:first-child .cards-card-body:last-child h2 {
     font-size: 1.2rem;
+  }
+}
+
+
+.cards.cards26 {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 7%);
+  padding: 20px 12px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Use flex for tight horizontal alignment, vertical alignment at the top */
+.cards.cards26 > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  min-width: 0;
+}
+
+/* Stack cards vertically on small screens */
+@media (width <= 700px) {
+  .cards.cards26 > ul {
+    flex-direction: column;
+    gap: 14px;
+    align-items: stretch;
+  }
+}
+
+/* Each card (li) - constrain height and width, ensure consistency */
+.cards.cards26 > ul > li {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgb(60 60 60 / 9%);
+  min-width: 196px;
+  max-width: 240px;
+  min-height: 68px;
+  width: 220px;
+  height: 68px;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+  transition: box-shadow 0.18s;
+}
+
+/* Hide any colored bars or unwanted decorative lines */
+.cards.cards26 > ul > li::after {
+  display: none;
+}
+
+/* Hide empty .cards-card-body */
+.cards.cards26 .cards-card-body:empty {
+  display: none;
+}
+
+/* Card content: icon + text in a row, always visible */
+.cards.cards26 > ul > li > .cards-card-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+/* Icon left side */
+.cards.cards26 > ul > li > .cards-card-body:first-child {
+  width: 24px;
+  height: 24px;
+  background: url('data:image/svg+xml;utf8,<svg width="24" height="24" stroke="black" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="4" width="18" height="14" rx="2" stroke-width="2"/><rect x="7" y="8" width="10" height="2" rx="1" stroke-width="2"/><rect x="7" y="12" width="8" height="2" rx="1" stroke-width="2"/></svg>') center/22px 22px no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  margin-right: 0;
+}
+
+/* Text block right side */
+.cards.cards26 > ul > li > .cards-card-body:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+  flex: 1 1 auto;
+  height: 100%;
+}
+
+.cards.cards26 > ul > li > .cards-card-body:last-child .button-container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+}
+
+/* Card headline (first line) */
+.cards.cards26 > ul > li > .cards-card-body:last-child .button {
+  background: none;
+  border: none;
+  box-shadow: none;
+  color: #222;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.14;
+  padding: 0;
+  margin-bottom: 0;
+  border-radius: 0;
+  text-align: left;
+  display: block;
+  white-space: normal;
+  max-width: 100%;
+  font-family: var(--body-font-family);
+  text-decoration: none;
+}
+
+/* Year/Secondary text: expects the year as a second line or element */
+.cards.cards26 > ul > li > .cards-card-body:last-child .button + br + span,
+.cards.cards26 > ul > li > .cards-card-body:last-child .button + span,
+.cards.cards26 > ul > li > .cards-card-body:last-child .button + br + .button,
+.cards.cards26 > ul > li > .cards-card-body:last-child .button + .year,
+.cards.cards26 > ul > li > .cards-card-body:last-child p:not(:first-child) {
+  color: #666;
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.12;
+  text-align: left;
+}
+
+/* Remove link underline in card buttons */
+.cards.cards26 > ul > li > .cards-card-body:last-child .button:any-link {
+  text-decoration: none;
+}
+
+/* Hover/active state */
+.cards.cards26 > ul > li > .cards-card-body:last-child .button:hover,
+.cards.cards26 > ul > li > .cards-card-body:last-child .button:focus {
+  color: #3b63fb;
+  text-decoration: underline;
+}
+
+/* Responsive tweaks */
+@media (width <= 600px) {
+  .cards.cards26 {
+    padding: 8px 0 12px;
+    border-radius: 0;
+  }
+
+  .cards.cards26 > ul > li {
+    max-width: 96vw;
+    min-width: 0;
+    width: 100%;
+    padding: 0 5vw;
   }
 }
