@@ -1,4 +1,5 @@
-/* === HERO LAYOUT === */
+/* --- Start of CSS --- */
+
 .hero-container .hero-wrapper {
   max-width: unset;
   padding: 0;
@@ -46,78 +47,6 @@
   height: 100%;
 }
 
-/* HERO 12 */
-.hero.hero12,
-.hero.hero12.block {
-  width: 100vw;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  position: relative;
-  background: linear-gradient(to bottom, #444 0%, #eaeaea 100%);
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  justify-content: stretch;
-  aspect-ratio: 16 / 6.2;
-  min-height: 200px;
-  max-height: 27vw;
-}
-
-.hero.hero12 > div {
-  flex: 1 1 0;
-  min-width: 0;
-  min-height: 0;
-  display: flex;
-  align-items: stretch;
-  padding: 0;
-}
-
-.hero.hero12.block {
-  padding: 0;
-}
-
-.hero.hero12 picture {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  display: block;
-  pointer-events: none;
-}
-
-.hero.hero12 img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center 48%;
-  display: block;
-}
-
-/* Responsive HERO 12 */
-@media (width <= 800px) {
-  .hero.hero12,
-  .hero.hero12.block {
-    aspect-ratio: unset;
-    min-height: 120px;
-    max-height: none;
-  }
-  .hero.hero12 {
-    flex-direction: column;
-  }
-  .hero.hero12 > div {
-    flex: 1 1 100%;
-  }
-  .hero.hero12 picture {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-  }
-}
-
-/* HERO 32 (moved up to resolve specificity) */
 .hero.hero32 > div {
   flex: 1 1 0;
   min-width: 0;
@@ -129,7 +58,6 @@
   padding: 0;
 }
 
-/* HERO 44 (moved up to resolve specificity) */
 .hero.hero44 > div {
   width: 100%;
 }
@@ -146,7 +74,6 @@
   box-sizing: border-box;
 }
 
-/* HERO 9 (moved up to resolve specificity) */
 .hero.hero9 > div:first-child {
   position: absolute;
   inset: 0;
@@ -175,17 +102,59 @@
   box-sizing: border-box;
 }
 
-.hero.hero9 > div:last-child > div {
-  max-width: 540px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 1.7em;
-}
-
-/* HERO 19 (moved up to resolve specificity) */
 .hero.hero19 > div {
   width: 100%;
+}
+
+.hero.hero12 {
+  width: 100vw;
+  max-width: none;
+  min-height: 500px;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: stretch;
+  overflow: hidden;
+  background: none;
+}
+
+.hero.hero12 > div {
+  flex: 1 1 0;
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: stretch;
+  padding: 0;
+  position: relative;
+}
+
+.hero.hero12 > div > div {
+  padding: 0;
+  margin: 0;
+}
+
+.hero.hero12 > div:first-child > div {
+  flex: 1 1 0;
+  position: relative;
+  display: flex;
+}
+
+.hero.hero12 picture,
+.hero.hero12 img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: left center;
+  min-height: 0;
+  min-width: 0;
 }
 
 .hero.hero19 > div:last-child > div {
@@ -194,67 +163,6 @@
   box-sizing: border-box;
 }
 
-@media (width <= 900px) {
-  .hero.hero19 {
-    padding: 0 8px;
-    gap: 16px;
-  }
-}
-
-/* HERO 19 main block */
-.hero.hero19 {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 24px;
-  background: var(--background-color);
-}
-
-.hero.hero19 > div:first-child picture,
-.hero.hero19 > div:first-child img {
-  display: block;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 0;
-  margin: 0;
-  max-width: 100%;
-}
-
-.hero.hero19 h1,
-.hero.hero19 h2,
-.hero.hero19 h3,
-.hero.hero19 h4,
-.hero.hero19 h5,
-.hero.hero19 h6 {
-  color: #232323;
-  font-family: var(--heading-font-family);
-  font-weight: 600;
-  margin-bottom: 8px;
-  margin-top: 0;
-  text-align: left;
-  line-height: 1.2;
-}
-
-.hero.hero19 h1 { font-size: var(--heading-font-size-xxl);}
-.hero.hero19 h2 { font-size: var(--heading-font-size-xl);}
-.hero.hero19 h3 { font-size: var(--heading-font-size-l);}
-.hero.hero19 h4 { font-size: var(--heading-font-size-m);}
-.hero.hero19 h5 { font-size: var(--heading-font-size-s);}
-.hero.hero19 h6 { font-size: var(--heading-font-size-xs);}
-
-.hero.hero19 p {
-  color: #555;
-  font-size: 1rem;
-  margin: 0;
-  text-align: left;
-  line-height: 1.5;
-  font-family: var(--body-font-family);
-}
-
-/* HERO 32 main block */
 .hero.hero32,
 .hero.hero32.no-image {
   position: relative;
@@ -335,6 +243,57 @@
   }
 }
 
+@media (width <= 900px) {
+  .hero.hero19 {
+    padding: 0 8px;
+    gap: 16px;
+  }
+
+  .hero.hero44 {
+    gap: 1.5rem;
+    padding: 0;
+  }
+
+  .hero.hero44 > div:last-child {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .hero.hero44 h2,
+  .hero.hero44 p {
+    text-align: left;
+    padding: 0;
+  }
+
+  .hero.hero9 {
+    flex-direction: column;
+    min-height: 0;
+  }
+
+  .hero.hero9 > div:first-child {
+    position: absolute;
+    height: 100%;
+    min-height: 0;
+    max-height: none;
+    width: 100vw;
+  }
+
+  .hero.hero9 > div:last-child {
+    flex: none;
+    width: 100vw;
+    min-width: 0;
+    min-height: unset;
+    padding: 28px 16px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .hero.hero9 > div:last-child > div {
+    max-width: 100%;
+    gap: 1em;
+  }
+}
+
 @media (width <= 700px) {
   .hero.hero32,
   .hero.hero32.no-image {
@@ -342,10 +301,12 @@
     min-height: 220px;
     height: auto;
   }
+
   .hero.hero32 > div {
     min-height: 110px;
     width: 100%;
   }
+
   .hero.hero32 > div:nth-child(2) > div:first-child {
     font-size: 1.35rem;
     max-width: 100%;
@@ -356,6 +317,7 @@
     padding-right: 0;
     padding-left: 2vw;
   }
+
   .hero.hero32 > div:nth-child(1) > div:first-child,
   .hero.hero32 > div:nth-child(2) > div:last-child {
     font-size: 0.7rem;
@@ -365,6 +327,48 @@
     text-align: left;
     bottom: 1rem;
   }
+}
+
+.hero.hero19 > div:first-child picture,
+.hero.hero19 > div:first-child img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+.hero.hero19 h1,
+.hero.hero19 h2,
+.hero.hero19 h3,
+.hero.hero19 h4,
+.hero.hero19 h5,
+.hero.hero19 h6 {
+  color: #232323;
+  font-family: var(--heading-font-family);
+  font-weight: 600;
+  margin-bottom: 8px;
+  margin-top: 0;
+  text-align: left;
+  line-height: 1.2;
+}
+
+.hero.hero19 h1 { font-size: var(--heading-font-size-xxl);}
+.hero.hero19 h2 { font-size: var(--heading-font-size-xl);}
+.hero.hero19 h3 { font-size: var(--heading-font-size-l);}
+.hero.hero19 h4 { font-size: var(--heading-font-size-m);}
+.hero.hero19 h5 { font-size: var(--heading-font-size-s);}
+.hero.hero19 h6 { font-size: var(--heading-font-size-xs);}
+
+.hero.hero19 p {
+  color: #555;
+  font-size: 1rem;
+  margin: 0;
+  text-align: left;
+  line-height: 1.5;
+  font-family: var(--body-font-family);
 }
 
 .hero.hero44 > div:first-child picture {
@@ -405,23 +409,6 @@
   max-width: 900px;
 }
 
-@media (width <= 900px) {
-  .hero.hero44 {
-    gap: 1.5rem;
-    padding: 0;
-  }
-  .hero.hero44 > div:last-child {
-    max-width: 100%;
-    padding: 0;
-  }
-  .hero.hero44 h2,
-  .hero.hero44 p {
-    text-align: left;
-    padding: 0;
-  }
-}
-
-/* HERO 9 main block */
 .hero.hero9 {
   position: relative;
   display: flex;
@@ -455,7 +442,6 @@
   content: "";
 }
 
-/* Label styles */
 .hero.hero9 > div:last-child p:first-child {
   font-size: 14px;
   font-weight: 600;
@@ -466,7 +452,6 @@
   opacity: 0.92;
 }
 
-/* Headline styles */
 .hero.hero9 > div:last-child h3,
 .hero.hero9 > div:last-child h1 {
   color: #fff;
@@ -477,7 +462,6 @@
   text-shadow: 0 2px 8px rgb(0 0 0 / 23%);
 }
 
-/* Paragraph styles */
 .hero.hero9 > div:last-child p:not(:first-child, .button-container) {
   color: #fff;
   font-size: 1.09rem;
@@ -486,7 +470,6 @@
   opacity: 0.98;
 }
 
-/* CTA/link styles */
 .hero.hero9 .button-container .button,
 .hero.hero9 .button-container a {
   color: #fff;
@@ -504,30 +487,38 @@
   transition: color 0.2s;
 }
 
-/* Responsive stacking for mobile */
-@media (width <= 900px) {
-  .hero.hero9 {
+.hero.hero12 > div:last-child {
+  /* If empty, just let it take up space for potential overlays/responsiveness */
+}
+
+.hero.hero12::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 15%;
+  background: linear-gradient(to bottom, #242424 72%, rgb(36 36 36 / 0%) 100%);
+  z-index: 2;
+  pointer-events: none;
+  display: block;
+  opacity: 0.9;
+}
+
+@media (width <= 800px) {
+  .hero.hero12 {
+    min-height: 200px;
+    height: 300px;
     flex-direction: column;
-    min-height: 0;
   }
-  .hero.hero9 > div:first-child {
-    position: absolute;
-    height: 100%;
-    min-height: 0;
-    max-height: none;
-    width: 100vw;
+
+  .hero.hero12 > div {
+    flex: 1 1 100%;
   }
-  .hero.hero9 > div:last-child {
-    flex: none;
-    width: 100vw;
-    min-width: 0;
-    min-height: unset;
-    padding: 28px 16px;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-  .hero.hero9 > div:last-child > div {
-    max-width: 100%;
-    gap: 1em;
+
+  .hero.hero12 picture,
+  .hero.hero12 img {
+    object-position: center center;
   }
 }
+
+/* --- End of CSS --- */
