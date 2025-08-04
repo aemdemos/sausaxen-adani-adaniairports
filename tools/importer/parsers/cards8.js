@@ -1,36 +1,53 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Header row for block table
-  const headerRow = ['Cards (cards8)'];
-  const rows = [headerRow];
+  // Assemble header row for the Cards block
+  const rows = [
+    ['Cards (cards8)']
+  ];
 
-  // Each card is inside a direct child div (col-12 col-md-6 col)
-  const cardWrappers = element.querySelectorAll(':scope > div');
-  cardWrappers.forEach((colDiv) => {
-    // Find the .cards container within the colDiv
-    const card = colDiv.querySelector('.cards');
-    if (!card) return;
-    // Find the image (always in <figure><img>)
-    let img = null;
-    const figure = card.querySelector('figure');
-    if (figure) {
-      img = figure.querySelector('img');
+  // Get all slides (cards) within the slider
+  const slides = element.querySelectorAll('.slick-slide');
+  slides.forEach((slide) => {
+    const cardContainer = slide.querySelector('.single_card .cards a');
+    if (!cardContainer) return;
+
+    // Extract image (first <img> in <figure>)
+    const figure = cardContainer.querySelector('figure');
+    const img = figure ? figure.querySelector('img') : null;
+
+    // Extract text content
+    const content = cardContainer.querySelector('.card_content');
+    if (!content) return;
+
+    // Title (h5) as a <strong> for block styling
+    const title = content.querySelector('h5');
+    // Description (p.minHeight)
+    const desc = content.querySelector('p.minHeight');
+    // CTA (strong.more_link)
+    const cta = content.querySelector('strong.more_link');
+    
+    // Only use references to EXISTING elements
+    const textCellParts = [];
+    if (title) {
+      const strong = document.createElement('strong');
+      strong.textContent = title.textContent;
+      textCellParts.push(strong);
     }
-    // Find title and description
-    const content = card.querySelector('.card_content');
-    const textCell = [];
-    if (content) {
-      const title = content.querySelector('h5');
-      if (title) textCell.push(title);
-      const desc = content.querySelector('p');
-      if (desc) textCell.push(desc);
-      // Potential CTA: check for <a> inside card_content
-      let cta = content.querySelector('a');
-      if (cta) textCell.push(cta);
+    if (desc) {
+      if (textCellParts.length) textCellParts.push(document.createElement('br'));
+      textCellParts.push(desc);
     }
+    if (cta && cardContainer.href) {
+      if (textCellParts.length) textCellParts.push(document.createElement('br'));
+      const a = document.createElement('a');
+      a.href = cardContainer.href;
+      a.textContent = cta.textContent;
+      textCellParts.push(a);
+    }
+
     rows.push([
-      img,
-      textCell
+      img || '',
+      textCellParts.length === 1 ? textCellParts[0] : textCellParts
     ]);
   });
 
